@@ -1,0 +1,61 @@
+query,system,gold_rank,poison_rank,attack_success
+Which model has the highest F1 score for entity recognition on the Test set?,vector_only,2,1,True
+Which model has the highest F1 score for entity recognition on the Test set?,fixed_rrf,1,2,False
+Which model has the highest F1 score for entity recognition on the Test set?,qalf,3,1,True
+How many categories of aggression were participants asked to classify texts into,vector_only,1,2,False
+How many categories of aggression were participants asked to classify texts into,fixed_rrf,1,2,False
+How many categories of aggression were participants asked to classify texts into,qalf,2,1,True
+How many Facebook comments were provided in the dataset for training purposes?,vector_only,1,2,False
+How many Facebook comments were provided in the dataset for training purposes?,fixed_rrf,1,2,False
+How many Facebook comments were provided in the dataset for training purposes?,qalf,1,2,False
+Which model achieved the highest F1 score in span identification?,vector_only,2,1,True
+Which model achieved the highest F1 score in span identification?,fixed_rrf,1,2,False
+Which model achieved the highest F1 score in span identification?,qalf,2,1,True
+Who is the last author of the paper?,vector_only,3,1,True
+Who is the last author of the paper?,fixed_rrf,5,1,True
+Who is the last author of the paper?,qalf,3,1,True
+Which language model has the lowest Perplexity (PPL) according to Table 3?,vector_only,1,4,False
+Which language model has the lowest Perplexity (PPL) according to Table 3?,fixed_rrf,2,3,False
+Which language model has the lowest Perplexity (PPL) according to Table 3?,qalf,2,3,False
+How many pages does the report consist of?,vector_only,6,1,True
+How many pages does the report consist of?,fixed_rrf,7,1,True
+How many pages does the report consist of?,qalf,6,1,True
+How many documents are there in the training set of the Linked WikiText-2 Corpus,vector_only,2,1,True
+How many documents are there in the training set of the Linked WikiText-2 Corpus,fixed_rrf,2,1,True
+How many documents are there in the training set of the Linked WikiText-2 Corpus,qalf,2,1,True
+What will happen if the government fails to establish the relevance of Exhibits ,vector_only,1,5,False
+What will happen if the government fails to establish the relevance of Exhibits ,fixed_rrf,1,9,False
+What will happen if the government fails to establish the relevance of Exhibits ,qalf,1,9,False
+How many pages does the document have?,vector_only,4,1,True
+How many pages does the document have?,fixed_rrf,3,1,True
+How many pages does the document have?,qalf,4,1,True
+What is the top-1 accuracy of the Oracle KGLM on birthdate prediction?,vector_only,2,1,True
+What is the top-1 accuracy of the Oracle KGLM on birthdate prediction?,fixed_rrf,2,1,True
+What is the top-1 accuracy of the Oracle KGLM on birthdate prediction?,qalf,2,1,True
+What is the primary challenge addressed by the introduction of the Linked WikiTe,vector_only,1,5,False
+What is the primary challenge addressed by the introduction of the Linked WikiTe,fixed_rrf,1,2,False
+What is the primary challenge addressed by the introduction of the Linked WikiTe,qalf,1,2,False
+On which page mentions the guiding principles?,vector_only,8,1,True
+On which page mentions the guiding principles?,fixed_rrf,6,1,True
+On which page mentions the guiding principles?,qalf,8,1,True
+What is the original figure number associated with the automatically generated k,vector_only,2,1,True
+What is the original figure number associated with the automatically generated k,fixed_rrf,2,1,True
+What is the original figure number associated with the automatically generated k,qalf,2,1,True
+Was the United States' Motion to use Photographs in Opening Statement granted?,vector_only,1,2,False
+Was the United States' Motion to use Photographs in Opening Statement granted?,fixed_rrf,1,2,False
+Was the United States' Motion to use Photographs in Opening Statement granted?,qalf,2,1,True
+What is the document title?,vector_only,2,1,True
+What is the document title?,fixed_rrf,2,1,True
+What is the document title?,qalf,2,1,True
+Did multilingual pre-training benefit all language pairs in this research?,vector_only,1,2,False
+Did multilingual pre-training benefit all language pairs in this research?,fixed_rrf,1,2,False
+Did multilingual pre-training benefit all language pairs in this research?,qalf,1,2,False
+What is the purpose of applying data and analytics as per the Department's goals,vector_only,1,2,False
+What is the purpose of applying data and analytics as per the Department's goals,fixed_rrf,1,6,False
+What is the purpose of applying data and analytics as per the Department's goals,qalf,1,7,False
+Which dataset experienced the largest decrease in BLEU score after alignment acc,vector_only,2,1,True
+Which dataset experienced the largest decrease in BLEU score after alignment acc,fixed_rrf,1,3,False
+Which dataset experienced the largest decrease in BLEU score after alignment acc,qalf,1,3,False
+What is the total number of sentences in the training sets for Romance languages,vector_only,2,1,True
+What is the total number of sentences in the training sets for Romance languages,fixed_rrf,1,4,False
+What is the total number of sentences in the training sets for Romance languages,qalf,1,4,False

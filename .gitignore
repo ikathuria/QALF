@@ -424,3 +424,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Paper drafts kept local (may contain reviewer/rejection feedback, copyrighted PDFs)
+paper/
+
+# Bulk benchmark corpus downloads (re-fetchable, not committed -- see data/raw/DocBench/README.md convention)
+data/raw/DocBench_download/
+data/raw/DocBenchSample/
+data/raw/RobotManuals/qa/

@@ -22,7 +22,6 @@ from src.neo4j.graph_ingestion import GraphDBManager
 from src.neo4j.vector_ingestion import VectorDBManager
 from src.neo4j.neo4j_manager import Neo4jManager
 from src.retriever.qalf_pipeline import QALFPipeline
-from src.evaluators.retrieval_evaluator import RetrievalEvaluator
 from src.utils.base_parser import ParsedContent
 import src.utils.constants as C
 
@@ -120,7 +119,22 @@ def ingest_pipeline(file_paths: List[str]) -> Dict[str, Any]:
     print("STEP 2: Initializing LLM")
     print("=" * 80)
 
-    llm = OllamaLLM(model=C.OLLAMA_MODEL, temperature=0.0, base_url=C.OLLAMA_URI)
+    # Two guards against a single graph-extraction call stalling for hours
+    # (observed twice: one call ran ~17.5 hours, another was killed after
+    # 25+ min with zero output). httpx read-timeout alone does NOT catch
+    # this -- Ollama streams tokens, and the read-timeout resets on every
+    # chunk received, so a model stuck slowly drip-feeding tokens in a
+    # non-terminating loop never trips it. num_predict caps the model's
+    # own generation length server-side, which bounds worst-case runaway
+    # output regardless of streaming behavior; client_kwargs timeout still
+    # catches a genuinely dead connection.
+    llm = OllamaLLM(
+        model=C.OLLAMA_MODEL,
+        temperature=0.0,
+        base_url=C.OLLAMA_URI,
+        num_predict=4096,
+        client_kwargs={"timeout": 180.0},
+    )
     print(f"✓ LLM initialized: Ollama ({C.OLLAMA_MODEL})")
 
     # Step 3: Graph ingestion
@@ -384,13 +398,11 @@ def query_pipeline():
 
 
 def evaluate_pipeline(config, dataset, systems, output_dir):
-    """Evaluate the pipeline"""
+    """Legacy evaluation entrypoint; superseded by evaluate.py's function-based evaluators."""
     print("\n" + "=" * 80)
     print("EVALUATION PIPELINE")
     print("=" * 80)
-
-    evaluator = RetrievalEvaluator(config, dataset, systems, output_dir)
-    evaluator.main()
+    print("This mode is superseded by evaluate.py (see `python evaluate.py --mode all`).")
 
 
 def main():
@@ -442,8 +454,13 @@ def main():
 
     try:
         if args.mode in ["ingest", "both"]:
-            if "*" in args.files[0]:
-                args.files = [f for f in glob(args.files[0])]
+            expanded_files = []
+            for pattern in args.files:
+                if "*" in pattern:
+                    expanded_files.extend(glob(pattern))
+                else:
+                    expanded_files.append(pattern)
+            args.files = expanded_files
             print(f"Files to ingest: {args.files}")
             stats = ingest_pipeline(args.files)
 

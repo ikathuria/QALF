@@ -1,0 +1,280 @@
+SICK AG
+WHITE PAPER
+
+SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+2018-06
+
+AUTHORS
+
+Fanny Platbrood
+Product Manager Industrial Safety Systems, Marketing & Sales
+at SICK AG in Waldkirch, Germany
+Otto Görnemann
+Manager Machine Safety & Regulations
+at SICK AG in Waldkirch, Germany
+SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+CONTENT
+
+Introduction................................................................................................................. 3
+Human-machine interaction and safety.................................................................... 3
+
+   Definitions ­ Terminology....................................................................................... 3
+   Robotic normative................................................................................................... 3
+   Coexistence............................................................................................................. 4
+   Cooperation............................................................................................................. 4
+   Collaboration........................................................................................................... 5
+Standards and requirements of safe collaborative robot applications................... 5
+   Fundamental requirements.................................................................................... 5
+   Collaborative operating modes according to ISO 10218-2 and ISO/TS 15066...... 6
+   Risk assessment..................................................................................................... 7
+   Risk reduction......................................................................................................... 7
+Conclusion................................................................................................................... 7
+
+2  WHITE PAPER | SICK                                                                                                                        8020621/2018-06-15
+                                                                                                                                 Subject to change without notice
+   SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+                                                   SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+Introduction
+
+Recent years have seen significant advancements in industrial automation applications in the fields of drive systems and object
+detection, paving the way for a new age of interaction between human and machine.
+
+With regard to functional safety and the associated standards (IEC 61508, IEC 62061, and ISO 13849-1/-2, for example) [1, 2,
+3, 4], innovations in robotics delivering optimized functions are also facilitating close collaboration between human and machine
+in the same workspace. Combining human abilities with those of robots in industrial environments creates production solutions
+that are characterized by better quality, lower costs, improved ergonomics, and faster working cycles, to name but a few examples
+(keyword Industry 4.0).
+
+Taking the current status of the international standards that deal with the safety of industrial robots (ISO 10218-1/-2) [5, 6] and
+specifically the safety of robots for collaborative operation (ISO/TS 15066) [7] as our starting point, this white paper will explain the
+guidelines contained in these standards which apply to the development of safe collaborative robot applications. The white paper
+will also highlight the limits of today's technologies and consider the outlook with regard to requirements and upcoming developments.
+
+Human-machine interaction and safety
+
+In industrial manufacturing, there is an increasing need for flexible machines that are able to work autonomously and can be adapted
+to changing production conditions quickly and efficiently.
+
+To protect persons against the dangers posed by their speed, movement, and force, robots usually work behind a barrier guards.
+However, if close interaction between human and machine is required, this effective standard method of physically separating the
+person at risk from the source of danger cannot be employed. For this reason, alternative methods must be applied to reduce risk.
+
+Definitions ­ Terminology
+
+The interaction of humans with active robots and devices that are similar to robots can be characterized based on two interaction
+parameters: space and time. If there is no common space and no common time in which the human being and the active robot
+move, the movements of the robot do not pose a risk and the situation is deemed "not interactive". Situations in which humans
+and robots share a common space but at different times are deemed "cooperative". The term "collaborative" is used to describe
+situations in which humans and robots are working in the same space at the same time.
+
+               Application                         Different workspace                         Shared workspace
+
+Sequential processing                              (not interactive)                                Cooperation
+
+Simultaneous processing                            Coexistence                                      Collaboration
+
+Robotics normative
+
+Region                            Risk assessment  Robotics manufacturer  Robotics integrator       Collaborative robots
+                                                                                                     GB 11291.2:2013
+China                             GB/T 15706-2012  GB 11291.1-2011        GB 11291.2-2013
+                                                                                                        JIS TS B0033
+South Korea                                        KS B ISO 10218-1       KS B ISO 10218-2            RIA TR R15.606
+                                                                                                       ISO/TS 15066
+    Japan             JIS B9700                       JIS B8433-1            JIS B8433-2
+United States
+               ANSI/ISO 12100, ANSI                ANSI/RIA R15.06        ANSI/RIA R15.06
+    Europe               B11.0                          (1st Half)            (2nd Half)
+
+                    EN ISO 12100                   EN ISO 10218-1         EN ISO 10218-2
+
+Taiwan                 CSA Z432, CAN/               CNS 14490-1 B8013-1 CNS 14490-2 B8013-2
+Canada                    CSA-Z1002                CAN/CSA-Z434 (1st Half) CAN/CSA-Z434 (2nd Half)
+ Brasil                                            ABNT NBR ISO 10218-1/2 ABNT NBR ISO 10218-1/2
+                    ABNT NBR ISO 12100
+
+8020621/2018-06-15                                                                                  WHITE PAPER | SICK             3
+Subject to change without notice
+                                                   SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+Coexistence
+Even in industrial robot applications in which no human intervention is required during the production process, it will still be
+necessary for an operator to enter the robot's workspace, e.g., for the purpose of maintenance work. In applications of this type,
+the workspace must be fenced off and the access doors must be interlocked. The interlock must ensure that hazardous robot
+functions are shut down whenever an operator enters the hazardous area, and must be maintained as long as a person remains
+present inside the hazardous area or the access doors are opened.
+
+Cooperation
+The processes involving an operator loading and unloading robot cells are a very common application for industrial robots. In coop-
+erative application scenarios like this, operator and robot complete the necessary stages of the process in the same workspace at
+different times. Here too, technical safety measures are required. Depending on how the loading and unloading system is set up, it
+may be appropriate to use opto-electronic protective devices such as safety light curtains or safety laser scanners.
+
+4  WHITE PAPER | SICK                                                 8020621/2018-06-15
+                                                          Subject to change without notice
+   SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+                                            SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+Collaboration
+In certain applications, it is necessary for humans and active robots to interact in the same workspace at the same time. In these
+scenarios, which we call collaborative, the force, speed, and movement paths of the robot must be restricted. If they are available,
+inherent safety measures or additional safety measures such as limiting torque through the performance of the drives or safety-re-
+lated parts of the system controller can be used to minimize risk. Force, speed, and movement paths must also be monitored and
+controlled based on the actual degree of risk. This degree of risk is also dependent upon the distance between human and robot.
+This application calls for reliable sensors that are able to detect human presence or determine the speed at which humans are
+moving towards the hazardous area and their distance from it. Essentially, these sensors have to be able to overcome the future
+challenges that are an inevitable consequence of the development of collaborative technologies.
+
+Standards and requirements of safe collaborative robot applications
+
+The robot system described in Part 2 of ISO 10218 consists of an industrial robot and its end effector, as well as arbitrary machine
+parts, equipment, devices, external auxiliary motion axes, and sensors to assist the robot in the completion of its tasks.
+
+Fundamental requirements
+There are a number of fundamental requirements to be met by the design of collaborative applications.
+
+· The collaborative workspace must meet the following requirements:
+
+   1. It must be laid out so that the operator is able to complete his or her tasks in a safe and problem-free manner, without being
+       exposed to additional hazards posed by supplementary equipment or other machines in the workspace.
+
+   2. There must be no risk of injury as a result of cutting, crushing, or stabbing. Nor must there be any risks posed by such things
+       as hot surfaces or live parts which cannot be mitigated by reducing the speed, force, or power of the robot system. The same
+       of course also applies to the associated supporting equipment and workpieces.
+
+· The operating space of the robot must be positioned a minimum distance away from adjacent accessible areas in which there is
+   a risk of crushing or jamming. If this is not possible, additional protective devices must be used.
+
+· Wherever possible, safe axis limiting must be deployed in order to restrict the number of free movements of the robot in the
+   space and thus to reduce the risk of personal injury.
+
+8020621/2018-06-15                WHITE PAPER | SICK                                     5
+Subject to change without notice
+                                  SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+Collaborative operating modes according to ISO 10218-2 and ISO/TS 15066
+
+Technical specification ISO/TS 15066 states four collaborative operating modes which can be used either individually or in combi-
+nation, depending on the requirement of the application concerned and the design of the robot system:
+
+   STOP            · Monitored safe stop
+
+                   The robot is stopped during interaction with the operator in the collaboration space. This status is
+                   monitored and the drive can remain energized.
+
+                                                 · ManuaSlTcOPontrol
+                                                    The safety of the human-robot collaboration is assured by the robot being guided manually under
+                                                    control at an appropriately reduced speed.
+
+                                                 · Force and power limitation ­ the path to collaboration
+                                                    Physical contact between the robot system (including the workpiece) and a person (operator) can take
+                                                    place either intentionally or unintentionally. The necessary safety is achieved by limiting the power
+                                                    and force to values at which injuries and risk are not to be expected. Collaboration based on limited
+                                                    power and force requires robots that have been designed specifically for this operating mode. Technical
+                                                    specification ISO/TS 15066 includes maximum values (biomechanical load limits) which must not be
+                                                    exceeded should the robot collide with body parts.
+
+                                                 · Distance and speed monitoring ­ the future:
+
+TOP
+
+                                                    The speed and movement paths (trajectory) of the robot are monitored and adjusted based on the
+                                                    speed and position of the operator in the safeguarded space.
+
+                   In collaborative applications, one or more of the methods listed here must be selected in order to ensure the safety of all persons
+                   who are exposed to the potential hazards. The method(s) selected will depend on the application at hand.
+                   Current requirements to be met by the operation of collaborative robot systems include the use of a suitable safety-related control
+                   system which conforms to PL d according to ISO 13849-1.
+
+                   Validation effort for collaborative operating modes
+
+                                                                                                       STOP
+
+   Manual control      Monitored safe stop                Distance and speed  Force and power limiting
+                                                               monitoring
+
+                                            The closer the interaction between humans and robots, the greater
+                                                      the validation effort for the measures taken to reduce risk.
+
+6  WHITE PAPER | SICK                                                                     8020621/2018-06-15
+                                                                              Subject to change without notice
+   SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+                                            SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+
+Risk assessment
+A great variety of robot models are available on today's market. They range from standard industrial robots to robots that have been
+designed specifically for collaborative operation (collaborative robots or "cobots", as they are also known). Whenever robots are
+integrated into systems (with end effectors, etc.), a risk assessment of the entire robot system (full machine) must be carried out.
+The resulting measures derived to reduce risks shall then safeguard safe collaborative operation. This risk assessment must still be
+carried out even if the robot concerned has design features that reduce risk.
+
+Risk reduction
+The inherent safety measures that are typically used on collaborative robots include:
+· Limiting the maximum permissible forces or torques, e.g., through drive dimensioning
+· Setting up the robot interfaces in order to reduce the pressure impact or the collision forces transmitted (e.g., rounded robot
+
+   surfaces, energy-absorbing padding)
+However, the effectiveness of these inherent safety measures can be significantly impaired by the design of the robot tool, the support,
+the workpiece, or other machines inside the collaborative workspace.
+Additional safety measures can be used to counter this, such as
+· Limiting power (torque), force, or speed through the safety-related parts of the control system
+· Using pressure-sensitive protective devices (PSPE) or electro-sensitive protective devices (ESPE) to stop or reverse robot movements
+
+Conclusion
+
+In the future, humans and robots will work even more closely together in automation applications where great flexibility is required
+(e.g., in small batch production where levels of variability are high). Manual assembly operations are being replaced by human-robot
+collaboration, in which the abilities of human and machine are the ideal complement for one another. Subsequently, the ergonomics
+of workspaces in which high levels of productivity are required can be improved. The limitation of speed and force that is necessary
+for safety must be harmonized with productivity requirements.
+The design principles in ISO/TS 15066 supplement the requirements already formulated in ISO 10218-1/-2 and create a basis for
+the design of collaborative robot applications.
+The products and devices that are currently on the market are not able to fully meet all of the requirements expected of safe and
+unhindered human-robot collaboration today. The development of new sensor and robot technologies, along with intelligent control
+systems, is a fundamental requirement for future collaborative robot applications.
+No two applications that are currently being solved with human-robot collaboration are the same. A dedicated risk assessment is vital,
+even if the robots that are being used have been designed specifically for interaction with human beings. The fact that robot manu-
+facturers are integrating measures for inherently safe design into their products does not relieve system integrators of their obliga-
+tion as machine manufacturers to analyze and reduce potential risks. System manufacturers and integrators of robot systems have
+to perform thorough checks of the structural safety measures taken by robot manufacturers. They are also required to consider any
+hazards or risks that may remain and design the robot system according to the results of this risk assessment. As a result of the
+risk assessment, additional measures to reduce risk based on experience (e.g., safety light curtains or safety laser scanners, etc.)
+must be taken by the system manufacturer in order to achieve a collaborative application where all aspects have achieved accept-
+able residual risk.
+
+8020621/2018-06-15                WHITE PAPER | SICK                                     7
+Subject to change without notice
+                                  SAFE ROBOTICS ­ SAFETY IN COLLABORATIVE ROBOT SYSTEMS
+REFERENCES
+
+[1] IEC 61508-x:2010 ­ Functional safety of electrical/electronic/programmable electronic safety-related systems ­ 7 Parts.
+      International Electrotechnical Commission. IEC Central Office ­ P.O. Box 131 ­ CH-1211 Geneva 20 ­ Switzerland.
+
+[2] IEC 62061:2015 ­ Safety of machinery ­ Functional safety of safety-related electrical, electronic and programmable elec-
+      tronic control systems. International Electrotechnical Commission. IEC Central Office ­ P.O. Box 131 ­ CH-1211 Geneva 20 ­
+      Switzerland
+
+[3] ISO 13849-1:2015 ­ Safety of machinery ­ Safety-related parts of control systems ­ Part 1: General principles for design.
+      ISO International Organization for Standardization. P.O. Box 56 ­ CH-1211 Geneva 20 ­ Switzerland
+
+[4] ISO 13849-2:2003 ­ Safety of machinery ­ Safety-related parts of control systems ­ Part 2: Validation. ISO International
+      Organization for Standardization. P.O. Box 56 ­ CH-1211 Geneva 20 ­ Switzerland
+
+[5] ISO 10218-1:2011 ­ Robots and robotic devices ­ Safety requirements for industrial robots ­ Part 1: Robots. ISO Interna-
+      tional Organization for Standardization. P.O. Box 56 ­ CH-1211 Geneva 20 ­ Switzerland
+
+[6] ISO 10218-2:2011 ­ Robots and robotic devices ­ Safety requirements for industrial robots ­ Part 1: Robot systems and
+      integration. ISO International Organization for Standardization. P.O. Box 56 ­ CH-1211 Geneva 20 ­ Switzerland
+
+[7] ISO/TS 15066:2015 ­ Robots and robotic devices ­ Collaborative robots. ISO International Organization for Standardization.
+      P.O. Box 56 ­ CH-1211 Geneva 20 ­ Switzerland
+
+- www.sick.com/safe-robotics
+
+     SICK AG | Waldkirch | Germany | www.sick.com
+

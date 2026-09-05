@@ -34,22 +34,22 @@ class QueryComplexityClassifier:
         max_depth = 0
         for token in doc:
             depth = 0
-            head = token.head
-            visited = set()  # Safety: prevent cycles
-            max_iterations = 100  # Safety: prevent infinite loops
-            
-            while head != token and depth < max_iterations:
-                if id(head) in visited:
-                    # Cycle detected, break
+            current = token
+            visited = set()  # Safety: prevent infinite loops on malformed parses
+            max_iterations = 100
+
+            # Walk up to the root, which spaCy marks via head == self.
+            while current.head != current and depth < max_iterations:
+                if id(current) in visited:
                     self._logger.warning(f"Cycle detected in dependency tree for token: {token.text}")
                     break
-                visited.add(id(head))
+                visited.add(id(current))
                 depth += 1
-                head = head.head
-            
+                current = current.head
+
             if depth >= max_iterations:
                 self._logger.warning(f"Max iterations reached for token: {token.text}, using depth={max_iterations}")
-            
+
             max_depth = max(max_depth, depth)
         
         # Sentence length

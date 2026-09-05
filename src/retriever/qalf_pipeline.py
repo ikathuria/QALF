@@ -35,7 +35,8 @@ class QALFPipeline:
         embedding_dim: int = 384,
         config_path: str = "configs/hyperparameters.yaml",
         enable_generator: bool = False,
-        generator_temperature: float = 0.3
+        generator_temperature: float = 0.3,
+        learned_alpha=None,
     ):
         """
         Initialize QALF pipeline.
@@ -51,7 +52,11 @@ class QALFPipeline:
         self.neo4j_manager = neo4j_manager
         self.embedding_model = embedding_model
         self.embedding_dim = embedding_dim
-        
+        # Optional src.qalf.learned_alpha.LearnedAlphaWeights instance. When
+        # provided, its predictions replace configs.alpha_weights.get_alpha_weights
+        # for alpha_intent (see "qalf_learned" in SystemRegistry).
+        self.learned_alpha = learned_alpha
+
         self._logger = self._setup_logging()
         
         # Load hyperparameters
@@ -219,8 +224,12 @@ class QALFPipeline:
         step_start = time.time()
         self._logger.info("\n⚖️  STEP 6: Adaptive Weight Computation")
         self._logger.info("-" * 80)
-        alpha_intent = get_alpha_weights(intent)
-        self._logger.info(f"   Base weights (α_intent): {alpha_intent}")
+        if self.learned_alpha is not None:
+            alpha_intent = self.learned_alpha.predict_alpha(complexity, intent)
+            self._logger.info(f"   Base weights (α_intent, learned): {alpha_intent}")
+        else:
+            alpha_intent = get_alpha_weights(intent)
+            self._logger.info(f"   Base weights (α_intent): {alpha_intent}")
         weights = self.fusion.compute_adaptive_weights(
             retrieval_results,
             consensus_scores,

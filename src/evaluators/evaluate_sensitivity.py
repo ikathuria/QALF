@@ -35,22 +35,42 @@ def run_sensitivity_analysis(
     # Initialize Systems
     registry = SystemRegistry(neo4j_manager)
 
-    # For sensitivity, we'll use a single directory/query to see the effect
-    qa_files = glob.glob(os.path.join(target_dir, "*_qa.jsonl"))
-    pdf_files = glob.glob(os.path.join(target_dir, "*.pdf"))
+    # Sweep beta across ALL queries in ALL document subdirectories under
+    # target_dir's parent corpus (not just the first query of the first
+    # document) -- a single-query sweep can't show a meaningful
+    # utility-robustness curve, since one easy query may score identically
+    # across every beta regardless of whether consensus weighting is doing
+    # anything on harder queries.
+    corpus_dir = os.path.dirname(os.path.normpath(target_dir))
+    subdirs = [
+        d for d in glob.glob(os.path.join(corpus_dir, "*")) if os.path.isdir(d)
+    ]
 
-    if not qa_files or not pdf_files:
-        logger.error(f"Missing files in {target_dir}")
+    query_gold_pairs = []  # (query, relevant_basename)
+    for subdir in subdirs:
+        qa_files = glob.glob(os.path.join(subdir, "*_qa.jsonl"))
+        pdf_files = glob.glob(os.path.join(subdir, "*.pdf"))
+        if not qa_files or not pdf_files:
+            continue
+        # Match by basename, not full path: the document parser caches parsed
+        # content by filename, so a document ingested earlier under a different
+        # path prefix (e.g. re-ingested from a reorganized data/raw directory)
+        # keeps its original stored doc_id -- an exact full-path match would
+        # spuriously fail even though it's the same document.
+        relevant_basename = os.path.basename(os.path.normpath(pdf_files[0]))
+        with open(qa_files[0], "r", encoding="utf-8") as f:
+            for line in f:
+                try:
+                    item = json.loads(line)
+                    query_gold_pairs.append((item["question"], relevant_basename))
+                except Exception:
+                    continue
+
+    if not query_gold_pairs:
+        logger.error(f"No (query, gold) pairs found under {corpus_dir}")
+        neo4j_manager.close()
         return
-
-    pdf_path = os.path.normpath(pdf_files[0])
-    qa_path = qa_files[0]
-    relevant_ids = {pdf_path}
-
-    with open(qa_path, "r", encoding="utf-8") as f:
-        line = f.readline()
-        item = json.loads(line)
-        query = item["question"]
+    logger.info(f"Sweeping beta across {len(query_gold_pairs)} queries from {len(subdirs)} documents.")
 
     sensitivity_results = []
 
@@ -58,27 +78,26 @@ def run_sensitivity_analysis(
         # Update registry's QALF beta manually
         registry.qalf.fusion.beta = beta
 
-        # Execute retrieval
-        results = registry.run_qalf(query, top_k=top_k)
+        ndcg_scores = []
+        for query, relevant_basename in query_gold_pairs:
+            # Call retrieval directly (not run_qalf/qalf_retrieve_and_generate)
+            # to skip an unnecessary LLM generation call per query -- this
+            # metric only needs the ranked retrieval results.
+            results = registry.qalf.qalf_retrieve(query, top_k=top_k)
+            retrieved_ids = [
+                os.path.basename(os.path.normpath(
+                    res.get("id") or res.get("doc_id") or res.get("source") or ""
+                ))
+                for res in results
+            ]
+            ndcg_scores.append(ndcg_at_k(retrieved_ids, {relevant_basename}, k=top_k))
 
-        # Extract IDs
-        retrieved_ids = []
-        for res in results:
-            d_id = res.get("id") or res.get("doc_id") or res.get("source") or ""
-            retrieved_ids.append(os.path.normpath(d_id))
-
-        # Calculate Utility (NDCG)
-        ndcg_k = ndcg_at_k(retrieved_ids, relevant_ids, k=top_k)
-
-        # We also want to see the effect on the poisonous document's score if possible
-        # For simplicity, we'll just track NDCG here, and separately discuss robustness
-
+        mean_ndcg = sum(ndcg_scores) / len(ndcg_scores)
         sensitivity_results.append(
             {
                 "Beta": beta,
-                f"NDCG@{top_k}": ndcg_k,
-                "Top_Doc_ID": results[0]["doc_id"] if results else "None",
-                "Top_Doc_Consensus": results[0].get("consensus", 0) if results else 0,
+                f"Mean_NDCG@{top_k}": mean_ndcg,
+                "N_Queries": len(ndcg_scores),
             }
         )
 

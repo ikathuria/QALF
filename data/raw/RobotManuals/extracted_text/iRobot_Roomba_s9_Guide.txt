@@ -1,0 +1,240 @@
+Safety Information
+
+Important Safety Information
+
+This owner's guide includes information for Regulatory Model(s): RVA-Y1, ADC - N1
+
+                                                                                                                                                                                            EN
+
+    SAVE THESE INSTRUCTIONS
+    WARNING: When using an electrical appliance, basic precautions should always be followed,
+    including the following:
+    READ ALL INSTRUCTIONS
+    WARNING: To reduce the risk of injury or damage, read and follow the safety precautions when
+    setting up, using and maintaining your robot.
+
+This appliance can be used by children aged from 8 years and above and persons with
+reduced physical, sensory or mental capabilities or lack of experience and knowledge if they
+have been given supervision or instruction concerning use of the appliance in a safe way and
+understand the hazards involved. Children shall not play with the appliance. Cleaning and user
+maintenance shall not be made by children without supervision.
+
+WARNING: Cancer and Reproductive Harm ­ www.P65Warnings.ca.gov/product
+
+This is the safety alert symbol. It is used to alert you to potential physical injury hazards.
+Obey all safety messages that follow this symbol to avoid possible injury or death.
+
+Risk of electric shock   Class II equipment    Rated power                                      Read Operator        General symbol for
+Risk of fire             For indoor use only   output, d.c.                                     Manual before using  recycling
+Rated power input, a.c.  Separate Supply Unit
+                                               Rated power                                      Keep out of reach    BFP Backfeed Protection
+                                               input, d.c.                                      of children
+    WARNING: Indicates a hazardous situation that, if not avoided, could  ROBOT                                                                   · Charge your robot only with Home Base model ADC - N1.            CAUTION
+    result in death or serious injury.                                                                                                               The provided power supply delivers safety extra low voltage
+                                                                          CAUTION                                                                    corresponding to the input marking on the robot which is
+    CAUTION: Indicates a hazardous situation that, if not avoided, could                                                                             required to maintain safe operation.                            · Battery usage by children should be supervised. Seek medical
+                                                                          · Do not operate the robot in areas with exposed electrical
+EN  result in minor or moderate injury.                                      outlets in the floor.                                                · To prevent the risk of your robot falling downstairs,            advice immediately if a cell or a battery has been swallowed.                EN
+                                                                                                                                                     ensure that the charging station is placed at least
+    NOTICE: Indicates a hazardous situation that, if not avoided, could   · If the robot passes over a power cord and drags it, there                4 feet (1.2 meters) away from stairs.                           NOTICE
+    result in property damage.                                               is a chance an object could be pulled off a table or shelf.
+                                                                             Before using the robot, pick up objects like clothing, loose         NOTICE
+    GENERAL                                                                  papers, pull cords for blinds or curtains, power cords, and                                                                             · The battery pack must be removed from the robot before recycling or
+                                                                             any fragile objects.                                                 · Product may not be used with any type of power converter.           disposal.
+    WARNING                                                                                                                                          Use of power converters will immediately void the warranty.
+                                                                          · Be aware that the robot moves on its own. Take care when                                                                                 · For best results, use only the iRobot Lithium Ion Battery that comes with
+    · Your robot is not a toy. Small children and pets should be             walking in the area that the robot is operating in to avoid          · If you live in an area prone to electrical storms, it is            the robot.
+       supervised when your robot is operating.                              stepping on it.                                                         recommended that you use additional surge protection.
+                                                                                                                                                     Your charging station may be protected with a surge             · For replacement, purchase identical iRobot battery or contact iRobot
+    · Do not sit or stand on your robot or dirt disposal.                 · Do not use the robot to pick up sharp objects, glass,                    protector in the event of severe electrical storms.                Customer Care for alternative battery options.
+                                                                             or anything that is burning or smoking.
+    · Do not use unauthorized chargers. Use of an unauthorized                                                                                    BATTERY                                                            · Do not use non-rechargeable batteries.
+       charger could cause the battery to generate heat, smoke,           NOTICE
+       catch fire, or explode.                                                                                                                    WARNING                                                            · Always charge and remove the battery from your robot and accessories
+                                                                          · T his robot is intended for dry floor use only. Do not use the robot                                                                        before long-term storage.
+    · This product comes with a region approved power supply cord            to pick up spills. Do not allow your robot or dirt disposal to       · Do not open, crush, heat above 176°F: 80°C, or incinerate.
+       and is designed to be plugged into a standard household AC            become wet.                                                             Follow manufacturer's instructions.
+       power outlet only. Do not use any other power supply cord. For
+       replacement cords, please contact Customer Care to ensure          · Do not place anything on top of your robot.                           · Do not short-circuit the battery by allowing metal objects
+       proper selection of country specific power supply cord.                                                                                       to contact battery terminals or immerse in liquid. Do not
+                                                                          · The failure to maintain cleanliness of charger contacts could            subject batteries to mechanical shock.
+    · Do not open your robot or dirt disposal unless instructed to do        result in loss of ability for the robot to charge the battery.
+       so. There are no user serviceable parts inside. Refer servicing                                                                            · Periodically inspect the battery pack for any sign of damage
+       to qualified service personnel.                                    CHARGING STATION                                                           or leakage. Do not charge damaged or leaking battery
+                                                                                                                                                     packs, do not allow the liquid to come in contact with skin or
+    · Risk of electric shock, use indoors in dry location only.           WARNING                                                                    eyes. If contact has been made, wash the affected area with
+                                                                                                                                                     copious amounts of water and seek medical advice. Place
+    · Do not handle your robot or dirt disposal with wet hands.           · Do not use a charging station with a damaged cord or plug if             the battery in a sealed plastic bag and recycle or dispose
+                                                                             the cord or plug is damaged, it must be replaced.                       of safely according to local environmental regulations, or
+    · Store and operate this product in room temperature                                                                                             return it to your local authorized iRobot Service Center for
+       environments only.                                                 · Always disconnect your robot from the charging station before            disposal.
+                                                                             cleaning or maintaining it.
+    · If the room to be cleaned contains a balcony, a physical
+       barrier should be used to prevent access to the balcony
+       and ensure safe operation.
+    About your Roomba® Robot Vacuum                                                                                            Using Your Roomba® Robot Vacuum
+
+                                                                                                                               Positioning the Home BaseTM Charging Station                                                           Charging
+
+    Top View                                                                       Buttons & Indicators
+
+    Bin Lid                                                                                                                                                                                                                                     CLEAN
+
+EN                                                                                                       Light Ring Indicator                                                                                                                          Light Ring While Charging                                         EN
+                                                                                                         CLEAN / Power Button
+    Bin and                                          RCON Sensor                                         Spot Clean Button                     Good Wi-Fi® Coverage                                                                                    Solid: fully charged
+    Filter                                                                                               Home Button
+                                                     Wall Follow                                                                                                                                                                                       Pulsing: charging
+                                                     Sensor
+    Bin Handle                                                                                                                                                                                                                                         Turns off after 1 minute to save power
+
+    iAdapt®                                                                                                                                                                                                                           · Place the robot on the charging station to activate the battery.
+    Localization
+    Camera                                                                                                                                                                                                                                  Note: Your robot comes with a partial charge, but we recommend that you
+                                                                                                                                                                                                                                            charge the robot for 3 hours prior to starting the first cleaning job.
+    Bottom View                                                                    Home BaseTM Charging Station                1.5 ft (0.5 m)                      4 ft (1.2 m)                                                       · If the "CLEAN" text is pulsing while charging, the robot is in the middle
+                                                                                                                               both sides                          from stairs                                                           of a cleaning job and will automatically resume where it left off once
+    Corner Brush                                                                   IR Sensor                                                                                                                                             recharged.
+                                                     Multi-Surface Rubber Brushes  Window                                                      4 ft (1.2 m)                                                                           · T he robot uses a small amount of power whenever it is on the dirt
+    Cliff Sensors                                    Multi-Surface Brush Caps      Charging                                                    in front                                                                                  disposal. You can put the robot in a further-reduced power state
+                                                     Brush Latch                   Contacts                                                                                                                                              when not in use. For instructions and more details on this
+    Dirt Disposal                                                                                                                                                                                         *Objects are not to scale.     Reduced Power Standby Mode, refer to the iRobot HOME App.
+    Port                                             Brush Frame Release Tab                                                                                                                                                          · For long-term storage, turn off the robot by removing it from the dirt
+    Floor Tracking                                   Charging Contacts                                                         WARNING: To prevent the risk of your robot falling downstairs, ensure that                                disposal and holding down for 10 seconds. Store the robot in a
+    Sensor                                                                                                                     the dirt disposal is placed at least 4 feet (1.2 meters) away from stairs.                                cool, dry place.
+    Rear Caster
+    Wheel                                                                                                                                                                                                                             Cleaning
+
+                                                     Cliff Sensors                                                                                                                                                                    Use your robot frequently to maintain well-conditioned floors.
+
+    1 For more information, visit global.irobot.com                                                                                                                                                                                                                                     Just Press CLEAN
+                                                                                                                                                                                                                                                                                        Tap to Start / Pause / Resume
+                                                                                                                                                                                                                                                                                        Hold for 3 seconds to end a job
+                                                                                                                                                                                                                                                                                        and put the robot to sleep
+                                                                                                                                                                                                                                                                                        Hold 10 seconds to reboot
+
+                                                                                                                                                                                                                                                                                   Roomba® s Series Owner's Guide 2
+    · Y our robot will automatically explore and clean your home.          Lithium Ion Battery                                                                             Care and Maintenance                                                       Emptying the Bin                      Cleaning the Filter
+       It will return to the dirt disposal at the end of a cleaning job
+       and whenever it needs to recharge.                                  For best results, only use the iRobot Lithium Ion Battery that comes with your                  Robot Care and Maintenance Instructions                                    1 Press the bin lid release and
+                                                                           Roomba® robot vacuum.                                                                                                                                                           lift the bin.
+    · T o send the robot back to its dirt disposal, tap . A blue                                                                                                           To keep your robot running at peak performance, perform the                                                      1 Open the filter door and
+                                                                                 WARNING: Lithium ion batteries and products that contain lithium ion batteries are        procedures on the following pages.                                                                                     remove the filter by grasping
+EN  light ring pattern will indicate that the robot is seeking the                subject to stringent transportation regulations. If you need to ship this product (with  There are additional instructional videos in the iRobot HOME App.                                                                                                 EN
+    dirt disposal.                                                                the battery included) for service, travel or any other reason, you MUST follow the       If you notice the robot picking up less debris from your floor,                                                  the tab.
+                                                                                  below shipping instructions.                                                             empty the bin, clean the filter and clean the brushes.
+    · When your robot detects an especially dirty area, it will
+       engage Dirt DetectTM mode, moving in a forward/backward                    · Battery MUST be turned off before shipping.                                            Part              Care Frequency              Replacement
+       motion to clean the area more thoroughly. The light ring                   · Turn off the battery by removing the robot from the dirt disposal and holding                                                        Frequency*
+       indicator will flash blue.                                                                                                                                                                                        N/A
+                                                                                      down the for 10 seconds. All indicators will turn off.                                                                             Every 2 months
+    · Tap to spot clean a designated area. The robot will spiral                  · Package the product in its original packaging.                                         Bin               Wash bin as needed
+       outward about 3 feet (1 meter) and then spiral inward to                   · Ship via ground transportation only (no air shipping).                                                                               Every 3 months
+       end where it started. The light ring indicator will show a                 · If you need further assistance, contact our Customer Care team.                        Filter            Clean once a week (twice    N/A                          2 Lift the handle to remove the bin.  2 Shake off debris by tapping
+       blue spiral.                                                                                                                                                                          a week if you have a pet).  Every 12 months                                                          the filter against your trash
+                                                                                                                                                                                             Do not wash.                Every 12 months                                                          container.
+    W hen the robot senses its bin needs
+    to be emptied, the light ring indicator                                                                                                                                Corner Brush      Clean once a month          N/A
+    will illuminate in a red sweeping
+    motion toward the rear.                                                                                                                                                Full Bin Sensors  Clean every 2 weeks
+
+                                                                                                                                                                           Rear Caster Wheel Clean every 2 weeks
+
+    Troubleshooting                                   Red Light                                                                                                            Multi-Surface     Clean once a month
+                                                      Ring                                                                                                                 Brushes           (twice a month if you
+    · Y our robot will tell you something                                                                                                                                                    have a pet)
+       is wrong by playing an audio alert     Low battery. Please charge.
+       and turning the light ring indicator                                                                                                                                Sensors and       Clean once a month
+       red. Press CLEAN for details. Further                                                                                                                               Charging
+       support and instructional videos are                                                                                                                                Contacts                                                                   3 Press the bin release button to
+       available in the iRobot HOME App.                                                                                                                                                                                                                   empty bin.
+
+    · After 90 minutes of inactivity off the                                                                                                                                    Note: iRobot manufactures various replacement parts and assemblies.                                           3 Reinsert the filter and close
+       dirt disposal, the robot will                                                                                                                                            If you think you need a replacement part, please contact iRobot                                                        the filter door.
+       automatically end its cleaning job.                                                                                                                                      Customer Care for more information.
+                                                                                                                                                                                                                                                                                                        Important: The filter door won't
+                                                                                                                                                                                *Replacement frequency may vary. Parts should be replaced if visible                                                    close unless a filter is reinserted
+                                                                                                                                                                                 wear appears.                                                                                                          correctly. Replace the filter every
+                                                                                                                                                                                                                                                                                                        two months.
+    3 For more information, visit global.irobot.com
+                                                                                                                                                                                                                                                                                            Roomba® s Series Owner's Guide 4
+         Cleaning the Full Bin Sensors              Washing the Bin                                   Cleaning the Corner Brush                       Cleaning the Rear Caster Wheel                                        Cleaning the Multi-Surface Brushes
+
+     1 Remove and empty the bin.                           Important: Do not wash the filter.         1 Use a small screwdriver to loosen the         1 Pull firmly on the rear caster wheel module to                      1 Pinch the brush frame release tab,                                                     EN
+                                                           Remove the filter before washing the bin.        screw holding the Corner Brush in place.         remove it from the robot.                                            lift the brush frame, and remove
+EN                                                                                                                                                                                                                                any obstructions.
+                                                    1 Release the bin, remove the filter,             2 Pull to remove the Corner Brush.
+     2 Wipe the inner sensors with                        and open the bin door.                             Remove any hair or debris,               2 Press firmly on the wheel to remove it from its                     2 Remove the brushes from the
+                  a clean, dry cloth.                                                                        then reinstall the brush.                       housing (see illustration below).                                    robot. Remove the brush caps
+                                                    2 Rinse the bin using warm water.                                                                                                                                             from the ends of the brushes.
+                                          Full Bin                                                                                                    3 Remove any debris from inside the wheel cavity.                           Remove any hair or debris that
+                                          Sensors                                                                                                     4 Reinstall all parts when finished.                                        has collected beneath the
+                                                                                                                                                                                                                                  caps. Reinstall the brush caps.
+3 Remove the filter and wash the bin,                                                                                                                        Make sure the wheel clicks back into place.
+      or gently clean the bin to ensure                                                                                                                                                                         Axle Wheel  3 Remove any hair or debris
+      the sensor ports are clean.                                                                                                                                                                                                 from the square and
+                                                                                                                                                                                                    Housing                       star pegs on the opposite
+                                                                                                                                                                                                                                  side of the brushes.
+                                                                                                                                                             Important: A rear wheel clogged with hair and debris
+                                                                                                                                                             could result in damage to your floor. If the wheel is not      4 Remove the bin from the
+                                                                                                                                                             spinning freely after you have cleaned it, please contact            robot and clear any debris
+                                                                                                                                                             Customer Care.                                                       from the vacuum path.
+
+                                                          Note: Bin is not dishwasher safe.                                                                                                                                 5 Reinstall the brushes in the robot.
+                                                                                                                                                                                                                                  Match the shape of the brush pegs
+                                                    3 Make sure bin is completely dry. Then                                                                                                                                       with the shape of the brush icons in
+                                                          reinsert filter and place bin back in                                                                                                                                   the cleaning head module.
+                                                          the robot.
+                                                                                                                                                                                                                                                                                   Roomba® s Series Owner's Guide 6
+5 For more information, visit global.irobot.com
+                                                             iRobot Customer Care                                            Regulatory Information
+
+    Cleaning the Sensors and Charging Contacts               USA & Canada                                                    This device complies with part 15 of the FCC Rules.                       · Reorient or relocate the receiving antenna.
+
+    1 Wipe sensors, camera window and charging               If you have questions or comments about your Roomba® robot      Operation is subject to the following two conditions:                     · Increase the separation between the equipment and receiver.
+         contacts with a clean, dry cloth.                   vacuum or Clean BaseTM Automatic Dirt Disposal, please contact  (1) This device may not cause harmful interference, and
+EN                                                           iRobot before contacting a retailer.                            (2) this device must accept any interference received, including          · C onnect the equipment into an outlet on a circuit different from                       EN
+                                                                                                                                                                                                          that to which the receiver is connected.
+                                                             You can start by visiting www.irobot.com for support tips,          interference that may cause undesired operation.
+                                                             frequently asked questions and information about accessories.
+                                                             This information can also be found in the iRobot HOME App. If                                                                             · Consult the dealer or an experienced radio/TV technician
+                                                             you need further assistance, call our
+                                                             Customer Care team at (877) 855-8593.                           This device complies with Industry Canada license-exempt RSS                               for help.
+
+                                                             iRobot USA Customer Care Hours                                  standard(s). Operation is subject to the following two conditions:        · U nder Industry Canada regulations, this radio transmitter may only
+                                                             · Monday to Friday, 9AM ­ 9PM Eastern Time
+                                                             · Saturday and Sunday 9AM ­ 6PM Eastern Time                    1) This device may not cause interference, and                            operate using an antenna of a type and maximum (or lesser) gain
+
+                                                             Outside USA & Canada                                            2) this device must accept any interference, including interference that  approved for the transmitter by Industry Canada. To reduce
+                                                                                                                                may cause undesired operation of the device.                           potential radio interference to other users, the antenna type and
+                                                             Visit global.irobot.com to:
+                                                             · Learn more about iRobot in your country                       · C hanges or modifications not expressly approved by iRobot              its gain should be so chosen that the equivalent isotropically
+                                                             · G et hints and tips to improve your Roomba® robot vacuum's       Corporation could void the user's authority to operate the equipment.  radiated power (e.i.r.p.) is not more than the necessary for
+                                                                                                                                                                                                       successful communication.
+                                                                performance
+                                                             · Get answers to questions                                      · This equipment has been tested and found to comply with the limits      · F CC Radiation Exposure Statement: This product complies with
+                                                             · Contact your local support center                                for a Class B digital device, pursuant to part 15 of the FCC Rules        FCC §2.1093(b) for portable RF exposure limits, set forth for an
+                                                                                                                                as well as ICES-003 Rules. These limits are designed to provide           uncontrolled environment and is safe for the intended operation as
+                                                                                                                                reasonable protection against harmful interference in a residential       described in this manual.
+                                                                                                                                installation. This equipment generates, uses and can radiate radio
+                                                                                                                                frequency energy and, if not installed and used in accordance with     · ISED Radiation Exposure Statement: This product complies with the
+                                                                                                                                the instructions, may cause harmful interference to radio commu-          Canadian Standard RSS-102 for portable RF exposure limits, set
+                                                                                                                                nications. However, there is no guarantee that interference to radio      forth for an uncontrolled environment and is safe for the intended
+                                                                                                                                communication will not occur in a particular installation. If this        operation as described in this manual.
+
+                                                                                                                             equipment does cause harmful interference to radio or television          For battery recycling go to call2recycle.org;
+                                                                                                                             reception, which can be determined by turning the equipment off           or call 1-800-822-8837
+                                                                                                                             and on, the user is encouraged to try to correct the interference by
+
+                                                                                                                             one or more of the following measures:
+
+    Important: Do not spray cleaning solution or water onto
+    the sensors or sensor openings.
+
+                                                                                                                             ©2019 iRobot Corporation, 8 Crosby Drive, Bedford, MA 01730 USA. All rights reserved.                                                               WC#: 4659459v1
+                                                                                                                             iRobot, Roomba, iAdapt and Virtual Wall are registered trademarks of iRobot Corporation.
+                                                                                                                             Clean Base and Dirt Detect are trademarks of iRobot Corporation. Wi-Fi and the Wi-Fi logo             Roomba® s Series Owner's Guide 8
+                                                                                                                             are registered trademarks of Wi-Fi Alliance.
+
+    7 For more information, visit global.irobot.com
+

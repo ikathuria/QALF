@@ -1,0 +1,2959 @@
+                        Operator's manual                          EN, English
+
+HUSQVARNA AUTOMOWER®
+               420/430X/440/450X
+
+  Read the operator's manual carefully and make sure that you
+          understand the instructions before you use the product.
+   Contents
+
+1 Introduction                                                          6 Troubleshooting
+  1.1 Support.......................................................3     6.1 Introduction - troubleshooting...................41
+  1.2 Product description.....................................3           6.2 Fault messages........................................ 41
+  1.3 Product overview .......................................4           6.3 Information messages.............................. 46
+  1.4 Symbols on the product..............................5               6.4 LED indicator lamp on the charging
+  1.5 Symbols on the display.............................. 5              station............................................................. 48
+  1.6 Symbols on the battery...............................6              6.5 LED indicator lamp on the product........... 49
+  1.7 Menu structure overview 1......................... 7                6.6 Symptoms................................................ 50
+  1.8 Menu structure overview 2......................... 8                6.7 Finding breaks in the loop wire.................51
+  1.9 Menu structure overview 3......................... 9
+  1.10 Display....................................................10    7 Transportation, storage and disposal
+  1.11 Keypad................................................... 10       7.1 Transportation.......................................... 54
+                                                                          7.2 Storage.....................................................54
+2 Safety                                                                  7.3 Disposal....................................................54
+  2.1 Safety definitions...................................... 11
+  2.2 General safety instructions.......................11              8 Technical data
+  2.3 Safety instructions for operation...............13                  8.1 Technical data.......................................... 55
+                                                                          8.2 Registered trademarks............................. 57
+3 Installation
+  3.1 Introduction - Installation.......................... 16          9 Warranty
+  3.2 Before the installation of the wires........... 16                  9.1 Warranty terms.........................................58
+  3.3 Before the installation of the product........16
+  3.4 Installation of the product......................... 20           10 EC Declaration of Conformity
+  3.5 To put the wire into position with stakes...22                      10.1 EC Declaration of Conformity.................59
+  3.6 To bury the boundary wire or the
+  guide wire....................................................... 22
+  3.7 To extend the boundary wire or the
+  guide wire....................................................... 22
+  3.8 After the installation of the product...........22
+  3.9 Automower® Connect app........................23
+  3.10 To do the product settings......................24
+
+4 Operation
+  4.1 Main switch...............................................35
+  4.2 To start the product.................................. 35
+  4.3 Operating mode - Start.............................35
+  4.4 Operating mode - Park............................. 36
+  4.5 To stop the product.................................. 36
+  4.6 To switch off the product.......................... 36
+  4.7 To charge the battery............................... 36
+
+5 Maintenance
+  5.1 Introduction - maintenance.......................38
+  5.2 Clean the product..................................... 38
+  5.3 Replace the blades...................................39
+  5.4 Battery...................................................... 39
+  5.5 Winter service...........................................40
+
+2                                                                       1201 - 001 - 05.06.2019
+                         1 Introduction
+
+Serial number:
+PIN code:
+
+The serial number is on the product rating plate and on the product carton.
+· Use the serial number to register your product on www.husqvarna.com.
+
+1.1 Support                                       The operator selects the operation settings with
+                                                  the keys on the keypad. The display shows the
+For support about the Husqvarna product, speak    selected and possible operation settings, and the
+to your servicing dealer.                         operating mode of the product.
+
+1.2 Product description                           The boundary wire and the guide wire controls
+                                                  the movement of the product within the work
+Note: Husqvarna regularly updates the             area.
+appearance and function of the products. Refer
+to Support on page 3.                             1.2.1 Automower® Connect
+
+The product is a robotic lawn mower. The product  Automower® Connect is a mobile application that
+has a battery power source and cuts the grass     makes it possible to select the operation settings
+automatically. Collection of grass is not         remotely. Refer to Automower® Connect app on
+necessary.                                        page 23.
+
+1201 - 001 - 05.06.2019                                                      Introduction - 3
+1.3 Product overview
+
+    Automower 420/440                       Automower 430X                                   Automower 450X
+                                                                                      6
+                                            2               3
+
+                                        1
+                                                                                   5
+
+    9                                          4                                                       8
+                                12                                                        7
+                                                16
+10                                                     17                                                    19
+
+11                    13                                                                                    20
+                                                                                                        28
+                                                            21                        18   27
+
+                                    14
+
+31                29                    15
+
+                                    22                                                26
+                      32
+
+                                           23  24           25
+    30
+
+The numbers in the figure represent:           15. Handle
+                                               16. Blade disc
+1. Body                                        17. Skid plate
+2. Hatch to display and keypad                 18. Contact plates
+3. Stop button                                 19. LED for operation check of the charging
+4. Front wheels
+5. Rear wheels                                       station and boundary wire
+6. Ultrasonic sensors                          20. Charging station
+7. Headlights                                  21. Power supply
+8. Replaceable cover                           22. Cable markers
+9. Rating plate (incl. product identification  23. Measurement gauge when installing the
+
+      code)                                          boundary wire (the measurement gauge is
+10. Display                                          broken loose from the box)
+11. Keypad                                     24. Screws for securing the charging station
+12. Cutting system                             25. Operator's Manual and Quick Guide
+13. Chassis box with electronics, battery and  26. Alarm decal
+                                               27. Extra blades
+      motors                                   28. Low voltage cable
+14. Main switch
+
+4 - Introduction                                                                          1201 - 001 - 05.06.2019
+29. Couplers for the loop wire 1                                       This product conforms to the
+30. Loop wire for boundary loop and guide wire                         applicable EC Directives.
+
+        2                                                              Noise emission to surroundings. The
+                                                                       product's emissions are set out in
+31. Stakes 3                                                           Technical data on page 55 and on the
+32. Connectors for the loop wire 4                                     rating plate.
+
+1.4 Symbols on the product                                             It is not permitted to dispose this
+                                                                       product as normal household waste.
+These symbols can be found on the product.                             Ensure that the product is recycled in
+Study them carefully.                                                  accordance with local legal
+                                                                       requirements.
+                              WARNING: Read the
+                              user instructions before                 The chassis contains components
+                              operating the product.                   which are sensitive to electrostatic
+                                                                       discharge (ESD). The chassis must
+                              WARNING: Operate the                     also be resealed in a professional
+                              disabling device before                  manner. For these reasons the chassis
+                              working on or lifting the                shall only be opened by authorized
+                              machine.                                 service technicians. A broken seal can
+                                                                       result in the entire or parts of the
+                              The product can only start               guarantee no longer being valid.
+                              when the correct PIN
+                              code has been entered.                   The low voltage cable must not be
+                              Switch off the product be-               shortened, extended or spliced.
+                              fore carrying out any in-                Do not use a trimmer nearby the low
+                              spections and/or mainte-                 voltage cable. Be careful when
+                              nance.                                   trimming edges where the cables are
+                                                                       placed.
+                              WARNING: Keep a safe
+                              distance from the ma-       1.5 Symbols on the display
+                              chine when operating.
+                              Keep your hands and feet                 The timer function controls when the
+                              away from the rotating                   product cuts the lawn.
+                              blades.
+                                                                       The cutting height function sets the
+                              WARNING: Do not ride                     cutting height of the product.
+                              on the machine. Never
+                              put your hands or feet                   The security function lets the operator
+                              close to or under the ma-                select between 3 security levels.
+                              chine.
+
+                              Never use a high-pres-
+                              sure washer or even run-
+                              ning water to clean the
+                              product.
+
+                              Use a detachable power
+                              supply as defined on the
+                              rating label next to the
+                              symbol.
+
+     1 Is a part of the Installation kit which is purchased separately.  Introduction - 5
+     2 See note 1
+     3 See note 1
+     4 See note 1
+
+1201 - 001 - 05.06.2019
+The messages function shows error       The GPS-supported navigation is
+messages and possible cause for the
+problems.                               active. Flashes as it collects GPS
+                                        information. (Automower® 430X/450X).
+
+The weather timer function              The GPS-supported navigation is not
+automatically adapts the cutting        active. (Automower® 430X/450X).
+intervals to the grass growth.
+                                        The bars show the signal strength of
+The installation function for manual    the GPRS reception. (Automower®
+settings for the installation.          Connect)
+
+The settings function is where the      An X next to the bars indicates a
+general settings for the products are   problem with the connection to the
+set.                                    Internet server. (Automower® Connect)
+
+The accessories function is used for    The SIM symbol indicates that there is
+settings made for the accessories.
+                                        a problem with the SIM card or the
+                                        module. (Automower® Connect)
+
+The product will not cut the grass do to 1.6 Symbols on the battery
+
+the timer function.
+
+The product overrides the timer         Read the user instructions.
+function.
+                                        Do not discard the battery into fire and
+The battery indicator shows the charge  do not expose the battery to a heat
+level of the battery. When the product  source.
+charges the symbol flashes.
+
+The product is put in the charging      Do not immerse the battery into water.
+station but do not charge the battery.
+
+The product is set in ECO-mode.
+
+For Automower® Connect and
+Automower® Connect@Home.
+Bluetooth® wireless communication
+with your mobile device.
+
+6 - Introduction                        1201 - 001 - 05.06.2019
+1.7 Menu structure overview 1
+
+                                   Timer
+
+                         Overview Timer settings
+
+                               Overview (per day)
+
+Period 1                 Period 2            Copy to       Reset
+
+All Mo Tu We Th Fr Sa Su                                   Current All week
+days                                                       day
+
+Cutting height
+Cutting height
+
+                                   Security
+
+Security level                                             Advanced
+
+Low Medium High Custom                             New loop Change   Duration
+
+                                                   signal  PIN code
+
+                                                           Duration          Duration
+                                                           of alarm          of time lock
+
+Messages
+
+Fault                    Info
+messages                 messages
+
+1201 - 001 - 05.06.2019                                                      Introduction - 7
+1.8 Menu structure overview 2
+
+                      Weather timer
+
+                                 Use
+                              Cutting time
+
+                    Low Medium High
+
+                                                    Installation
+
+   Lawn                                                 Find charging station                Advanced
+   coverage                                         Overview of search method
+
+  GPS Auto                                          Guide         Boundary          Charger
+  430X/450X
+                                                                                    Charging
+Overview of                                                                         station range
+lawn coverage
+                                                           Delay time Disable More
+   Area 1-5
+
+How? How How Disable More                                         Test Test Reset
+            far? often?                                           right left
+
+                                        Test Reset
+
+                                                                  Corridor  Exit    Reversing Drive past
+                                                                  width
+                                                                            angles distance wire
+
+                  Delay time                        Disable       More
+
+                  Test                                            Reset
+
+8 - Introduction                                                                    1201 - 001 - 05.06.2019
+1.9 Menu structure overview 3
+
+                             Settings
+
+Profiles    ECO mode           Spiral cutting  Slope control  General
+               Use                   Use             Use
+  Use
+Profile A,                                     Time &    Language Country &          Reset all About
+B or C                                         date                        Timezone  user setting
+
+Select      Rename       Save
+
+                               Intensity       Set time Set date Time format Date format
+
+            Low- Low Medium High High+
+
+                                            Accessories
+
+Information Connect@Home Automower             Headlights     Ultrasonic             Mower
+                                               (430X/450X)    (450X)                 house
+            (420/440)          Connect
+                                                   Use
+                    Pairing            Use      Headlight                            Aviod collision with
+                                                                                     mower house
+
+                                               Schedule Flashes when fault
+
+Pairing     Geofence           Communication   Network        Reset
+
+1201 - 001 - 05.06.2019                                                              Introduction - 9
+1.10 Display
+
+The display on the product shows information
+and settings of the product.
+
+To access the display, push the STOP button.
+
+1.11 Keypad
+
+The keypad on the product let the operator
+navigate in the menu of the product. To access
+the keypad, push the STOP button.
+
+                      3
+                   24
+
+1                        5
+
+                         6
+
+   7
+
+1. The START button is used to start the
+      operation of the product.
+
+2. The BACK button is used when moving back
+      up in the menu lists.
+
+3. The arrow buttons are used to navigate in
+      the menu.
+
+4. The OK button is used to confirm the chosen
+      settings in the menus.
+
+5. The MENU button is used to go to the main
+      menu.
+
+6. The PARK button sends the product to the
+      charging station.
+
+7. The number buttons are used to enter digits,
+      for example, PIN code, time and date.
+
+10 - Introduction                                1201 - 001 - 05.06.2019
+                                             2 Safety
+
+2.1 Safety definitions                                 2.2 General safety instructions
+
+Warnings, cautions and notes are used to point         The following system is used in the Operator's
+out specially important parts of the manual.           Manual to make it easier to use:
+
+             WARNING: Used if there is a risk of       · Text written in italics is a text that is shown
+             injury or death for the operator or             on the display of the product or is a
+             bystanders if the instructions in the           reference to another section in the
+             manual are not obeyed.                          Operator's Manual.
+
+             CAUTION: Used if there is a risk of       · Text written in bold is one of the buttons on
+             damage to the product, other materials          the product.
+             or the adjacent area if the instructions
+             in the manual are not obeyed.             · Text written in UPPERCASE and italics refer
+                                                             to the different operating modes available in
+                                                             the product.
+
+Note: Used to give more information that is
+necessary in a given situation.
+
+1201 - 001 - 05.06.2019                                Safety - 11
+2.2.1 IMPORTANT. READ CAREFULLY
+BEFORE USE. KEEP FOR FUTURE
+REFERENCE
+
+The operator is responsible for accidents or hazards occurring to
+other people or property.
+
+This appliance is not intended for use by persons (including chil-
+dren) with reduced physical, sensory or mental capabilities (that
+could affect a safe handling of the product), or lack of experience
+and knowledge, unless they have been given supervision or in-
+struction concerning use of the appliance by a person responsible
+for their safety.
+
+This appliance can be used by children aged from 8 years and
+above and persons with reduced physical, sensory or mental ca-
+pabilities or lack of experience and knowledge if they have been
+given supervision or instruction concerning use of the appliance in
+a safe way and understand the hazards involved. Local regula-
+tions may restrict the age of the operator. Cleaning and mainte-
+nance shall not be made by children without supervision.
+
+Never connect the power supply to an outlet if the plug or cord is
+damaged. Worn or damaged cord increase the risk of electric
+shock.
+
+Only charge the battery in the included charging station. Incorrect
+use may result in electric shock, overheating or leaking of corro-
+sive liquid from the battery. In the event of leakage of electrolyte,
+flush with water/neutralizing agent. Seek medical help if it comes
+in contact with the eyes.
+
+Use only original batteries recommended by the manufacturer.
+Product safety cannot be guaranteed with other than original bat-
+teries. Do not use non-rechargeable batteries.
+
+The appliance must be disconnected from the supply mains when
+removing the battery.
+
+12 - Safety  1201 - 001 - 05.06.2019
+WARNING: The product                                                                         Warning!
+can be dangerous if used                                                           Automatic lawnmower!
+incorrectly.                                                                   Keep away from the machine!
+
+                                                                                      Supervise children!
+
+WARNING: Do not use                                             Warning!
+the product when                                      Automatic lawnmower!
+                                                  Keep away from the machine!
+
+                                                         Supervise children!
+
+persons, especially
+
+children, or animals, are
+
+in the work area.                                 · Use the PARK function or switch off the
+                                                        main switch when persons, especially
+WARNING: Keep your                                      children or animals, are in the work area. It
+hands and feet away                                     is recommended to program the product for
+from the rotating blades.                               use during hours when the area is free from
+Never put your hands or                                 activity, e.g. at night. Refer to Park until
+                                                        further notice on page 36. Consider that
+                                                        certain species, e.g. hedgehogs, are active
+                                                        at night. They can potentially be harmed by
+                                                        the product.
+
+feet close to or under the                        · The product may only be operated,
+product when the motor                                  maintained and repaired by persons that are
+is running.                                             fully conversant with its special
+                                                        characteristics and safety regulations.
+                                                        Please read the Operator's Manual carefully
+                                                        and make sure you understand the
+                                                        instructions before using the product.
+
+2.3 Safety instructions for operation             · It is not permitted to modify the original
+2.3.1 Use                                               design of the product. All modifications are
+                                                        made at your own risk.
+
+· The product may only be used with the           · Check that there are no stones, branches,
+
+equipment recommended by the                      tools, toys or other objects on the lawn that
+
+manufacturer. All other types of use are          can damage the blades. Objects on the lawn
+
+incorrect. The manufacturer's instructions        can also lead to the product getting stuck.
+
+with regard to operation/maintenance must         Help may be required to remove the object
+
+be followed precisely.                            before the product can continue mowing.
+
+· Warning signs shall be placed around the        Always set the main switch in position 0
+
+work area of the product if it is used in public  before clearing a blockage.
+
+areas. The signs shall have the following
+
+text: Warning! Automatic lawnmower! Keep
+
+away from the machine! Supervise children!
+
+1201 - 001 - 05.06.2019                                                        Safety - 13
+· Start the product according to the                      temperatures might cause damage to the
+      instructions. When the main switch is set to        product.
+      1; make sure to keep your hands and feet
+      away from the rotating blades. Never put      2.3.2 Battery safety
+      your hands and feet under the product.
+                                                                 WARNING: Lithium-ion batteries can
+· Never touch moving hazardous parts, such                       explode or cause fire if disassembled,
+      as the blade disc, before it has come to a                 short-circuited, exposed to water, fire,
+      complete stop.                                             or high temperatures. Handle carefully,
+                                                                 do not dismantle, open the battery or
+· Never lift up the product or carry it around                   use any type of electrical/mechanical
+      when the main switch is in position 1.
+
+· The product must never be allowed to              abuse. Avoid storage in direct sunlight.
+
+collide with persons or other living creatures.
+
+If a person or other living creature comes in       For more information about the battery, refer to
+the way of the product, it shall be stopped         Technical data on page 55
+immediately. Refer to To stop the product on
+
+page 36.                                            2.3.3 How to lift and move the product
+
+· Do not put anything on top of the product or      To safely move from or within the work area:
+      its charging station.
+
+· Do not allow the product to be used with a        1. Press the STOP button to stop the product.
+
+defective guard, blade disc or body. Neither
+
+should it be used with defective blades,
+
+screws, nuts or cables. Never connect a
+
+damaged cable, or touch a damaged cable
+
+before it is disconnected from the supply.
+
+· Do not use the product if the main switch
+
+does not work.
+
+· Always switch off the product using the main      2. Set the main switch in position 0.
+
+switch when the product is not in use. The
+
+product can only start when the main switch
+
+is set to 1 and the correct PIN code has
+
+been entered.
+
+· The product must never be used at the             3. Carry the product by the handle under the
+      same time as a sprinkler. Use the timer             product with the blade disc away from the
+      function so the product and sprinkler never         body.
+      run simultaneously. Refer to To do the timer
+      settings on page 24.
+
+· Husqvarna does not guarantee full
+      compatibility between the product and other
+      types of wireless systems such as remote
+
+controls, radio transmitters, hearing loops,
+
+underground electric animal fencing or
+
+similar.
+
+· The built-in alarm is very loud. Be careful,
+
+especially if the product is handled indoors.
+
+· Metal objects in the ground (for example
+
+reinforced concrete or anti-mole nets) can
+
+result in a stoppage. The metal objects can
+
+cause interference with the loop signal
+
+which then can lead to a stoppage.
+
+· Operation and storage temperature is 0-50
+      °C / 32-122 °F. Temperature range for
+      charging is 0-45 °C / 32-113 °F. Too high
+
+14 - Safety                                         1201 - 001 - 05.06.2019
+CAUTION: Do not lift the product when                 2.3.5 In the event of a thunderstorm
+it is parked in the charging station. It
+can damage the charging station
+and/or the product. Press STOP and
+pull the product out of the charging
+station before lifting it.
+
+2.3.4 Maintenance                                     To reduce the risk of damage to electrical
+             WARNING: When the product is             components in the product and the charging
+             turned upside down the main switch       station, we recommend that all connections to the
+             must always be in the 0 position.        charging station are disconnected (power supply,
+             The main switch should be set in the 0   boundary wire and guide wire) if there is a risk of
+             position before all work on the chassis  a thunderstorm.
+             of the product, such as cleaning or
+             replacing the blades.                    1. Mark the wires to simplify reconnecting. The
+                                                            charging station's connections are marked
+             CAUTION: Never use a high-pressure             AR, AL and G1. Some models have
+             washer or even running water to clean          additional guide wires (G2, G3).
+             the product. Never use solvents for
+             cleaning.                                2. Disconnect all connected wires and the
+                                                            power supply.
+             CAUTION: Use the plug to disconnect
+             the charging station before any          3. Connect all the wires and the power supply
+             cleaning or maintenance of the                 if there is no longer a risk of thunder. It is
+             charging station or the loop wire.             important that each wire is connected to the
+                                                            right place.
+
+Inspect the product each week and replace any
+damaged or worn parts. Refer to Maintenance on
+page 38.
+
+1201 - 001 - 05.06.2019                               Safety - 15
+                   3 Installation
+
+3.1 Introduction - Installation                     3.3.1 To examine where to put the charging
+                                                    station
+             WARNING: Read and understand the       · Keep a minimum 2 m / 7 ft. of free space in
+             safety chapter before you install the
+             product.                                     front of the charging station.
+                                                    · Keep a minimum of 1.5 m / 5 ft. of free
+             CAUTION: Use original spare parts
+             and installation material.                   space to the right and to the left of the
+                                                          charging station.
+Note: Refer to www.husqvarna.com for more           · Put the charging station near an outdoor
+information about installation.                           power outlet.
+                                                    · Put the charging station on a level surface.
+3.2 Before the installation of the wires
+                                                       max. 5 cm / 2"
+You can select to attach the wires with stakes or      max. 5 cm / 2"
+bury them. You can use the 2 procedures for the
+same work area.                                     · Put the charging station in the lowest
+                                                          possible section of the work area.
+· Bury the boundary wire or the guide wire if
+      you are going to use a dethatcher on the      · Put the charging station in an area without
+      work area. If not, attach the boundary wire         an irrigation system.
+      or guide wire with stakes.
+                                                    · Put the charging station in an area with
+· Cut the grass before you install the product.           protection from the sun.
+      Make sure that the grass is maximum 10
+      cm / 4 in.                                    · If the charging station is installed on an
+                                                          island, make sure to connect the guide wire
+Note: The first weeks after installation the              to the island. Refer to To make an island on
+perceived sound level when cutting the grass              page 18.
+may be higher than expected. When the product
+has cut the grass for some time, the perceived
+sound level is much lower.
+
+3.3 Before the installation of the
+product
+
+· Make a blueprint of the work area and
+      include all obstacles.
+
+· Make a mark on the blueprint where to put
+      the charging station, the boundary wire and
+      the guide wire.
+
+· Make an eyelet on the blueprint where the
+      guide wire connects to the boundary wire.
+      Refer to To install the guide wire on page
+      21.
+
+· Fill in holes in the lawn.
+
+Note: Holes with water in the lawn can
+cause damage to the product.
+
+16 - Installation                                   1201 - 001 - 05.06.2019
+3.3.2 To examine where to put the power             recommended to make an eyelet where the guide
+supply                                              wire will be connected. Make the eyelet with
+                                                    approximately 20 cm / 8 in. of the boundary wire.
+· Put the power supply in an area with a roof
+      and protection from the sun and rain.
+
+· Put the power supply in an area with good
+      airflow.
+
+· Use a residual-current device (RCD) when
+      you connect the power supply to the power
+      outlet.
+
+             WARNING: Do not change the power
+             supply. Do not cut or extend the low-
+             voltage cable. There is a risk of
+             electrical shock.
+
+Low-voltage cables of different lengths are         Note: Make a blueprint of the work area before
+available as accessories.                           you install the boundary wire and guide wire.
+
+             CAUTION: Make sure that the blades                E  D
+             on the product do not cut the low-
+             voltage cable.                                                       F
+
+             CAUTION: Do not put the low-voltage               C
+             cable in a coil or below the charging
+             station plate. The coil causes
+             interference with the signal from the
+             charging station.
+
+                                                    A
+
+3.3.3 To examine where to put the
+
+boundary wire                                                        B
+
+The boundary wire should be put as a loop
+
+around the work area. Sensors in the product
+
+senses when the product approaches the              · Put the boundary wire around all of the work
+boundary wire, and the product selects another            area (A). Adapt the distance between the
+direction.                                                boundary wire and obstacles.
+
+CAUTION: If the work area is adjacent · Put the boundary wire 35 cm / 14 in. (B)
+                                                    from an obstacle that is more than 5 cm / 2
+to water bodies, slopes, precipices or a
+                                                    in. high.
+public road, the boundary wire must
+
+have a protective wall. The wall must
+
+be minimum 15 cm / 6 in. in height.
+
+To make the connection easier between the
+guide wire and the boundary wire, it is
+
+1201 - 001 - 05.06.2019                                           Installation - 17
+                                                               0-15%
+
+                                                                             0-15 cm / 0-6"
+
+                   35 cm / 14"                                 100 cm / 40"
+
+                                                   > 5 cm/>2"  · For slopes steeper than 45% inside the work
+                                                                     area, isolate the slope with boundary wire.
+· Put the boundary wire 30 cm / 12 in. (C)
+      from an obstacle that is 1-5 cm / 0.4-2 in.              · For slopes steeper than 15% along the outer
+      high.                                                          edge of the lawn, put the boundary wire 20
+                                                                     cm / 8 in. (A) from the edge.
+· Put the boundary wire 10 cm / 4 in. (D) from
+      an obstacle that is less than 1 cm / 0.4 in.                         >15%
+
+· If you have a paving stone path that is in                                        A
+      level with the lawn, put the boundary wire
+      below the paving stone.                                  · Slopes adjacent to a public road must be
+                                                                     isolated with boundary wire. Put a fence or a
+      Note: If the paving stone is minimum 30 cm /                   protective wall along the outer edge of the
+      12 in. wide, use the factory setting for the                   slope.
+      Drive Past Wire function to cut all the grass
+      adjacent to the paving stone.                            3.3.3.2 Passages
+                                                               A passage is a section that has boundary wire on
+                    CAUTION: Do not let the product            each side and that connects 2 work areas. The
+                    operate on gravel.                         passage must be a minimum of 60 cm / 24 in.
+                                                               wide.
+· If you make an island, put the boundary wire
+      that runs to and from the island near                    Note: If a passage is less than 2 m / 6.5 ft. wide,
+      together (E). Put the wires in the same                  install a guide wire through the passage.
+      stake.
+                                                               3.3.3.3 To make an island
+· Make an eyelet (F) where the guide wire is                   · Put the boundary wire to and around the
+      to be connected to the boundary wire.
+                                                                     obstacle to make an island.
+                    CAUTION: Do not make sharp                 · Put the 2 sections of boundary wire that run
+                    bends when you install the
+                    boundary wire.                                   to and from the obstacle together.
+                                                               · Put the 2 sections of boundary wire in the
+                    CAUTION: For careful operation
+                    without noise, isolate all obstacles             same stake.
+                    such as trees, roots and stones.
+
+3.3.3.1 To put the boundary wire in a slope
+The product can operate in slopes. Slopes that
+are too steep must be isolated with the boundary
+wire. The gradient (%) is calculated as height per
+m. Example: 10 cm / 100 cm = 10%.
+
+18 - Installation                                                     1201 - 001 - 05.06.2019
+                                                  B
+
+0 cm / 0"
+                                                                     A
+
+CAUTION: Do not put a section of · Put the boundary wire around the secondary
+boundary wire across the other.
+                                                  area (B) to make an island. Refer to To
+The sections of boundary wire
+                                                  make an island on page 18.
+must be parallel.
+
+                                                  Note: The boundary wire must be put as 1
+
+                                                  loop around all of the work area (A + B).
+
+CAUTION: Do not put the guide
+
+wire across the boundary wire, for                Note: When the product cuts grass in the
+example a boundary wire that                      secondary area, the Secondary area mode
+goes to an island.                                must be selected. Refer to Secondary area
+
+                                                  on page 35.
+
+3.3.3.4 To make a secondary area                  3.3.4 To examine where to put the guide
+                                                  wire
+Make a secondary area (B) if the work area has 2
+areas that are not connected with a passage. The  · Put the guide wire in a line at a minimum of
+work area with the charging station is the main         2 m / 7 ft. in front of the charging station.
+area (A).
+                                                  · Make sure that the guide wire has as much
+Note: The product must be manually moved                free area as possible to the left of the guide
+between the main area and the secondary area.           wire when facing the charging station. Refer
+                                                        to To set the corridor width on page 29.
+
+                                                  · Put the guide wire minimum 30 cm / 12 in.
+                                                        from the boundary wire.
+
+                                                  · Do not make sharp bends when you install
+                                                        the guide wire.
+
+                                                  · If the work area has a slope, put the guide
+                                                        wire diagonally across the slope.
+
+1201 - 001 - 05.06.2019                                                       Installation - 19
+3.3.5 Work area examples                                3.4 Installation of the product
+
+                              D                         3.4.1 To install the charging station
+                                                A
+                                                                     WARNING: Obey national regulations
+                              B                                      about electrical safety.
+
+                                                        1. Read and understand the instructions about
+                                                              the charging station. Refer to To examine
+                                                              where to put the charging station on page
+                                                              16.
+
+                                                        2. Put the charging station in the selected area.
+                                                        3. Connect the low-voltage cable to the
+
+                                                              charging station.
+                                                        4. Put the power supply at a minimum height of
+
+                                                              30 cm / 12 in.
+
+                                                   C
+                                                                                            min 30 cm / 12"
+
+                                                        CAUTION: The product is only to
+
+                                                        be used with the power supply
+
+· If the charging station is put in a small area        unit supplied by Husqvarna.
+
+(A), make sure that the distance to the
+
+      boundary wire is at a minimum 3 m / 10 ft.        WARNING: Do not put the power
+                                                        supply at a height where there is a
+· If the work area has a passage (B), make              risk it can be put in water. Do not
+      sure that the distance to the boundary wire       put the power supply on the
+      is at a minimum 2 m / 6.5 ft. If the passage is   ground.
+      smaller than 2 m / 6.5 ft., install a guide wire
+      through the passage. Minimum passage
+
+between the boundary wire is 60 cm / 24 in.
+
+· If the work area has areas which are                  WARNING: Do not encapsulate
+      connected by a narrow passage (B), you            the power supply. Condensed
+      can set the product to leave the guide wire       water can harm the power supply
+      after a certain distance (C). The settings can    and increase the risk of electrical
+      be changed in Lawn coverage on page 27.           shock.
+
+· Use the GPS Assisted Navigation. Refer to
+
+      Lawn coverage on page 27.                         5. Connect the power supply cable to a
+                                                              100-240V outdoor power outlet.
+· If the work area includes a secondary area
+      (D), refer to To make a secondary area on
+
+page 19. Put the product in the secondary
+
+area and select Secondary area mode.
+
+Refer to Secondary area on page 35.
+
+20 - Installation                                       1201 - 001 - 05.06.2019
+                    WARNING: Applicable to USA/           5. Put the right end of boundary wire into the
+                    Canada. If power supply is                  channel with the mark "AR".
+                    installed outdoors: Risk of Electric
+                    Shock. Install only to a covered      6. Put the left end of boundary wire into the
+                    Class A GFCI receptacle (RCD)               channel with the mark "AL".
+                    that has an enclosure that is
+                    weatherproof with the attachment      7. Push the right connector onto the metal pin
+                    plug cap inserted or removed.               on the charging station with the mark "AR".
+
+6. Put the low-voltage cable in the ground with           8. Push the left connector onto the metal pin
+      stakes or bury the cable. Refer to To put the             on the charging station with the mark "AL".
+      wire into position with stakes on page 22 or
+      To bury the boundary wire or the guide wire         9. Put the cable mark on the left and right
+      on page 22.                                               boundary wire.
+
+7. Connect the wires to the charging station.             3.4.3 To install the guide wire
+      Refer to To install the boundary wire on
+      page 21 and To install the guide wire on            1. Open the connector and put the wires in the
+      page 21.                                                  connector.
+
+8. Attach the charging station to the ground              2. Close the connector with a pair of pliers.
+      with the supplied screws.
+                                                          3. Cut the guide wires 1-2 cm / 0.4-0.8 in.
+                    CAUTION: Do not make new                    above each connector.
+                    holes in the charging station plate.
+                                                          4. Put the guide wires centrally below the
+                    CAUTION: Do not put your feet on            charging station plate, and push them
+                    the charging station.                       through the slot in the charging station
+                                                                tower.
+3.4.2 To install the boundary wire
+1. Put the boundary wire around all of the work           5. Push the connector onto the metal pin on
+                                                                the charging station with the mark "G1" (if
+      area. Start and complete the installation                 applicable, also for G2 and G3).
+      behind the charging station.
+                                                          6. Put the cable mark on the guide wires.
+                    CAUTION: Do not put unwanted
+                    wire in a coil. The coil causes       7. Put the end of the guide wires at the eyelet
+                    interference with the product.              on the boundary wire.
+
+                                                          8. Cut the boundary wire with a pair of wire
+                                                                cutters.
+
+                                                          9. Connect the guide wires to the boundary
+                                                                wire with a coupler.
+
+2. Open the connector and put the boundary
+      wire in the connector.
+
+3. Close the connector with a pair of pliers.             a) Put the 2 ends of the boundary wire
+4. Cut the boundary wire 1-2 cm / 0.4-0.8 in.                   and the end of the guide wires into the
+                                                                coupler.
+      above each connector.
+                                                                                                 Installation - 21
+1201 - 001 - 05.06.2019
+            Note: Make sure that you can see the           3.7 To extend the boundary wire or the
+            end of the guide wires through the             guide wire
+            transparent area of the coupler.
+                                                           Note: Extend the boundary wire or the guide wire
+      b) Push the button on the coupler with an            if it is too short for the work area. Use original
+            adjustable pliers.                             spare parts, for example couplers.
+
+                          CAUTION: Twinned cables,         1. Cut the boundary wire or the guide wire with
+                          or a screw terminal block that         a pair of wire cutters where it is necessary to
+                          is insulated with insulation           install the extension.
+                          tape are not satisfactory
+                          splices. Soil moisture will      2. Add wire where it is necessary to install the
+                          cause the wire to oxidize and          extension.
+                          after a time result in a broken
+                          circuit.                         3. Put the boundary wire or the guide wire into
+                                                                 position.
+10. Attach the guide wires to the ground with
+      stakes or bury the guide wires in the ground.        4. Put the wire ends into a coupler.
+      Refer to To put the wire into position with                Note: Make sure that you can see the ends
+      stakes on page 22 or To bury the boundary                  of the boundary wire or the guide wire
+      wire or the guide wire on page 22.                         through the transparent area of the coupler.
+
+3.5 To put the wire into position with                     5. Push the button on the coupler with an
+stakes                                                           adjustable pliers.
+
+· Put the boundary wire and the guide wire on              6. Put the boundary wire or the guide wire into
+      the ground.                                                position with stakes.
+
+· Put the stakes at a maximum of 30 cm / 12                3.8 After the installation of the product
+      in. distance from each other.                        3.8.1 To do a visual check of the charging
+                                                           station
+· Attach the stakes to the ground with a
+      hammer or a plastic mallet.                          1. Make sure that the indicator LED lamp on
+                                                                 the charging station has a green light.
+                    CAUTION: Make sure that the
+                    stakes hold the boundary wire and      2. If the indicator LED lamp does not have a
+                    the guide wire against the ground.           green light, do a check of the installation.
+                                                                 Refer to LED indicator lamp on the charging
+Note: The wire is overgrown with grass and not                   station on page 48 and To install the
+visible after a few weeks.                                       charging station on page 20.
+
+3.6 To bury the boundary wire or the
+guide wire
+
+· Cut a groove in the ground with an edge
+      cutter or a straight shovel.
+
+· Put the boundary wire or the guide wire 1-20
+      cm / 0.4-8 in. into the ground.
+
+22 - Installation                                          1201 - 001 - 05.06.2019
+3.8.2 To do the basic settings                        Note: If the cellular connectivity does not work or
+Before you start the product for the first time, you  if you have not created a Husqvarna account,
+must do the basic settings and calibrate the          Automower® Direct can be used to access the
+product.                                              product with Short-range Bluetooth® connectivity.
+                                                      Refer to To start to use Automower® Direct on
+1. Push the STOP button.                              page 33.
+2. Set the Main switch to 1.
+3. Push the arrow buttons and the OK button.          Note: All countries do not support Automower®
+                                                      Connect because of regional specified cellular
+      Select language, country, date, time and set    systems. The included Automower® Connect life-
+      a PIN code.                                     time service only applies if there is a third part
+                                                      sub-supplier of 2G/3G available in the operational
+      Note: It is not possible to use 0000 as PIN     area.
+      code.
+                                                      3.9.1 To install Automower® Connect
+4. Put the product in the charging station.           1. Download the Automower® Connect app on
+5. Push the START button and close the hatch.
+                                                            your mobile device.
+Note: Some models require a factory PIN code
+before the selection of personal PIN code.            2. Sign up for a Husqvarna account in the
+                                                            Automower® Connect app.
+Note: Use the MEMO page at the beginning of
+the manual to make a note of the PIN code.            3. Log in to your Husqvarna account in the
+Introduction on page 3.                                     Automower® Connect app.
+
+The product then moves away from the charging         3.9.2 Automower® Connect menu
+station and stops, while it calibrates some of the    The main menu in Automower® Connect offers 4
+product settings.                                     options:
+
+3.9 Automower® Connect app                            · Dashboard
+                                                      · Map
+The app gives 2 modes of connectivity: Long-          · Settings
+range cellular connectivity and Short-range           · Messages (only available for Bluetooth
+Bluetooth® connectivity.
+                                                            short-range connectivity)
+The product can connect to mobile devices that
+have the Automower® Connect app installed.            3.9.2.1 Dashboard
+Automower® Connect is a free app for your
+mobile device. The Automower® Connect app             The dashboard shows the current status of the
+gives extended functions to your Husqvarna            product both visually and in text. It is very easy to
+product. You can:                                     control the product by tapping the controls, for
+                                                      example Park.
+· See the status of your product.
+· Change settings to your product.                    In the lower part of the dashboard there are
+· Get extended product information.                   shortcuts to the Timer settings and the Map. The
+· Get an alarm if the product moves out of the        dashboard also shows symbols according to
+                                                      below:
+      work area.
+                                                      1. The battery status shows the remaining
+To pair the product with the app, refer to To pair          battery charge. A flash is shown over the
+Automower® Connect and the product on page                  battery symbol when the product charges its
+33 and To pair Automower® Connect@Home                      battery. A plug is shown over the battery
+and the product on page 32.                                 symbol when the product is standing in the
+                                                            charging station without charging.
+
+                                                      2. Cutting height.
+
+1201 - 001 - 05.06.2019                               Installation - 23
+                                                     3.10.1 To get access to the menu
+                                                     1. Push the STOP button.
+                                                     2. Enter the PIN code on the keypad.
+                                                     3. Push the MENU button.
+
+                                                     3.10.2 To do the timer settings
+
+For more information about the operating modes       3.10.2.1 To calculate the timer setting
+Start, Park and Pause, see Operation on page         1. Calculate the dimension of your lawn in m2 /
+35.
+                                                           yd2.
+3.9.2.2 Map                                          2. Divide the m2 / yd2 of the lawn with the
+The map shows the current position of the
+product and the set centerpoint (origin) for               approximate operation capacity. Refer to
+GeoFence.                                                  table below.
+
+3.9.2.3 Settings in Automower® Connect               3. The result is equal to the number of hours
+                                                           that the product must operate each day.
+             The product has factory settings but
+             the settings can be adapted to each     Note: The operation capacity is approximate and
+             work area.                              timer settings can be adjusted.
+
+             Most of the settings in the Automower®  Model            Approximate operation
+             Connect app can be set in the display                    capacity, m2/h / yd2/h
+             of the product. Refer to To do the      Automower® 420   90 / 107
+             product settings on page 24. Some of    Automower® 430X  135 / 161
+             the settings can only be set in         Automower® 440   165 / 197
+             Bluetooth® short-range distance         Automower® 450X  205 / 245
+             because of security.
+                                                     Example: A lawn of 500 m2 / 600 yd2, cut with a
+3.9.2.4 Messages                                     Automower® 420.
+In this menu the previous fault and information
+messages can be found. For some of the               500 m2 / 90  5.5
+messages, there are tips and advice to help to
+rectify the fault.                                   600 yd2 / 107  5.5
+
+Note: The Messages menu is only available for        Days /  h / day  Timer settings
+Bluetooth® short-range connectivity.                 week    5.5
+                                                                      07:00 - 12:30 / 07:00
+3.10 To do the product settings                      7                am - 12:30 pm
+
+The product has factory settings but the settings    3.10.2.2 To set the timer
+can be adapted to each work area.
+                                                     1. Do steps 1­3 in To get access to the menu
+                                                           on page 24.
+
+                                                     2. Use the arrow buttons and the OK button to
+                                                           move through the menu structure Timer >
+                                                           Overview Timer settings.
+
+24 - Installation                                                     1201 - 001 - 05.06.2019
+3. Use the arrow buttons and the OK button to                b) Push the arrow buttons to select All
+      select the day.                                              week to reset all timer settings to
+                                                                   factory settings.
+4. Use the arrow buttons and the OK button to
+      select the time period.                          3. Push the OK button.
+
+5. Enter the time with the number buttons. The         3.10.3 Cutting height
+      product can cut the grass 1 or 2 periods
+      each day.                                                     The cutting height can be varied from
+                                                                    MIN (2 cm / 0.8 in.) to MAX (6 cm / 2.5
+                                                                    in.).
+
+6. If the product must not cut grass on a              Note: The height adjustment setting is shown in
+      specified day, unselect the box adjacent to      the display of the product as a scale/numerical
+      the 2 time periods.                              value.
+
+3.10.2.3 To copy the timer setting                                  CAUTION: During the first weeks after
+1. Do steps 1­3 in To get access to the menu                        a new installation, the cutting height
+                                                                    must be set to MAX to avoid damaging
+      on page 24.                                                   the loop wire. After this, the cutting
+2. Use the arrow buttons and the OK button to                       height can be lowered step by step
+                                                                    every week until the desired cutting
+      move through the menu structure Timer >                       height has been reached.
+      Overview Timer settings > Overview > Copy
+      to.                                              3.10.3.1 To set the cutting height
+3. Use the arrow buttons and the OK button to          1. Do steps 1­3 in To get access to the menu
+      copy the timer setting. You can copy the
+      timer settings day to day or for the full week.        on page 24.
+                                                       2. Use the arrow buttons and the OK button to
+3.10.2.4 To reset the timer setting
+You can remove all timer settings and use the                move through the menu structure Cutting
+factory setting. The factory timer setting lets the          height.
+product to operate all hours of each day of the        3. Use the arrow buttons to set the cutting
+week. Refer to To do the timer settings on page              height.
+24.                                                    4. Push the OK button.
+1. Do steps 1­3 in To do the basic settings on
+                                                       3.10.4 Security level
+      page 23.
+2. Use the arrow buttons and the OK button to          There are 3 security levels for the product Low,
+                                                       Medium and High or you can select your settings
+      move through the menu structure Timer >          in Custom.
+      Overview Timer settings > Overview > Reset
+      timer.                                           Function   Low Medium High
+      a) Push the arrow buttons to select              Alarm
+                                                       PIN-code         X
+            Current day to only set the current day    Time lock
+            to factory settings.                                     X  X
+
+                                                                  X  X  X
+
+1201 - 001 - 05.06.2019                                                 Installation - 25
+· Alarm - An alarm goes off if the PIN-code is      3. Use the arrow buttons and the OK button to
+      not entered within 10 seconds after the             move through the menu structure Security >
+      STOP button is pushed. The alarm also               Advanced > New loop signal.
+      goes off when the product is lifted. The
+      alarm stops when the PIN-code is entered.     4. Await confirmation that the loop signal has
+                                                          been generated. This normally takes about
+· PIN-code - The correct PIN-code must be                 10 seconds.
+      entered to get access to the Menu structure
+      of the product. If the incorrect PIN-code is  3.10.4.4 To set duration of alarm and time lock
+      entered 5 times, the product is locked for a
+      time. The lock is extended for each new       1. Do steps 1­3 in To get access to the menu
+      incorrect try.                                      on page 24.
+
+· Time lock - The product locks if the PIN-         2. Use the arrow buttons and the OK button to
+      code has not been entered in 30 days. Enter         move through the menu structure Security >
+      the PIN-code to get access to the product.          Advanced > Duration.
+
+3.10.4.1 To set the security level                  3. Enter the time for the Duration of alarm with
+                                                          the number buttons. You can select a
+Select 1 of 3 security levels for your product.           number between 1 to 10 minutes.
+
+1. Do steps 1­3 in To get access to the menu        4. Use the arrow buttons to select Duration of
+      on page 24.                                         time lock.
+
+2. Use the arrow buttons and the OK button to       5. Enter the time for the Duration of time lock
+      move through the menu structure Settings >          with the number buttons. You can select a
+      Security > Security level.                          number between 1 to 100 days. The factory
+                                                          setting is 30 days.
+3. Use the arrow buttons and the OK button to
+      select the level of security.                 3.10.5 Messages
+
+4. Push the OK button.                              In this menu the previous fault and information
+                                                    messages can be found. For some of the
+3.10.4.2 To change the PIN-code                     messages, there are tips and advice to help to
+                                                    rectify the fault. Refer to Troubleshooting on page
+1. Do steps 1­3 in To get access to the menu        41.
+      on page 24.
+                                                    If the product is disrupted in any way, for
+2. Use the arrow buttons and the OK button to       example it is trapped or the battery is low, a
+      move through the menu structure Settings >    message is saved relating to the disruption and
+      Security > Advanced > Change PIN-code.        the time it happened.
+
+3. Enter the new PIN code.                          If the same message is repeated several times,
+                                                    this may indicate that an adjustment to the
+4. Push the OK button.                              installation or the product is required. Refer to
+                                                    Installation on page 16.
+5. Enter the new PIN code.
+                                                    3.10.5.1 To read the messages
+6. Push the OK button.
+                                                    1. Do steps 1­3 in To get access to the menu
+7. Make a note of the new PIN code. Refer to              on page 24.
+      Introduction on page 3.
+                                                    2. Use the arrow buttons and the OK button to
+3.10.4.3 To create a New loop signal                      move through the menu structure Messages
+                                                          > Fault messages and Messages > Info
+The loop signal is randomly selected to create a          messages.
+unique link between the product and the charging
+station. In rare cases, there may be a need to
+generate a new signal, for instance if two
+adjacent installations have a very similar signal.
+
+1. Place the product in the charging station.
+
+2. Do steps 1­3 in To get access to the menu
+      on page 24.
+
+26 - Installation                                   1201 - 001 - 05.06.2019
+3. Read the messages and read the                        3.10.7.1 Lawn coverage
+      Troubleshooting to get information and
+      recommendations to correct the faults.             GPS Assisted Navigation helps the product to
+                                                         select the most optimal operation. Refer to To
+3.10.6 Weather timer                                     disable and enable the GPS function
+                                                         (Automower® 430X/450X) on page 27. In more
+The Weather timer allows the product to                  complex gardens operation can be improved by
+automatically adjust its mowing time based on            carrying out some of the manual settings in the
+how fast the grass grows.                                Lawn coverage menu.
+
+When the Weather timer is activated, the product         The Lawn coverage function is used to guide the
+needs time to decide the optimal mowing time for         product to remote parts of the work area. If the
+the work area in question. For this reason it can        work area includes areas that are connected with
+take a couple of days before mowing is optimized         narrow passages, the Lawn coverage function is
+for the Weather timer.                                   useful to be able to maintain a well-cut lawn in all
+                                                         parts of the yard. The product begins to mow
+The product cannot operate longer than the timer         when it reaches the Lawn coverage point. At all
+settings. It is therefore recommended to only            other times, the product leaves the charging
+deselect the times when the product must not             station in the standard manner and starts to mow.
+operate. All other time should be made available
+for the Weather timer.
+
+When the Weather timer is activated, it is very
+important to regularly check that the blade disc is
+clean and that the blades are in good condition.
+Any grass twisted around the blade disc shaft, or
+blunt blades, can affect the Weather timer.
+Note: If the mowing results are not satisfying, the
+cutting time can be adjusted to mow for a longer
+time (High) or for a shorter time (Low).
+
+3.10.6.1 To set the Weather timer                        To disable and enable the GPS function
+                                                         (Automower® 430X/450X)
+1. Do steps 1­3 in To get access to the menu             Disable the GPS Assisted Navigation to make
+      on page 24.                                        manual settings in Lawn Coverage.
+
+2. Use the arrow buttons and the OK button to            Note: It is recommended to use GPS Assisted
+      move through the menu structure Weather            Navigation.
+      timer > Use.
+                                                         1. Do steps 1­3 in To get access to the menu
+3. Push the OK button to select Weather timer.                 on page 24.
+
+4. Use the arrow buttons to set the cutting              2. Use the arrow buttons and the OK button to
+      time. You can select between Low, Mid,                   move through the menu structure Installation
+      High.                                                    > Lawn Coverage.
+
+3.10.7 Installation                                      3. Push the OK button to disable or enable the
+                                                               GPS Assisted Navigation.
+             In the Installation menu it is possible to
+             adapt the settings of the product for
+             best mowing result.
+
+1201 - 001 - 05.06.2019                                  Installation - 27
+Note: When GPS assisted navigation is enabled       3. Use the arrow buttons and the OK button to
+it is used as long as there is a GPS service. The         move through the menu structure Installation
+GPS assisted navigation is used even if manual            > Lawn coverage > Area 1-5 > More > Test.
+settings have been made. Only when GPS
+service is not available, the manual settings are   4. Push the OK button.
+used.
+                                                    5. Push the START button.
+To set the Lawn coverage function
+1. Do steps 1­3 in To get access to the menu        6. Close the hatch.
+
+      on page 24.                                   7. Make sure the product can find the area.
+2. Use the arrow buttons and the OK button to
+                                                    To measure the distance from the charging
+      move through the menu structure Installation  station
+      > Lawn coverage > Area 1-5.
+3. Use the left arrow button to select the area.    1. Put the product in the charging station.
+4. Push the OK button.
+5. Measure the distance from the charging           2. Do steps 1­3 in To get access to the menu
+      station to the start of the area. Measure           on page 24.
+      along the guide wire. Refer to To measure
+      the distance from the charging station on     3. Use the arrow buttons and the OK button to
+      page 28.                                            move through the menu structure Installation
+6. Push the number buttons to select the                  > Lawn coverage > Area 1-5 > How far?
+      distance, measured in m.
+7. Use the number buttons to select the % of        4. Use the number buttons to set m as a
+      the cutting time the product must cut the           distance.
+      area. The % is equal to the percentage of
+      the area in relation to the complete work     5. Push the OK button.
+      area.
+      a) Measure the area.                          6. Push the BACK button.
+      b) Divide the area with the work area.
+      c) Convert the result to %.                   7. Use the arrow buttons and the OK button to
+                                                          move through the menu structure Installation
+        20%                                               > Lawn coverage > Area 1-5 > More > Test.
+
+        30%                                         8. Push the OK button.
+
+To do a test of the Lawn coverage function          9. Push the START button and close the hatch.
+1. Put the product in the charging station.
+2. Do step 1-3 in To get access to the menu on      10. Push the STOP button when the product is
+                                                          at the distance you select to measure. The
+      page 24.                                            distance shows in the display.
+
+                                                    To disable or enable the Lawn coverage function
+                                                    Disable the Lawn coverage function for each
+                                                    area.
+
+                                                    1. Do steps 1­3 in To get access to the menu
+                                                          on page 24.
+
+                                                    2. Use the arrow buttons and the OK button to
+                                                          move through the menu structure Installation
+                                                          > Lawn coverage > Area 1-5 > Disable.
+
+                                                    3. Use the left arrow button to disable or
+                                                          enable the Lawn coverage function.
+
+                                                    4. Push the OK button.
+
+                                                    5. Push the BACK button.
+
+                                                    3.10.7.2 Finding the charging station
+
+                                                    The product can be set to search for the charging
+                                                    station in one or more of the following three
+                                                    ways:
+
+                                                    1. Charging station signal
+                                                    2. Follow boundary wire
+
+28 - Installation                                   1201 - 001 - 05.06.2019
+3. Follow guide wire                                  3. Use the arrow buttons and the OK button to
+                                                            move through the menu structure Installation
+The default settings are set so that these 3                > Find the charging station > Guide or
+search options are combined to find the charging            Boundary > More.
+station as fast as possible, but also with a
+minimum risk of tracks forming on the lawn. The       4. Use the arrow buttons to select Guide or
+product always starts by searching for the                  Boundary.
+Charging station signal. After a specified time
+delay, it also uses Follow guide and Follow           5. Push the OK button.
+boundary wire.
+                                                      6. Push the START button and close the hatch.
+Common causes why the product cannot follow
+the wire are:                                         Make sure that the product follows the wire to the
+                                                      charging station and that the product docks with
+· Obstacles close to the wire have not been           the charging station at first try.
+      isolated.
+                                                      To reset the settings for the guide wire and the
+· The charging station, the boundary wire or          boundary wire
+      the guide wire is not installed in accordance
+      with the instructions in To install the         1. Do steps 1­3 in To get access to the menu
+      charging station on page 20, To install the           on page 24.
+      boundary wire on page 21 and in To install
+      the guide wire on page 21.                      2. Use the arrow buttons and the OK button to
+                                                            move through the menu structure Installation
+To set the delay time for the guide wire and the            > Find the charging station > Guide or
+boundary wire                                               Boundary > More.
+
+1. Do steps 1­3 in To get access to the menu          3. Use the arrow buttons to select Reset.
+      on page 24.
+                                                      4. Push the OK button.
+2. Use the arrow buttons and the OK button to
+      move through the menu structure Installation    To change the signal range of the charging
+      > Find the charging station.                    station
+                                                      For some installations it is necessary to decrease
+3. Use the right and left arrow buttons to select     the signal of the charging station. For example
+      Guide or Boundary.                              when the charging station is put near a bush or
+                                                      wall which prevents the product from docking
+4. Push the OK button.                                with the charging station.
+
+5. Enter the time with the number buttons.            Note: It is usually better to move the charging
+                                                      station, than to decrease the range of the
+6. Push the BACK button.                              charging station signal.
+
+To disable the guide wire and boundary wire           1. Do steps 1­3 in To get access to the menu
+                                                            on page 24.
+1. Do steps 1­3 in To get access to the menu
+      on page 24.                                     2. Use the arrow buttons and the OK button to
+                                                            move through the menu structure Installation
+2. Use the arrow buttons and the OK button to               > Find the charging station > Charger.
+      move through the menu structure Installation
+      > Find the charging station > Guide or          3. Use the left arrow button to select Max, Mid
+      Boundary.                                             or Min.
+
+3. Use the arrow buttons to select Disable.           4. Push the BACK button.
+
+4. Push the OK button.                                3.10.7.3 Advanced
+
+To test if the product can find the charging station  Corridor width
+In the test the product follows the guide wire or     To set the corridor width
+the boundary wire to the charing station.             The boundary wire corridor is the area adjacent
+                                                      to the boundary wire and the guide corridor is the
+1. Do steps 1­3 in To get access to the menu          area adjacent to the guide wire. The product uses
+      on page 24.                                     the corridors to find the charging station. When
+
+2. Put the product 3 m / 9 ft. from the guide
+      wire or the boundary wire.
+
+1201 - 001 - 05.06.2019                               Installation - 29
+the product moves in the direction of the charging     To set the exit angles
+station, it always moves to the left of the guide      The product moves away from the charging
+wire.                                                  station with an exit angle between 90°­270°. The
+                                                       exit angles can be set to 1­2 exit sectors.
+The corridor width is adjusted automatically. Only
+in rare occasions manual settings need to be           1. Do steps 1­3 in To get access to the menu
+entered. The corridor width can be set between               on page 24.
+0-9. If guide corridor width is set to 0, the product
+runs over the guide wire. The factory setting is 6     2. Use the arrow buttons and the OK button to
+for the boundary wire and 9 for the guide wire.              move through the menu structure Installation
+1. Do steps 1­3 in To get access to the menu                 > Advanced > Exit angles > Sector 1 or 2.
+
+      on page 24.                                      3. Use the number buttons to set the angles in
+2. Use the arrow buttons and the OK button to                degrees.
+
+      move through the menu structure Installation     4. Push the down arrow button.
+      > Advanced > Corridor width.
+3. Use the arrow buttons to select a corridor.         5. Use the number buttons to select how
+4. Use the number buttons to select a corridor               frequently the product must use each sector.
+      width of 0-9.                                          Set in %.
+
+Note: Make the corridor width as wide as               6. Push the BACK button.
+possible for a minimum risk of lines in the lawn.
+                                                       To set the reversing distance
+Exit angles                                            The reversing distance is how many cm the
+In the factory setting the product leaves the          product reverses when it leaves the charging
+charging station in a direction in the 90°-270° exit   station. The factory setting is 60 cm.
+sector. Change the exit angles to make it easier
+for the product to find the work areas.                1. Do steps 1-3 in To get access to the menu
+If the charging station is put in a passage, 2 exit          on page 24.
+angles, for example 70°-110° and 250°-290°, can
+be used.                                               2. Use the arrow button and the OK button to
+When 2 exit angles are used, it is necessary to              move through the menu structure Installation
+set how frequently the product must leave the                > Advanced > Reversing distance.
+charging station in Sector 1. Use the Proportion
+function to set how frequently the product must        3. Use the number buttons to set the reverse
+use each sector. Set in %.                                   distance in cm.
+For example 75% means that the product leaves
+the charging station in Sector 1 on 75% of the         4. Push the BACK button.
+times and 25% of the times in Sector 2.
+                                                       To set the Drive Past Wire function
+                                                       The front of the product always moves past the
+                                                       boundary wire by a specified distance before the
+                                                       product moves back into the work area. The
+                                                       factory setting is 31 cm. You can select a
+                                                       distance of 20-50 cm.
+
+                                                       1. Do steps 1­3 in To get access to the menu
+                                                             on page 24.
+
+                                                       2. Use the arrow button and the OK button to
+                                                             move through the menu structure Installation
+                                                             > Advanced > Drive Past Wire.
+
+                                                       3. Use the number buttons to set the distance
+                                                             in cm.
+
+                                                       4. Push the BACK button.
+
+                                                       3.10.8 Settings
+
+30 - Installation                                      1201 - 001 - 05.06.2019
+In settings you can change the general settings     3.10.8.3 Spiral Cutting
+to your product.                                    The product cuts the grass in a spiral pattern if
+                                                    the grass is longer in an area. Spiral cutting can
+3.10.8.1 Profiles                                   be set in 5 levels:
+Different sets of product settings can be saved if
+the product is used in different work areas with    · Low-
+different charging stations. You can set a          · Low
+maximum of 3 profiles.                              · Mid
+                                                    · High
+To save settings to a profile                       · High+
+1. Do steps 1­3 in To get access to the menu
+                                                    The level sets how sensitive the product is to
+      on page 24.                                   changes in grass height.
+2. Use the arrow buttons and the OK button to
+                                                    Note: Spiral cutting is only started in the Main
+      move through the menu structure Settings >    area mode. Cutting in the Secondary area mode
+      Profiles > Use > Profile A, B or C.           does not let the product to start Spiral cutting.
+3. Select a profile and push the OK button.         Spiral Cutting does not start in slopes steeper
+4. Select Save and push the OK button.              than 15%.
+
+Note: If the settings that are not stored to the    To set the level of Spiral Cutting
+profile are made, the symbol * is shown beside
+the profile name.                                   1. Do steps 1­3 in To get access to the menu
+                                                          on page 24.
+To use a profile
+1. Do steps 1­3 in To get access to the menu        2. Use the arrow buttons and the OK button to
+                                                          move through the menu structure Settings >
+      on page 24.                                         Spiral Cutting > Use > Intensity.
+2. Use the arrow buttons and the OK button to
+                                                    3. Use the arrow buttons to select the level of
+      move through the menu structure Settings >          Spiral Cutting.
+      Profiles > Use > Profile A, B or C > Select.
+                                                    3.10.8.4 Slope Control
+3.10.8.2 ECO mode                                   The Slope Control function decreases lawn wear
+ECO mode stops the signal in the boundary loop,     in slopes. Slope Control is enabled in the factory
+the guide wire and the charging station, when the   settings.
+product is parked or is charging.
+                                                    To enable or disable the Slope control
+Note: Use ECO mode to save energy and avoid         1. Do steps 1­3 in To get access to the menu
+interference with other equipment, for example
+hearing loops or garage doors.                            on page 24.
+
+Note: Push the STOP button before you remove        2. Use the arrow buttons and the OK button to
+the product from the charging station. If not, the        move through the menu structure Settings >
+product can not be started in the work area.              Slope control > Use.
+
+To set the ECO mode                                 3.10.8.5 General
+1. Do steps 1­3 in To get access to the menu        In General you can change the general settings
+                                                    of the product.
+      on page 24.
+2. Use the arrow buttons and the OK button to       To set the time & date
+                                                    1. Do steps 1­3 in To get access to the menu
+      move through the menu structure Settings >
+      ECO mode.                                           on page 24.
+3. Push the OK button to select ECO mode.
+                                                    2. Use the arrow buttons and the OK button to
+                                                          move through the menu structure Settings >
+                                                          General > Time & Date.
+
+1201 - 001 - 05.06.2019                             Installation - 31
+3. Use the number buttons to set the time and     3.10.9 Accessories
+      then push the BACK button.
+                                                               Settings for accessories mounted on
+4. Use the number buttons to set the date and                  the product can be made in this menu.
+      then push the BACK button.
+                                                  3.10.9.1 Information
+5. Use the arrow buttons to set the time format
+      and then push the BACK button.              This menu handles accessories mounted on the
+                                                  product. Contact your local Husqvarna
+6. Use the arrow buttons to set the date format   representative for more information on available
+      and then push the BACK button.              accessories.
+
+To set the language                               3.10.9.2 Automower® Connect@Home
+                                                  Automower® Connect@Home uses a short-
+1. Do steps 1­3 in To get access to the menu      range Bluetooth® wireless technology. This
+      on page 24.                                 means that you can communicate between the
+                                                  mobile device and the product while you are in
+2. Use the arrow buttons and the OK button to     communication range. An icon for Bluetooth®
+      move through the menu structure Settings >  communication will show in the product display
+      General > Language.                         when the product is connected with your mobile
+                                                  device.
+3. Use the arrow buttons to select language       Note: Automower® Connect@Home has
+      and then push the BACK button.              equivalent but not as extended functions as
+                                                  Automower® Connect, and uses the same app.
+To set the Country & Timezone
+                                                  To pair Automower® Connect@Home and the
+1. Do steps 1­3 in To get access to the menu      product
+      on page 24.
+                                                  1. Do steps 1­3 in To get access to the menu
+2. Use the arrow buttons and the OK button to           on page 24.
+      move through the menu structure Settings >
+      General > Country & Timezone.               2. Use the arrow buttons and the OK button to
+                                                        move through the menu structure
+3. Use the arrow buttons to select country and          Accessories > Automower®
+      then push the BACK button.                        Connect@Home > Pairing > New pairing.
+
+To reset all user settings                        3. Follow the instructions in the app.
+
+1. Do steps 1­3 in To get access to the menu      To remove paired accounts
+      on page 24.
+                                                  1. Do steps 1­3 in To get access to the menu
+2. Use the arrow buttons and the OK button to           on page 24.
+      move through the menu structure Settings >
+      General > Reset all user settings.          2. Use the arrow buttons and the OK button to
+                                                        move through the menu structure
+3. Use the right arrow button to select Proceed         Accessories > Automower®
+      with reset of all user settings?                  Connect@Home > Pairing > Remove paired
+                                                        accounts.
+4. Push the OK button to reset all the user
+      settings.                                   3. Push the OK button to select YES/NO to
+                                                        remove all paired accounts.
+Note: Security level, PIN code, Loop signal,
+Messages, Date & Time, Language and Country       3.10.9.3 Automower® Connect
+settings are not reset.                           Automower® Connect is always connected to
+                                                  your product as long as the mobile device have
+The About menu                                    connection with the mobile network, the product
+The About menu displays information about the     is charged and main switch is set in position 1.
+product, for example serial number and firmware
+versions.
+
+32 - Installation                                 1201 - 001 - 05.06.2019
+To pair Automower® Connect and the product       Network
+                                                 SIM PIN
+1. Do steps 1­3 in To get access to the menu     This menu is only applicable if you use a non-
+      on page 24.                                Husqvarna SIM.
+
+2. Use the arrow buttons and the OK button to    APN settings
+      move through the menu structure            The product must specify APN settings to be able
+      Accessories > Automower® Connect >         to use and send data via the mobile net. Settings
+      Pairing > New pairing.                     for Husqvarna SIM is default.
+
+3. Follow the instructions in the app.           To reset the Automower® Connect settings
+
+To set the Geofence level of sensitivity         1. Do steps 1­3 in To get access to the menu
+The higher level of Geofence sensitivity, the          on page 24.
+easier the alarm starts.
+                                                 2. Use the arrow buttons and the OK button to
+1. Do steps 1­3 in To get access to the menu           move through the menu structure
+      on page 24.                                      Accessories > Automower Connect > Reset.
+
+2. Use the arrow buttons and the OK button to    3. Proceed with reset of Automower Connect
+      move through the menu structure                  settings when you select YES.
+      Accessories > Automower Connect >
+      Geofence .                                 4. Push the OK button.
+
+3. Put the product in the center of the work     3.10.9.4 Automower® Direct
+      area.                                      Automower® Direct uses short-range Bluetooth®
+                                                 communication.
+4. Select New center point and push the OK
+      button to set the source of the Geofence.  Automower® Direct is useful if the operator has
+                                                 the Automower® Connect app and the PIN code,
+5. Use the arrow buttons to select level of      but has not created a Husqvarna account.
+      Geofence sensitivity.                      Automower® Direct is also useful if the
+                                                 connection with the product is only temporary.
+To use the SMS function
+The SMS function sends you an SMS when the       Husqvarna cannot guarantee the time period or
+product is moved out of the GeoFence.            coverage of the long-range cellular connectivity.
+                                                 There is therefore a possibility to communicate
+1. Do steps 1­3 in To get access to the menu     with the product through Bluetooth® if you are in
+      on page 24.                                short-range of the product. You can use
+                                                 Automower® Direct without a Husqvarna account
+2. Use the arrow buttons and the OK button to    as long as you have the product PIN code.
+      move through the menu structure
+      Accessories > Automower Connect >          Note: The Automower® Direct connection is only
+      Communication > Use SMS.                   valid as long as you are within Bluetooth® range.
+                                                 If you move out of Bluetooth® range, you will
+3. Push the OK button.                           loose the Automower® Direct connection and you
+                                                 must do the connection process again.
+4. Use the arrow buttons and the OK button to
+      move through the menu structure            To start to use Automower® Direct
+      Accessories > Automower Connect >          1. Download the Automower® Connect app on
+      Communication > SMS phone numbers.
+                                                       your mobile device.
+5. Push the number buttons to enter the          2. Select Automower® Direct on the start
+      telephone number with country code. For
+      example (+)46701234567.                          screen of the Automower® Connect app.
+                                                 3. Start Bluetooth® on your mobile device.
+6. Push the BACK button.
+                                                 4. Set the Main switch on the product to
+Note: There is a maximum of 10 SMS each                position 0.
+month from the product.
+
+1201 - 001 - 05.06.2019                          Installation - 33
+5. Set the Main switch on the product to             To set the Ultrasonic function
+      position 1.
+                                                     1. Do steps 1­3 in To get access to the menu
+      Note: The Bluetooth® in the product will be          on page 24.
+      active for pairing for 3 minutes.
+                                                     2. Use the arrow buttons and the OK button to
+6. Select the product to pair with in the                  move through the menu structure
+      Automower® Connect app.                              Accessories > Ultrasonic > Use.
+
+7. Enter the PIN code for the product.               3.10.9.7 Mower house
+
+Note: You have access to the menus and               When this option is enabled, the wear on the
+functions while you are in Bluetooth® short-         product and the house is reduced, but it can
+range.                                               result in more uncut grass around the charging
+                                                     station.
+3.10.9.5 Headlights (Automower® 430X/450X)
+To set the schedule for the headlights               To avoid collisions with the mower house
+1. Do steps 1­3 in To get access to the menu
+                                                     1. Do steps 1­3 in To get access to the menu
+      on page 24.                                          on page 24.
+2. Use the arrow buttons and the OK button to
+                                                     2. Use the arrow buttons and the OK button to
+      move through the menu structure                      move through the menu structure
+      Accessories > Headlights > Schedule.                 Accessories > Mower house > Avoid
+3. Select between Always ON, Evening only,                 collisions with mower house.
+      Evening & night or Always OFF.
+
+Note: Evening only will start the schedule for the
+headlights at sunset and stop at midnight.
+Evening & night will start the schedule for the
+headlights at sunset and stop at sunrise.
+
+To set the Flashes when fault function
+The headlights flashes if the product stops to
+operate because of a fault if Flashes when fault is
+enabled.
+
+1. Do steps 1­3 in To get access to the menu
+      on page 24.
+
+2. Use the arrow buttons and the OK button to
+      move through the menu structure
+      Accessories > Headlights > Flashes when
+      fault.
+
+3. Use the OK button to enable or disable the
+      Flashes when fault function.
+
+3.10.9.6 Ultrasonic (Automower® 450X)
+
+The Ultrasonic function makes the product
+decrease speed when the product comes near an
+obstacle. The product operates at a lower speed
+if the Ultrasonic function is disabled.
+
+34 - Installation                                    1201 - 001 - 05.06.2019
+                                      4 Operation
+
+4.1 Main switch
+
+             WARNING: Read the safety
+             instructions carefully before you start
+             the product.
+
+WARNING: Keep your hands and feet                    5. Select the desired operating mode. Refer to
+away from the rotating blades. Never                       Operating mode - Start on page 35.
+put your hands or feet close to or
+under the product when the motor is                  6. Close the hatch within 10 seconds.
+running.
+                                                           If the product is parked in the charging
+WARNING: Do not use the product                            station, it will only leave the charging station
+when persons, especially children, or                      when the battery is fully charged and if the
+animals, are in the work area.                             timer is set to allow the product to operate.
+
+                                                     Note: Always press the START button before
+                                                     closing the hatch to start the product.
+
+· Set the Main switch in the 1 position to start     4.3 Operating mode - Start
+      the product.
+                                                     When the START button has been pushed the
+· Set the Main switch in the 0 position when         following operation selections can be selected.
+      the product is not in use or before any work,
+      inspection or maintenance is being carried     · Main area
+      out.                                           · Secondary area
+                                                     · Override timer
+      When the Main switch is set in the 0 position  · Spot cutting
+      the motors on the product cannot start.
+                                                     4.3.1 Main area
+4.2 To start the product                             Main area is the standard operating mode where
+                                                     the product mows and charges automatically.
+1. Press the STOP button to open the hatch.
+2. Set the main switch to position 1.                4.3.2 Override timer
+3. Enter the PIN code.                               The timer settings can be temporarily overridden
+4. Press the START button.                           by selecting Override timer. It is possible to
+                                                     override the timer for 24 h or 3 days.
+
+                                                     4.3.3 Secondary area
+                                                     In the Secondary area mode, the product
+                                                     operates until the battery is empty.
+
+                                                     When the battery is empty, the product stops and
+                                                     the message Needs manual charging shows in
+                                                     the product display. Put the product in the
+                                                     charging station to charge the battery.
+
+1201 - 001 - 05.06.2019                               Operation - 35
+If the product charges in the Secondary area
+mode, it will fully charge, move out about 50 cm /
+20 in. and then stop. This means that the product
+is charged and prepared to start to cut.
+
+Note: It is recommended to change the operation
+selection to Main area before you put the product
+in the charging station.
+
+4.3.4 Spot cutting                                    4.6 To switch off the product
+Spot cutting means that the product mows in a
+spiral pattern in order to cut the grass in the area  1. Press the STOP button on top of the
+where it was started. You can select how the                product.
+product must continue to operate when cutting is
+complete.                                             2. Set the Main switch to position 0.
+
+· Use the right arrow button to select Main                        WARNING: Always switch off the
+      Area or Secondary Area.                                      product using the main switch if it
+                                                                   requires maintenance, or if the product
+4.4 Operating mode - Park                                          must be moved outside the work area.
+
+When selecting Park the following operation           4.7 To charge the battery
+selections can be selected:
+                                                      When the product is new or has been stored for a
+· Park until further notice                           long period, the battery can be empty and needs
+· Start again in 3 hours                              to be charged before starting. In the Main area
+· Start with next timer                               mode, the product automatically alternates
+                                                      between mowing and charging.
+4.4.1 Park until further notice
+The product stays in the charging station until                    WARNING: Only charge the product
+another operating mode is selected by pressing                     using a charging station and a power
+the START button.                                                  supply which is intended for it.
+                                                                   Incorrect use may result in electric
+4.4.2 Start again in 3 hours                                       shock, overheating or leakage of
+The product stays in the charging station for 3                    corrosive liquid from the battery.
+hours and then automatically goes back to the                      In the event of leakage of electrolyte
+usual operation. This operation selection is                       flush with water and seek medical help
+applicable when it is necessary to pause                           if it comes in contact with the eyes etc.
+operation.
+                                                      1. Set the Main switch to position 1.
+4.4.3 Start with next timer                           2. Place the product in the charging station.
+The product stays in the charging station and         3. Open the hatch and slide the product in as
+starts to operate on the next Timer setting.
+                                                            far as possible to ensure proper contact
+4.5 To stop the product                                     between the product and the charging
+                                                            station.
+1. Press the STOP button on top of the
+      product.
+
+The product stops and the blade motor stops.
+
+36 - Operation                                        1201 - 001 - 05.06.2019
+4. The display shows a message that charging
+      is in progress.
+
+1201 - 001 - 05.06.2019                       Operation - 37
+                  5 Maintenance
+
+5.1 Introduction - maintenance                       2. Lift the product onto its side.
+                                                     3. Clean the blade disc and chassis using for
+For better operating reliability and longer service
+life: check and clean the product regularly and            example a dish brush. At the same time,
+replace worn parts if necessary. All maintenance           check that the blade disc rotates freely in
+and servicing must be done according to                    relation to the foot guard. Also, check that
+Husqvarna's instructions. Refer to Maintenance             the blades are intact and can pivot freely.
+on page 38.
+                                                     5.2.2 Chassis
+It is important that the blade disc rotates easily.  Clean the underside of the chassis. Brush or
+The edges of the blades should not be damaged.       wipe with a damp cloth.
+The lifetime of the blades varies immensely and
+depends for instance on:                             5.2.3 Wheels
+                                                     Clean around the front wheels and rear wheel as
+· Operating time and size of the work area.          well as the rear wheel bracket. Grass on the
+· Type of grass and seasonal growth.                 wheels can impact on how the product performs
+· Soil, sand and use of fertilizers.                 in slopes.
+· The presence of objects such as, toys, tools,      5.2.4 Cover
+                                                     Use a damp, soft sponge or cloth to clean the
+      stones, roots and the like.                    cover. If the cover is very dirty it may be
+                                                     necessary to use a soap solution or washing-up
+The normal life is 2 to 5 weeks when used under      liquid.
+favorable conditions. Refer to Replace the blades    5.2.5 Charging station
+on page 39 on how to replace the blades.             Clean the charging station regularly from grass,
+                                                     leaves, twigs and other objects that may impede
+             WARNING: Wear protective gloves.        docking.
+
+Note: Working with blunt blades gives a poorer                    WARNING: Use the plug to disconnect
+mowing result. The grass is not cut cleanly and                   the charging station before any
+more energy is needed, resulting in the product                   maintenance, or cleaning of charging
+not being able to maintain such a large area.                     station or power supply.
+
+5.2 Clean the product
+
+It is important to keep the product clean. A
+product with large amounts of grass stuck to it
+will not cope as well with slopes. It is
+recommended to clean using a brush.
+
+Husqvarna offers a special cleaning and
+maintenance kit as an accessory. Contact your
+Husqvarna central service.
+
+             CAUTION: Never use a high-pressure
+             washer to clean the product. Never
+             use solvents for cleaning.
+
+5.2.1 Chassis and blade disc
+Inspect the blade disc and blades once a week.
+1. Set the Main switch to position 0.
+
+38 - Maintenance                                     1201 - 001 - 05.06.2019
+5.3 Replace the blades                                5. Remove each blade and screw.
+
+             WARNING: Use blades and screws of        6. Fasten new blades and screws.
+             the right type. Husqvarna can only
+             guarantee safety when using original     7. Check that the blades can pivot freely.
+             blades. Only replacing the blades and
+             reusing the screw can result in a screw  5.4 Battery
+             wearing during mowing. The blades
+             can then be propelled from under the                  WARNING: Only charge the product
+             body and cause serious injury.                        using a charging station and power
+                                                                   supply which is intended for it.
+Replace worn or damaged parts for safety                           Incorrect use may result in electric
+reasons. Even if the blades are intact, they                       shock, overheating or leakage of
+should be replaced on a regular basis for the best                 corrosive liquid from the battery. In the
+mowing result and low energy usage. All 3 blades                   event of leakage of electrolyte flush
+and screws must be replaced at the same time to                    with water and seek medical help if it
+obtain a balanced cutting system. Use                              comes in contact with the eyes etc.
+Husqvarna original blades embossed with the
+crowned H-mark logotype, refer to Technical data
+on page 55.
+
+5.3.1 To replace the blades                           WARNING: Use only original batteries
+1. Set the Main switch to position 0.                 recommended by the manufacturer.
+                                                      Product safety cannot be guaranteed
+                                                      with other batteries. Do not use non-
+                                                      rechargeable batteries.
+
+2. Turn the product upside down. Place the                         CAUTION: The battery must be
+      product on a soft and clean surface to avoid                 charged fully before winter storage. If
+      scratching the body and the hatch.                           the battery is not fully charged it can
+                                                                   be damaged and in certain cases be
+3. Rotate the skid plate so that its holes align                   rendered useless.
+      with the screws for the blade.
+                                                      The charging time can vary depending on,
+4. Remove the 3 screws. Use a manual                  among other factors, the ambient temperature.
+      straight slot or cross-tip screwdriver.
+                                                      Below indicates that the battery is getting old and
+                                                      eventually needs replacing:
+
+                                                      · The operating time for the product is shorter
+                                                            than normal between charges. This leads to
+                                                            more charging cycles than normal, which
+                                                            increases the risk of tracks forming near the
+                                                            charging station.
+
+                                                      · The product is found standing out on the
+                                                            lawn with Empty battery message. This
+                                                            indicates that the product does not have
+
+1201 - 001 - 05.06.2019                               Maintenance - 39
+      battery capacity enough to find the charging
+      station.
+
+The battery is fine as long as the product
+maintains a well-cut lawn.
+
+Note: Battery life is dependent on the length of
+the season and how many hours a day the
+product is operating. A long season or many
+hours of use a day means that the battery must
+be replaced more regularly.
+
+Contact your local Husqvarna representative to
+replace the battery.
+
+5.5 Winter service
+
+Take your product to your local Husqvarna
+representative for service prior to winter storage.
+Regular winter service will maintain the product in
+good condition and create the best conditions for
+a new season without any disruptions.
+
+Service usually includes the following:
+
+· Thorough cleaning of the body, the chassis,
+      the blade disc and all other moving parts.
+
+· Testing of the products's function and
+      components.
+
+· Checking and, if required, replacing wear
+      items such as blades and bearings.
+
+· Testing the products's battery capacity as
+      well as a recommendation to replace battery
+      if necessary.
+
+· If new firmware is available, the product is
+      updated.
+
+40 - Maintenance                                     1201 - 001 - 05.06.2019
+                         6 Troubleshooting
+
+6.1 Introduction - troubleshooting
+
+In this chapter, a number of messages are listed which may be shown in the display if there is a
+malfunction. There is a proposal as to the cause and steps to take for each message. This chapter also
+presents some symptoms that can guide you if the product does not work as expected. More
+suggestions for steps to take in the event of malfunction or symptoms can be found on
+www.husqvarna.com.
+
+6.2 Fault messages
+
+The list below shows a number of fault messages that may be shown in the display of the product.
+Contact your local Husqvarna representative if the same message appears often.
+
+Message         Cause                                   Action
+Wheel motor
+blocked         Grass or other object is wrapped        Check the drive wheel and remove the
+Cutting system  around the drive wheel.                 grass or other object.
+blocked
+                Grass or other object is wrapped        Check the drive wheel and remove the
+Cutting height  around the blade disc.                  grass or other object.
+blocked
+                The blade disc lies in a pool of water. Move the product and prevent the col-
+Trapped                                                                lection of water in the work area.
+
+                Grass or other object is wrapped        Check the blade disc and the bellows
+                around the cutting height adjustment,   around the cutting height adjustment,
+                or between the blade disc and chassis.  and remove any grass or other objects
+                                                        that may have got stuck.
+
+                The product has got caught in some-     Free the product and rectify the reason
+                thing.                                  for it becoming trapped.
+
+                The product is stuck behind a number    Check if there are any obstacles which
+                of obstacles.                           make it hard for the product to move on
+                                                        from this location.
+
+1201 - 001 - 05.06.2019                                         Troubleshooting - 41
+Message               Cause                                    Action
+No loop signal
+                      The power supply is not connected.       Check the wall socket connection and
+Wrong PIN code                                                 whether an earth-fault breaker has trip-
+                      The low voltage cable is damaged or      ped or not. Check that the low voltage
+                      not connected.                           cable is connected to the charging sta-
+                      The boundary wire is not connected to    tion.
+                      the charging station.
+                                                               Check that the low voltage cable is not
+                                                               damaged. Check that it is also properly
+                                                               connected to the charging station and
+                                                               to the power supply.
+
+                                                               Check that the boundary wire connec-
+                                                               tors are fitted properly to the charging
+                                                               station. Replace connectors if dam-
+                                                               aged. Refer to To install the boundary
+                                                               wire on page 21.
+
+                      Boundary wire broken.                    Find out where the break is. Replace
+                                                               the damaged section of the loop with a
+                                                               new loop wire and splice using an origi-
+                                                               nal coupler. Refer to Finding breaks in
+                                                               the loop wire on page 51.
+
+                      ECO mode is activated and the product Place the product in the charging sta-
+                                                               tion and start the product again. Refer
+                      has attempted to start outside the
+                                                               to To start the product on page 35.
+                      charging station.
+
+                      The boundary wire is laid in the wrong   Check that the boundary wire was laid
+                      direction around an island.              according to instructions, e.g. in the
+                                                               right direction around the island. Refer
+                                                               to Before the installation of the product
+                                                               on page 16.
+
+                      The connection between the product       Place the product in the charging sta-
+                      and the charging station has been bro-   tion and generate a new loop signal.
+                      ken.                                     Refer to To create a New loop signal
+                                                               on page 26.
+
+                      Disturbances from metal objects (fen-    Try moving the boundary wire.
+                      ces, reinforcement steel) or buried ca-
+                      bles close by.
+
+                      Wrong PIN code has been entered.         Enter the correct PIN code. Contact
+
+                      Five attempts are permitted, and the your local Husqvarna representative if
+
+                      keypad is then blocked for five minutes. you forget the PIN code.
+
+42 - Troubleshooting                                                   1201 - 001 - 05.06.2019
+Message        Cause                                    Action
+
+Outside work area The boundary wire connections to the Check that the boundary wire is con-
+
+               charging station are crossed.            nected correctly.
+
+               The boundary wire is too close to the    Check that the boundary wire has been
+               edge of the work area.                   laid according to the instructions. Refer
+                                                        to To install the boundary wire on page
+               The work area slopes too much by the     21.
+               boundary loop.
+
+               The boundary wire is laid in the wrong
+               direction around an island.
+
+               Disturbances from metal objects (fen-    Try moving the boundary wire.
+               ces, reinforcement steel) or buried ca-
+               bles close by.
+
+               The product finds it hard to distinguish Place the product in the charging sta-
+
+               the signal from another product installa- tion and generate a new loop signal.
+
+               tion close by.                           Refer to To create a New loop signal
+
+                                                        on page 26.
+
+Empty battery  The product cannot find the charging     Check that the charging station and the
+               station.                                 guide wire are installed in accordance
+                                                        with the instructions. Refer to Installa-
+                                                        tion of the product on page 20.
+
+               The guide wire is broken or not connec- Find out where the break is and rectify
+
+               ted.                                     it.
+
+               The battery is spent.                    Replace the battery. Refer to Battery
+                                                        on page 39.
+
+               The charging station's antenna is de-    Check if the indicator lamp in the
+               fective.                                 charging station flashes red. Refer to
+                                                        LED indicator lamp on the charging sta-
+                                                        tion on page 48.
+
+No drive       The product has got caught in some-      Free the product and rectify the reason
+               thing.                                   for the lack of drive. If it is due to wet
+                                                        grass, wait until the lawn has dried be-
+                                                        fore using the product.
+
+               The work area includes a steep slope.    Maximum guaranteed slope is 45%.
+                                                        Steeper slopes should be isolated. Re-
+                                                        fer to To put the boundary wire in a
+                                                        slope on page 18.
+
+               The guide wire is not laid at an angle   If the guide wire is laid on a slope, it
+               on a slope.                              must be laid at an angle across the
+                                                        slope.
+
+Wheel motor over- The product has got caught in some-   Free the product and rectify the reason
+                                                        for the lack of drive. If it is due to wet
+loaded         thing.                                   grass, wait until the lawn has dried be-
+                                                        fore using the product.
+
+1201 - 001 - 05.06.2019                                                    Troubleshooting - 43
+Message               Cause                                    Action
+
+Charging station      The contact between the charging         Put the product in the charging station
+blocked               strips and contact strips may be poor    and check that the charging strips and
+                      and the product has made a number of     contact strips make good contact.
+                      attempts to charge.
+
+                      An object is obstructing the product. Remove the object.
+
+                      The charging station is tilted or bent.  Confirm that the charging station is
+                                                               placed on a fully flat and horizontal
+                                                               ground. The charging station must not
+                                                               be tilted or bent.
+
+Stuck in charging     There is an object in the way of the     Remove the object.
+station               product preventing it from leaving the
+                      charging station.
+
+Upside down           The product is leaning too much or has Place the product on a flat, level sur-
+
+                      turned over.                             face, and start the product again.
+
+Needs manual          The product is set to the Secondary      Place the product in the charging sta-
+charging              area operating mode.                     tion. This behavior is normal and no ac-
+                                                               tion is required.
+
+Next start hh:mm The timer setting prevents the product Change the timer settings. Refer to To
+
+                      from operating.                          do the timer settings on page 24.
+
+                      The clock on the product is not correct. Set the time. Refer to To set the time &
+                                                                          date on page 31.
+
+Lifted                The lift sensor has been activated as    Free the product.
+                      the product has become trapped.
+
+Collision sensor The body of the product can not move Check that the body of the product can
+
+problem, front/rear freely around its chassis.                 move freely around its chassis.
+
+                                                               If the problem remains, the message
+                                                               requires action by an authorized serv-
+                                                               ice technician.
+
+Wheel drive prob- Grass or other object is wrapped             Clean the wheels and around the
+                                                               wheels.
+lem, right/left       around the drive wheel.
+
+Alarm! Mower          The alarm was activated because the      Adjust the mower security settings in
+stopped               product was stopped.                     the Security menu. Refer to Security
+                                                               level on page 25.
+Alarm! Mower lif-     The alarm was activated because the
+ted                   product was lifted.
+
+Alarm! Mower til- The alarm was activated because the
+
+ted                   product was tilted.
+
+44 - Troubleshooting                                                   1201 - 001 - 05.06.2019
+Message            Cause                                   Action
+                                                           Switch off/on the product.
+Electronic problem Temporary electronic or firmware rela-  If the problem remains, the message
+Loop sensor prob- ted issue in the product.                requires action by an authorized serv-
+lem, front/rear                                            ice technician.
+
+Charging system                                            Switch off/on the product.
+problem                                                    If the problem remains, the message
+                                                           requires action by an authorized serv-
+Tilt sensor prob-                                          ice technician.
+lem                                                        Switch off/on the product.
+                                                           If the problem remains, the message
+Temporary prob-                                            requires action by an authorized serv-
+lem                                                        ice technician.
+                                                           Switch off/on the product.
+Temporary battery Temporary battery or firmware related    If the problem remains, the message
+                                                           requires action by an authorized serv-
+problem            issue in the product.                   ice technician.
+
+Battery problem
+
+Charging current Wrong or faulty power supply unit.
+too high
+
+Connectivity prob- Potential problem on the connectivity
+
+lem                circuit board in the product.
+
+1201 - 001 - 05.06.2019                                    Troubleshooting - 45
+6.3 Information messages
+
+The list below shows a number of information messages that may be found in the Messages menu in
+the Automower® Connect app. Contact your local Husqvarna representative if the same message
+appears often.
+
+Message               Cause                                  Action
+Low battery
+                      The product cannot find the charging   Check that the charging station and the
+                      station.                               guide wire are installed in accordance
+                                                             with the instructions. Refer to Before
+                                                             the installation of the product on page
+                                                             16.
+
+                      The guide wire is broken or not connec- Find out where the break is and rectify
+
+                      ted.                                   it.
+
+                      The battery is spent.                  Replace the battery. Refer to Battery
+                                                             on page 39.
+
+                      The charging station's antenna is de-  Check if the indicator lamp in the
+                      fective.                               charging station flashes red. Refer to
+                                                             LED indicator lamp on the charging sta-
+                                                             tion on page 48.
+
+Settings restored Confirmation that a Reset all user set- This is normal. No action required.
+                          tings has been carried out.
+
+Limited cutting       The maximum and minimum position of Check that no grass or other objects
+height range          the cutting height adjustment is limited. are blocking the blade disc from mov-
+
+                                                                             ing up or down.
+
+                                                             Carry out a cutting height calibration.
+                                                             Contact your local Husqvarna repre-
+                                                             sentative.
+
+Unexpected cut-       The cutting height adjustment is altered Carry out a cutting height calibration.
+ting height adj
+                      without a request from the product.    Contact your local Husqvarna repre-
+
+                                                             sentative.
+
+Cutting system im- The product has discovered vibrations     Verify that the blades and screws are
+                                                             intact and not worn out. Verify that all
+balance               in the cutting disc.                   blades are correctly mounted. Check
+                                                             that no double blades are mounted on
+                                                             any of the three blade positions.
+
+46 - Troubleshooting                                                     1201 - 001 - 05.06.2019
+Message            Cause                                    Action
+Guide 1 not found  The guide wire is not connected to the
+Guide 2 not found  charging station.                        Check that the guide wire's connector
+Guide 3 not found                                           is tightly connected to the charging sta-
+                   Break in the guide wire.                 tion. Refer to To install the guide wire
+                                                            on page 21.
+
+                                                            Find out where the break is. Replace
+                                                            the damaged section of the guide wire
+                                                            with a new loop wire and splice using
+                                                            an original coupler.
+
+                   The guide wire is not connected to the   Check that the guide wire is connected
+                   boundary loop.                           correctly to the boundary loop. Refer to
+                                                            To install the guide wire on page 21.
+
+Guide calibration  The product has failed to calibrate the  Check that the guide wires are installed
+failed             guide wire.                              according to the instructions. Refer to
+                                                            To install the guide wire on page 21.
+
+Guide calibration The product has succeeded to calibrate No action required.
+
+accomplished       the guide wire.
+
+GPS navigation     Problem with the GPS assisted naviga- Contact your local Husqvarna repre-
+problem
+                   tion equipment.                          sentative if this message appears of-
+
+                                                            ten.
+
+Weak GPS signal    The GPS signal is weak for the current   If the message appears often, disable
+                   work area. GPS assisted navigation
+                   cannot be used.                          the GPS assisted navigation and in-
+
+                                                            stead use the manual settings for Lawn
+                                                            coverage. Refer to To disable and ena-
+                                                            ble the GPS function (Automower®
+                                                            430X/450X) on page 27.
+
+Difficult finding  The product has been following the       The installation has not been done cor-
+home
+                   boundary wire several laps without find- rectly. Refer to Installation on page 16.
+
+                   ing the charging station.                Wrong corridor width setting on boun-
+
+                                                            dary wire. Refer to To set the corridor
+
+                                                            width on page 29.
+
+                                                            The product was started on a Secon-
+                                                            dary area with the Main area setting.
+
+Temporary prob- Please try again.                           Contact your local Husqvarna repre-
+lem with the serv-                                          sentative if this message appears of-
+er.                                                         ten.
+
+Connection prob-   Problem with the Automower® Connect      Restart the product. If there still is a
+lems               module                                   connection problem, try to unpair the
+                                                            product (My mowers) and then pair it
+                                                            again. If the problem remains, contact
+                                                            your local Husqvarna representative.
+
+Connection set-    Settings for wireless connectivity have Check and revise settings if necessary.
+tings restored     been restored due to an error.
+
+1201 - 001 - 05.06.2019                                                        Troubleshooting - 47
+Message               Cause                                    Action
+Weak signal
+                      Weak GPS signal for Automower®           Make sure that the product is not up-
+                      Connect module                           side down. If the problem remains, the
+                                                               message requires action by an author-
+                                                               ized service technician.
+
+SIM card requires The SIM card must be unlocked.               Make sure the correct SIM PIN has
+PIN                                                            been entered into the mower's menu
+                                                               (Network > SIM card). Contact your lo-
+                                                               cal Husqvarna representative if this
+                                                               message appears often.
+
+SIM card locked The SIM card must be replaced.                 Contact your local Husqvarna repre-
+                                                               sentative.
+
+SIM card not found Automower® Connect requires a SIM Contact your local Husqvarna repre-
+
+                      card to be inserted in the mower.        sentative.
+
+GeoFence prob- The GeoFence is not work due to poor Contact your local Husqvarna repre-
+
+lem                   (or no) communication with the system. sentative.
+
+6.4 LED indicator lamp on the charging station
+
+For a fully functional installation, the indicator lamp in the charging station must emit a solid or flashing
+green light. If any other color than green is visible, follow the troubleshooting guide below.
+
+There is more help on www.husqvarna.com. If you still need help, please contact your local Husqvarna
+representative.
+
+Light                 Cause                                    Action
+Green solid light
+Green flashing        Good signals                             No action required
+light
+                      The signals are good and ECO mode is No action required. For more informa-
+Blue flashing light
+                      activated.                               tion on ECO mode. Refer to ECO mode
+
+                                                               on page 31.
+
+                      The boundary loop is not connected to    Check that the boundary wire connec-
+                      the charging station.                    tors are fitted properly to the charging
+                                                               station. Refer to To install the boundary
+                                                               wire on page 21.
+
+                      Break in the boundary loop.              Find out where the break is. Replace
+                                                               the damaged section of the loop with a
+                                                               new loop wire and splice using an origi-
+                                                               nal coupler.
+
+Red flashing light    Interruption in the charging station's an- Contact your local Husqvarna repre-
+Red solid light
+                      tenna.                                   sentative.
+
+                      Fault in the circuit board or incorrect  Contact your local Husqvarna repre-
+                      power supply in the charging station.    sentative.
+                      The fault should be rectified by an au-
+                      thorized service technician.
+
+48 - Troubleshooting                                                        1201 - 001 - 05.06.2019
+6.5 LED indicator lamp on the product
+
+There is a LED indicator lamp on top of the product, which shows the current status:
+
+Light               Cause                                    Action
+Green solid light
+                    The product is either mowing the lawn, No action required.
+                    or leaving the charging station.
+
+Blue solid light    The product is either paused, parked,    No action required.
+Yellow solid light  charging or is searching for the charg-
+Red solid light     ing station.
+
+                    The STOP button has been pressed.        Press the START button on top of the
+                                                             product to start it again.
+
+                    The product has stopped due to an er-    Clear the error by pressing the STOP
+                    ror.                                     button, and then activate the product by
+                                                             pressing the START button on top of
+                                                             the product.
+
+Yellow flashing     The product requests the PIN code.       The PIN code needs to be confirmed
+light                                                        before the product can be activated.
+
+There is more help on www.husqvarna.com. If you still need help, please contact your local Husqvarna
+representative.
+
+1201 - 001 - 05.06.2019                                                           Troubleshooting - 49
+6.6 Symptoms
+
+If your product does not work as expected, follow the symptoms guide below.
+
+There is a FAQ (Frequently Asked Questions) on www.husqvarna.com which provides more detailed
+answers to a number of standard questions. Contact your local Husqvarna representative if you still
+cannot find the reason for the fault.
+
+Symptoms              Cause                                     Action
+
+The product has       The boundary wire is not laid in a long Check that the charging station has
+difficulty docking.
+                      straight line that is far enough out from been installed correctly. Refer to To in-
+
+                      the charging station.                     stall the charging station on page 20
+
+                           The charging station is on a slope.  Place the charging station on a surface
+                                                                that is entirely level. Refer to To exam-
+The product runs The product clock needs to be set.             ine where to put the charging station on
+at the wrong time                                               page 16.
+
+                                                                Set the clock. Refer to To set the time
+                                                                & date on page 31.
+
+                      The start and stop times for mowing       Reset the start time and stop time set-
+                      are incorrect.                            tings for mowing. Refer to To reset the
+                                                                timer setting on page 25.
+
+The product vi-       Damaged blades lead to imbalance in       Inspect the blades and screws and re-
+brates.               the cutting system.                       place them if necessary. Refer to Re-
+                                                                place the blades on page 39.
+
+                      Too many blades in the same position Check that only one blade is fitted at
+                      lead to imbalance in the cutting system. each screw.
+
+                      Different versions (thickness) of Husq- Check if the blades are of different ver-
+
+                      varna blades are used.                    sions.
+
+The product runs,     The product searches for the charging     No action. The blade disc does not ro-
+but the blade disc    station.                                  tate when the product is searching for
+does not rotate.                                                the charging station.
+
+The product mows      Grass or other foreign object blocks the  Remove and clean the blade disc. Re-
+for shorter periods   blade disc.                               fer to Chassis and blade disc on page
+than usual be-                                                  38.
+tween charges.        The battery is spent.
+                                                                Replace the battery. Refer to To re-
+                                                                move the battery on page 54.
+
+Both the mowing The battery is spent.                           Replace the battery. Refer to To re-
+and charging times                                              move the battery on page 54.
+are shorter than
+usual.
+
+The product is        The product is parked due to a timer      Edit the timer settings or press the
+                                                                START button to start the product.
+parked for hours in setting, or because Park until further
+
+the charging sta- notice has been chosen in the app.
+
+tion.
+
+50 - Troubleshooting                                                    1201 - 001 - 05.06.2019
+Symptoms       Cause                                        Action
+
+The product often Spiral cutting is a natural part of the   Adjust the intensity of spiral cutting.
+moves in circles or product's movement patter.              This function can be disabled if neces-
+spirals.                                                    sary. Refer to Spiral Cutting on page
+                                                            31.
+
+The product turns This is completely normal for the prod-   No action.
+round and stays uct. The product have GPS assisted
+on a small area for navigation that contributes to an even
+several minutes. result.
+
+Uneven mowing  The product works too few hours per          Increase the mowing time. Refer to To
+results.       day.                                         do the timer settings on page 24.
+
+               The How often? setting is incorrect in       The Weather timer senses that the
+               relation to the layout of the work area.     lawn has been mowed more than it ac-
+               Note: Not applicable if GPS assisted         tually has. Increase the intensity level
+               navigation is enabled.                       in the Weather timer. Disable the
+               The shape of the work area requires          Weather timer if this does not help.
+               the use of Area 1-5 for the product to
+               find its way to all remote areas. Note:      Check that the correct How often? val-
+               Not applicable if GPS assisted naviga-       ue is selected.
+               tion is enabled.
+                                                            Use Area 1-5 to steer the product to a
+                                                            remote area. Refer to Lawn coverage
+                                                            on page 27.
+
+               Work area is too large.                      Try to limit the work area, or to extend
+                                                            the work time. Refer to To do the timer
+                                                            settings on page 24.
+
+               Dull blades.                                 Replace all the blades. Refer to Re-
+                                                            place the blades on page 39.
+
+               Long grass in relation to the set cutting Increase the cutting height and then
+
+               height.                                      successively lower it.
+
+               Accumulation of grass by the blade           Check that the blade disc rotates freely
+               disc or around the motor shaft.              and easily. If not, screw off the blade
+                                                            disc and remove grass and foreign ob-
+                                                            jects. Refer to Clean the product on
+                                                            page 38.
+
+6.7 Finding breaks in the loop wire                Mowing the grass too low right after the
+                                                   installation can damage wire insulation. Damage
+Breaks in the loop wire are usually the result of  to the insulation may not cause disruptions until
+unintentional physical damage to the wire such     several weeks or months later.
+as when gardening with a shovel. In countries
+with ground frost, also sharp stones that move in
+the ground can damage the wire. Breaks can
+also occur due to the wire being stretched
+excessively during installation.
+
+1201 - 001 - 05.06.2019                                                 Troubleshooting - 51
+             CAUTION: Always select the                     Start by switching connection AL and G1.
+             maximum cutting height the first weeks         Some models have additional guide wires
+             after installation and then lower the          (G2, G3). The same procedure can be
+             height one step at a time every second         followed for them.
+             week until the desired cutting height
+             has been reached.                              If the indicator lamp is lit with a solid green
+                                                            light, then the break is somewhere on the
+A defective splicing of the loop wire can also lead         boundary wire between AL and the point
+to disruptions several weeks after the splice was           where the guide wire is connected to the
+done. A faulty splice can, for example, be the              boundary wire (thick black line in the
+result of the original coupler not being pressed            illustration).
+together hard enough with a pair of pliers, or that
+a coupler of lower quality than the original                To rectify the fault you will need boundary
+coupler has been used.                                      wire, connector(s) and coupler(s):
+
+Note: Please first check all known splices before           a) If the suspected boundary wire is short
+further troubleshooting is done.                            then it is easiest to exchange all of the
+                                                            boundary wire between AL and the point
+A wire break can be located by gradually halving            where the guide wire is connected to the
+the distance of the loop where the break may                boundary wire (thick black line).
+have occurred until there is only a very short
+section of the wire left.                                   b) If the suspected boundary wire is long
+The following method does not work if ECO                   (thick black line) then do as follows: Put AL
+mode is activated. Make sure first that ECO                 and G1 back to their original positions. Then
+mode is turned off. Refer to ECO mode on page               disconnect AR. Connect a new loop wire to
+31.                                                         AR. Connect the other end of this new loop
+1. Check that the indicator lamp in the charging            wire at the middle of the suspected wire
+                                                            section.
+      station flashes blue, which indicates a break
+      in the boundary loop. Refer to LED indicator          If the indicator lamp now is green, then the
+      lamp on the charging station on page 48.              break is somewhere in the wire between the
+                                                            disconnected end to the point where the
+2. Check that the boundary wire connections to              new wire is connected (thick black line
+      the charging station are properly connected           below). In that case, move the connection
+      and not damaged. Check that the indicator             for the new wire closer to the disconnected
+      lamp in the charging station is still flashing        end (roughly at the middle of the suspected
+      blue.                                                 wire section) and check again if the indicator
+                                                            lamp is green.
+                     AR POWER
+                                          AL                Continue until only a very short section of
+                                                            the wire remains which is the difference
+                            G1                              between a solid green light and a flashing
+                                                            blue light. Then follow instruction in step 5
+3. Switch the connections between the guide                 below.
+      wire and the boundary wire in the charging      4. If indicator lamp still flashes blue in step 3
+      station.                                              above: Put AL and G1 back in their original
+                                                            positions. Then switch AR and G1. If
+                                                            indicator lamp now is lit with a solid green
+                                                            light then disconnect AL and connect a new
+                                                            boundary wire to AL. Connect the other end
+                                                            of this new wire at the middle of the
+                                                            suspected wire section. Follow the same
+                                                            approach as in 3a) and 3b) above.
+
+52 - Troubleshooting                                  1201 - 001 - 05.06.2019
+5. When the break is found, the damaged
+      section must be replaced with a new wire.
+      Always use original couplers.
+
+1201 - 001 - 05.06.2019                          Troubleshooting - 53
+7 Transportation, storage and disposal
+
+7.1 Transportation                                 1. Switch off the product. Refer to Main switch
+                                                         on page 35.
+The supplied Li-ion batteries obey the Dangerous
+Goods Legislation requirements.                    2. Pull out the grommet on the charging cable
+                                                         at the very front of the product, and carefully
+· Obey all applicable national regulations.              remove the connector.
+· Obey the special requirement on package
+                                                   3. Lift the cover, one corner at a time.
+      and labels for commercial transportations,
+      including by third parties and forwarding    4. Remove the 14 screws with a Torx 20.
+      agents.
+
+7.2 Storage                                        5. Lift the rear edge of the top section of the
+                                                         chassis.
+· Fully charge the product. Refer to To charge
+      the battery on page 36.                      6. Disconnect the cable from the main circuit
+                                                         board.
+· Disconnect the product with the main switch.
+      Refer to To switch off the product on page   7. Remove the top section of the chassis.
+      36.
+                                                   8. Remove the 3 screws that holds the battery
+· Clean the product. Refer to Clean the                  with a Torx 20.
+      product on page 38.
+
+· Keep the product in a dry, frost free space.
+
+· Keep the product with all wheels on level
+      ground during storage, or use a Husqvarna
+      wall hanger.
+
+· If you keep the charging station indoors,
+      disconnect and remove the power supply
+      and all the connectors from the charging
+      station. Put the end of each connector wire
+      in a container with grease.
+
+Note: If you keep the charging station outdoors,
+do not disconnect the power supply and the
+connectors.
+
+7.3 Disposal                                       9. Disconnect the battery connection from the
+                                                         main circuit board.
+· Obey the local recycling requirements and
+      applicable regulations.                      10. Open the battery cover and remove the
+                                                         battery.
+· For questions about how to remove the
+      battery, refer to To remove the battery on
+      page 54.
+
+7.3.1 To remove the battery
+
+             CAUTION: Only remove the battery
+             when you dispose the product. When
+             you remove the warranty seal, the
+             Husqvarna warranty is no longer
+             applicable.
+
+54 - Transportation, storage and                   1201 - 001 - 05.06.2019
+disposal
+                                       8 Technical data
+
+8.1 Technical data                     Automower® Automower®         Automower® Automower®
+
+ Dimensions                            420             430X          440         450X
+
+ Length, cm / in.                      72 / 28.3       72 / 28.3     72 / 28.3   72 / 28.3
+ Width, cm / in.
+ Height, cm / in.                      56 / 22         56 / 22       56 / 22     56 / 22
+ Weight, kg / lbs
+                                       31 / 12         31 / 12       31 / 12     31 / 12
+
+                                       11.5 / 25.4 13.2 / 29.1       12 / 26.5   13.9 / 30.6
+
+Electrical system                      Automower® Automower® Automower® Automower®
+
+                                       420             420           440         450X
+
+Battery, Lithium-Ion 18 V/3.2 Ah Art.  580 68 33-01
+No.
+
+Battery, Lithium-Ion 18.5 V/4.0 Ah Art. 580 68 33-02
+No.
+
+Battery, Lithium-Ion 18 V/4.0 Ah Art.  580 68 33-03
+No
+
+Battery, Lithium-Ion 18.25 V/4.0 Ah Art. 580 68 33-04
+No.
+
+Battery, Lithium-Ion 18 V/5.2 Ah Art.                  588 14 64-01 588 14 64-01 588 14 64-01
+No.                                                                         (2 pcs.) 5.2 (2 pcs.) 5.2
+                                                                            Ah/battery Ah/battery
+
+Battery, Lithium-Ion 18 V/5.0 Ah Art.                  593 11 84-01 588 14 64-02 593 11 84-01
+No.                                                                         (2 pcs.) 5.0 (2 pcs.) 5.0
+                                                                            Ah/battery Ah/battery
+
+Battery, Lithium-Ion 18 V/4.9 Ah Art.                  593 11 84-02 588 14 64-03 593 11 84-02
+No.                                                                         (2 pcs.) 4.9 (2 pcs.) 4.9
+                                                                            Ah/battery Ah/battery
+
+Power supply, V/28 V DC                100-240         100-240       100-240     100-240
+
+Low voltage cable length, m / ft.      10 / 33         10 / 33       10 / 33     10 /33
+
+Mean energy consumption at maxi-       17 kWh/         18 kWh/       20 kWh/     23 kWh/
+mum use
+                                       month in a      month in a    month in a  month in a
+                                       2200 m2         3200 m2 work  4000 m2     5000 m2 work
+
+                                       work area       area          work area   area
+
+Charging current, A DC                 2.2             4.2           7           7
+
+Average mowing time, min               75              145           290         270
+
+Average charging time, min             50              50            60          60
+
+1201 - 001 - 05.06.2019                                                          Technical data - 55
+Boundary wire antenna               Automower® Automower®    Automower® Automower®
+
+                                    420       420            440            450X
+
+Operating Frequency Band, Hz        300-80000 300-80000      300-80000 300-80000
+
+Maximum Radio-frequency power, mW <25 mW      <25 mW         <25 mW         <25 mW
+                                              @60m           @60m           @60m
+@60m5                               @60m
+
+Noise emissions measured in the envi- Automower® Automower®  Automower® Automower®
+
+ronment as sound power6             420       430X           440            450X
+
+Measured sound power noise level, dB 57       57             56             58
+
+(A)
+
+Guaranteed sound power noise level, 58        58             56             59
+
+dB (A)
+
+Sound pressure noise level at the oper- 46    46             45             47
+
+ator's ear, dB (A) 7
+
+Mowing                              Automower® Automower® Automower® Automower®
+
+                                    420       430X           440            450X
+
+Cutting system                                    3 pivoted cutting blades
+
+Blade motor speed, rpm              2300      2300           2300           2300
+
+Power consumption during cutting, W 30        30             30             35
+
++/- 20 %
+
+Cutting height, cm / in.            2-6 / 0.8-2.4 2-6 / 0.8-2.4 2-6 / 0.8-2.4 2-6 / 0.8-2.4
+
+Cutting width, cm / in.             24 / 9.4  24 / 9.4       24 / 9.4       24 / 9.4
+
+Narrowest possible passage, cm / in. 60 / 24  60 / 24        60 / 24        60 / 24
+
+Maximum angle for work area, %      45        45             45             45
+
+Maximum angle for boundary wire, % 15         15             15             15
+
+Maximum length boundary wire, m / ft. 800 / 2625 800 / 2625 800 / 2625 800 / 2625
+
+Maximum length guide loop, m / ft.  400 / 1312 400 / 1312 400 / 1312 400 /1312
+
+Working capacity, m2 / yd2 +/- 20%  2200 / 2631 3200 / 3827 4000 / 4783 5000 / 5979
+
+5 Maximum active output power to antennas in the frequency band in which the radio equipment
+
+   operates.
+6 Noise emissions in the environment measured as sound power (Lwa) in conformity with EC di-
+
+   rective 2000/14/EC and New South Wales legislation (Protection of the Environment Operations
+
+   Regulation 2017, Noise Control). The guaranteed sound power level includes variation in pro-
+
+   duction as well as variation from the test code with 1-3 dB(A). Noise emission data can be found
+
+   on the rating label and in the Technical data chapter.
+7 Sound pressure noise uncertainties KpA, 2-4 dB (A).
+
+56 - Technical data                                                1201 - 001 - 05.06.2019
+IP-classification           Automower® Automower® Automower® Automower®
+
+Robotic lawn mower          420   430X                440           450X
+Charging station
+Power supply                IPX4  IPX4                IPX4          IPX4
+
+                            IPX1  IPX1                IPX1          IPX1
+
+                            IPX4  IPX4                IPX4          IPX4
+
+Frequency Band Support            2400.0-2483.5 MHz
+Bluetooth® Frequency range        Band 19 (800 MHz)
+Automower® Connect 3G             Band 5 (850 MHz)
+                                  Band 8 (900 MHz)
+Automower® Connect 2G             Band 2 (1900 MHz)
+                                  Band 1 (2100 MHz)
+                                  GSM 850 MHz
+                                  E-GSM 900 MHz
+                                  DCS 1800 MHz
+                                  PCS 1900 MHz
+
+Power Class                       8 dBm                     24 dBm
+Bluetooth® Output power                                     33 dBm
+Automower® Connect 3G             Power Class 3
+Automower® Connect 2G                                       30 dBm
+                                  Power Class 4 (for
+                                  GSM/E-GSM)
+
+                                  Power Class 1 (for
+                                  DCS/PCS)
+
+The products are made in England or the Czech
+Republic. See information on the rating plate.
+Refer to Introduction on page 3.
+
+Full compatibility cannot be guaranteed between the robotic lawnmower and other types of wireless
+systems such as remote controls, radio transmitters, hearing loops, buried electric animal fencing or
+similar.
+
+8.2 Registered trademarks
+
+The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, inc. and any
+use of such marks by Husqvarna is under license.
+
+1201 - 001 - 05.06.2019                                     Technical data - 57
+                                      9 Warranty
+
+9.1 Warranty terms
+
+Husqvarna® warranty covers this product's
+functionality for a period of 2 years from date of
+purchase. The warranty covers serious faults
+relating to materials or manufacturing faults.
+Within the warranty period, we will replace the
+product or repair it at no charge if the following
+terms are met:
+
+· The product and the charging station may
+      only be used in compliance with the
+      instructions in this Operator's Manual. This
+      manufacturer's warranty does not affect
+      warranty entitlements against the dealer/
+      retailer.
+
+· End-users or non-authorized third parties
+      must not attempt to repair the product.
+
+Examples of faults which are not included in the
+warranty:
+
+· Damage caused by water seepage from
+      using a high-pressure washer, or from being
+      submerged under water, for example when
+      heavy rain forms pools of water.
+
+· Damage caused by lightning.
+· Damage caused by improper battery storage
+
+      or battery handling.
+· Damage caused by using a battery that is
+
+      not a Husqvarna original battery.
+· Damage caused by not using Husqvarna
+
+      original spare parts and accessories, such
+      as blades and installation material.
+· Damage to the loop wire.
+· Damage caused by non-authorized
+      changing or tampering with the product or its
+      power supply.
+
+The blades and wheels are seen as disposable
+and are not covered by the warranty.
+
+If an error occurs with your Husqvarna product,
+please contact Husqvarna customer service for
+further instructions. Please have the receipt and
+the product's serial number at hand when
+contacting Husqvarna customer service.
+
+58 - Warranty                                        1201 - 001 - 05.06.2019
+                         10 EC Declaration of Conformity
+
+10.1 EC Declaration of Conformity                               · ETSI EN 301 511 V12.5.1
+                                                                · ETSI EN 301 908-2 V11.1.1
+Husqvarna AB, SE-561 82 Huskvarna, Sweden,                · For Automower® 420/430X/440 and
+tel: +46-36-146500, declares that the robotic                   Automower® 450X equipped with
+lawn mowers Automower® 420/430X/440 and                         Bluetooth® module also:
+Automower® 450X with serial numbers dating                      · ETSI EN 300 328 V2.1.1
+2018 week 40 and onwards (the year and week                     · ETSI EN 301 489-17 V3.1.1
+is clearly stated on the rating plate, followed by
+the serial number), comply with the requirements    Husqvarna, 2019-01-02
+of the COUNCIL'S DIRECTIVE:                         Lars Roos
+                                                    Global R&D Director, Robotic category
+· Directive "relating to machinery"                 (Authorized representative for Husqvarna AB and
+      2006/42/EC.                                   responsible for technical documentation.)
+      · Particular requirements for robotic
+            battery powered electrical lawnmowers
+            EN 50636-2-107: 2015
+      · Electromagnetic fields EN 62233: 2008.
+
+· Directive on "restriction of use of certain
+      hazardous substances" 2011/65/EU.
+      · The following standard is applied: EN
+            50581:2012
+
+· Directive "relating to noise emissions from
+      outdoor equipment" 2000/14/EC. Refer to
+      Technical data on page 55 for information
+      regarding noise emissions and the cutting
+      width.
+
+The notified body 0404, RISE SMP Svensk
+Maskinprovning AB, Box 7035, SE-750 07
+Uppsala, Sweden, has issued a report regarding
+the assessment of conformity according to annex
+VI to the Council's Directive of May 8, 2000
+"relating to noise emissions into the environment"
+2000/14/EC. The certificate is numbered: for
+Automower® 420/430X/440 (01/901/296) and
+Automower® 450X (01/901/291):
+
+· Directive "relating to radio equipment"
+      2014/53/EU. The following standards have
+      been applied:
+      · ETSI EN 303 447 V1.1.1
+
+· Electromagnetic compatibility:
+      · ETSI EN 301 489-1 V2.2.0
+
+      · For Automower® 420/430X/440 and
+            Automower® 450X equipped with
+            Automower® Connect module also:
+            · ETSI EN 301 489-19 V2.1.0
+            · ETSI EN 301 489-52 V1.1.1
+
+1201 - 001 - 05.06.2019                             EC Declaration of Conformity
+                                                                                      - 59
+AUTOMOWER® is a trademark owned by Husqvarna AB.
+    Copyright© 2019 HUSQVARNA. All rights reserved.
+                    www.husqvarna.com
+
+                      Original instructions
+
+1141531-26
+
+            2019-07-01
+
