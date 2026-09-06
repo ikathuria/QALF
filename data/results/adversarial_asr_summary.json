@@ -1,17 +1,22 @@
 {
   "vector_only": {
     "attack_success_rate": 0.6,
-    "poison_surfaced_rate": 1.0,
+    "poison_surfaced_rate": 0.9,
     "n_queries": 20
   },
   "fixed_rrf": {
     "attack_success_rate": 0.4,
-    "poison_surfaced_rate": 1.0,
+    "poison_surfaced_rate": 0.9,
     "n_queries": 20
   },
   "qalf": {
-    "attack_success_rate": 0.6,
-    "poison_surfaced_rate": 1.0,
+    "attack_success_rate": 0.55,
+    "poison_surfaced_rate": 0.9,
+    "n_queries": 20
+  },
+  "qalf_learned_routing": {
+    "attack_success_rate": 0.45,
+    "poison_surfaced_rate": 0.9,
     "n_queries": 20
   }
 }

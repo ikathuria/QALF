@@ -171,7 +171,10 @@ def run_asr_evaluation(
     embedding_model = SentenceTransformer(C.TRANSFORMER_EMBEDDING_MODEL)
     registry = SystemRegistry(neo4j_manager)
 
-    systems = ["vector_only", "fixed_rrf", "qalf"]
+    systems = ["vector_only", "fixed_rrf", "qalf", "qalf_learned_routing"]
+    if registry.qalf_learned_routing is None:
+        systems.remove("qalf_learned_routing")
+        logger.warning("No trained learned-alpha model found; skipping qalf_learned_routing.")
     results_per_system = {s: {"attack_success": 0, "total": 0, "poison_ranked": 0} for s in systems}
     detail_rows = []
     injected_poison_ids = []
