@@ -9,6 +9,7 @@ import time
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from sentence_transformers import SentenceTransformer
 
 from src.neo4j.neo4j_manager import Neo4jManager
 import src.utils.constants as C
@@ -42,6 +43,12 @@ class RAGGenerator:
         self.max_context_chunks = max_context_chunks
 
         self._logger = self._setup_logging()
+
+        # Same model used to embed Chunk/Table nodes at ingestion time (see
+        # src/neo4j/vector_ingestion.py) -- needed to rank each document's own
+        # chunks by query relevance instead of by position (see
+        # fetch_chunk_content / _fetch_chunks_by_position).
+        self.embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
         # Initialize LLM
         try:
@@ -117,6 +124,57 @@ Please provide a detailed answer based on the context above. Include source cita
         query_lower = query.lower()
         return any(re.search(pattern, query_lower) for pattern in counting_patterns)
 
+    def _fetch_chunks_by_position(
+        self, doc_ids: List[str], max_chunks_per_doc: int
+    ) -> List[Dict[str, Any]]:
+        """First max_chunks_per_doc text chunks per document, by chunk_index."""
+        cypher_query = """
+        MATCH (c:Chunk)-[:IN_DOCUMENT]->(doc:Document)
+        WHERE doc.id IN $doc_ids AND c.modality = 'text'
+        WITH doc, c
+        ORDER BY doc.id, c.chunk_index ASC
+        WITH doc, collect(c)[..$max_chunks] AS chunks
+        UNWIND chunks AS chunk
+        RETURN doc.id AS doc_id,
+               doc.source_file AS doc_title,
+               chunk.id AS chunk_id,
+               chunk.content AS content,
+               chunk.modality AS modality,
+               chunk.chunk_index AS chunk_index,
+               COALESCE(chunk.page, 1) AS page
+        """
+        return self.neo4j_manager.query_graph(
+            cypher_query, {"doc_ids": doc_ids, "max_chunks": max_chunks_per_doc}
+        )
+
+    def _fetch_chunks_by_relevance(
+        self, doc_ids: List[str], max_chunks_per_doc: int, query_embedding: List[float]
+    ) -> List[Dict[str, Any]]:
+        """Top max_chunks_per_doc text chunks per document, by cosine similarity
+        to query_embedding -- exact (not approximate-index) similarity, since
+        doc_ids is already a small, QALF-selected set of target documents."""
+        cypher_query = """
+        MATCH (c:Chunk)-[:IN_DOCUMENT]->(doc:Document)
+        WHERE doc.id IN $doc_ids AND c.modality = 'text' AND c.embedding IS NOT NULL
+              AND size(c.embedding) = size($query_embedding)
+        WITH doc, c, vector.similarity.cosine(c.embedding, $query_embedding) AS score
+        ORDER BY doc.id, score DESC
+        WITH doc, collect({chunk: c, score: score})[..$max_chunks] AS top
+        UNWIND top AS tc
+        RETURN doc.id AS doc_id,
+               doc.source_file AS doc_title,
+               tc.chunk.id AS chunk_id,
+               tc.chunk.content AS content,
+               tc.chunk.modality AS modality,
+               tc.chunk.chunk_index AS chunk_index,
+               COALESCE(tc.chunk.page, 1) AS page,
+               tc.score AS relevance_score
+        """
+        return self.neo4j_manager.query_graph(
+            cypher_query,
+            {"doc_ids": doc_ids, "max_chunks": max_chunks_per_doc, "query_embedding": query_embedding},
+        )
+
     def fetch_chunk_content(
         self,
         doc_ids: List[str],
@@ -140,9 +198,12 @@ Please provide a detailed answer based on the context above. Include source cita
         start_time = time.time()
         self._logger.debug(f"Fetching chunk content for {len(doc_ids)} documents")
 
-        # For counting queries, fetch more chunks for accurate counting
-        if query and self._is_counting_query(query):
-            max_chunks_per_doc = 50  # Fetch more chunks for accurate counting
+        # For counting queries, fetch more chunks for accurate counting -- and
+        # keep positional order, since counting needs broad coverage of the
+        # document rather than the few chunks most similar to the query.
+        is_counting = bool(query and self._is_counting_query(query))
+        if is_counting:
+            max_chunks_per_doc = 50
             self._logger.debug(f"Detected counting query - fetching {max_chunks_per_doc} chunks per doc")
 
         # Check if query mentions a specific table (e.g., "Table 3", "Table 5")
@@ -154,35 +215,34 @@ Please provide a detailed answer based on the context above. Include source cita
                 table_identifier = f"Table {table_match.group(1)}"
                 self._logger.debug(f"Detected table-specific query: {table_identifier}")
 
-        try:
-            # Fetch top chunks AND tables for each document (ordered by chunk_index/page)
-            # Use a simpler approach: fetch chunks and tables separately, then combine in Python
-            # This avoids UNION ALL syntax issues
-            cypher_query = """
-            // Fetch text chunks
-            MATCH (c:Chunk)-[:IN_DOCUMENT]->(doc:Document)
-            WHERE doc.id IN $doc_ids AND c.modality = 'text'
-            WITH doc, c
-            ORDER BY doc.id, c.chunk_index ASC
-            WITH doc, collect(c)[..$max_chunks] AS chunks
-            UNWIND chunks AS chunk
-            RETURN doc.id AS doc_id,
-                   doc.source_file AS doc_title,
-                   chunk.id AS chunk_id,
-                   chunk.content AS content,
-                   chunk.modality AS modality,
-                   chunk.chunk_index AS chunk_index,
-                   COALESCE(chunk.page, 1) AS page
-            """
+        # Rank each document's own chunks by cosine similarity to the query
+        # instead of taking the first max_chunks_per_doc by position -- a
+        # document's most relevant passage is rarely at the very start, so
+        # positional selection was diluting context with irrelevant
+        # front-matter regardless of what QALF's fusion actually retrieved.
+        query_embedding = None
+        if query and not is_counting:
+            try:
+                query_embedding = self.embedder.encode(query).tolist()
+            except Exception as e:
+                self._logger.warning(
+                    f"Failed to embed query for relevance ranking, falling back to positional order: {e}"
+                )
 
-            # First, fetch chunks
-            chunk_results = self.neo4j_manager.query_graph(
-                cypher_query,
-                {
-                    "doc_ids": doc_ids,
-                    "max_chunks": max_chunks_per_doc
-                }
-            )
+        try:
+            if query_embedding is not None:
+                chunk_results = self._fetch_chunks_by_relevance(doc_ids, max_chunks_per_doc, query_embedding)
+                covered = {r.get("doc_id") for r in chunk_results}
+                missing = [d for d in doc_ids if d not in covered]
+                if missing:
+                    # Documents with no embedded chunks (or an embedding-dim
+                    # mismatch) fall back to positional order rather than
+                    # being silently dropped from the context.
+                    chunk_results = list(chunk_results) + list(
+                        self._fetch_chunks_by_position(missing, max_chunks_per_doc)
+                    )
+            else:
+                chunk_results = self._fetch_chunks_by_position(doc_ids, max_chunks_per_doc)
 
             # Then, fetch tables - prioritize specific table if mentioned in query
             if table_identifier:

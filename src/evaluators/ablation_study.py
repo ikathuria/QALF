@@ -79,7 +79,7 @@ def run_ablation_study(
 
     all_results = []
 
-    systems = ["vector_only", "fixed_rrf", "adaptive_fixed", "qalf"]
+    systems = ["vector_only", "fixed_rrf", "adaptive_fixed", "qalf", "qalf_learned_routing"]
 
     for subdir in tqdm(subdirs, desc="Ablation Evaluation"):
         if not os.path.isdir(subdir):

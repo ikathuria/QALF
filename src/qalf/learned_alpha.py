@@ -94,6 +94,36 @@ class LearnedAlphaWeights:
             self.models[modality] = model
         self.fitted = True
 
+    def route_to_modalities(
+        self,
+        complexity_4d: Tuple[str, str, str, str],
+        intent: str,
+        threshold: float = 0.4,
+    ) -> List[str]:
+        """
+        ML-driven replacement for configs.routing_table.route_to_modalities:
+        activates modality m iff predict_alpha(...)[m] >= threshold, always
+        activating at least the single highest-probability modality so a
+        query never routes to zero active modalities.
+
+        On the training data collected so far, vector and keyword almost
+        always found the gold document (their per-modality logistic
+        regressions degenerate to a near-constant ~1.0 -- see
+        LearnedAlphaWeights.fit's single-class fallback), so in practice this
+        keeps vector+keyword always active and uses the graph model's
+        genuinely non-degenerate probability to decide whether the far more
+        expensive Cypher graph traversal (see Section on Efficiency) is
+        worth invoking for a given query -- a real, data-driven skip
+        decision rather than a hand-set rule, though it should be re-fit as
+        more training data accumulates rather than assumed to hold for a
+        larger or differently-distributed corpus.
+        """
+        alpha = self.predict_alpha(complexity_4d, intent)
+        active = [m for m in MODALITIES if alpha[m] >= threshold]
+        if not active:
+            active = [max(alpha, key=alpha.get)]
+        return active
+
     def predict_alpha(
         self, complexity_4d: Tuple[str, str, str, str], intent: str
     ) -> Dict[str, float]:

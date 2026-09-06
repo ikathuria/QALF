@@ -37,6 +37,8 @@ class QALFPipeline:
         enable_generator: bool = False,
         generator_temperature: float = 0.3,
         learned_alpha=None,
+        use_learned_routing: bool = False,
+        use_learned_weighting: bool = True,
     ):
         """
         Initialize QALF pipeline.
@@ -53,9 +55,14 @@ class QALFPipeline:
         self.embedding_model = embedding_model
         self.embedding_dim = embedding_dim
         # Optional src.qalf.learned_alpha.LearnedAlphaWeights instance. When
-        # provided, its predictions replace configs.alpha_weights.get_alpha_weights
-        # for alpha_intent (see "qalf_learned" in SystemRegistry).
+        # provided, its predictions can replace either or both of: fusion
+        # weighting (configs.alpha_weights.get_alpha_weights, "qalf_learned"
+        # in SystemRegistry) and modality routing (configs.routing_table.
+        # route_to_modalities, "qalf_learned_routing" in SystemRegistry) --
+        # controlled independently so evaluating one doesn't change the other.
         self.learned_alpha = learned_alpha
+        self.use_learned_routing = use_learned_routing
+        self.use_learned_weighting = use_learned_weighting
 
         self._logger = self._setup_logging()
         
@@ -160,7 +167,12 @@ class QALFPipeline:
         step_start = time.time()
         self._logger.info("\n🔄 STEP 2: Adaptive Routing")
         self._logger.info("-" * 80)
-        active_modalities = route_to_modalities(complexity, intent)
+        if self.use_learned_routing and self.learned_alpha is not None:
+            active_modalities = self.learned_alpha.route_to_modalities(complexity, intent)
+            self._logger.info(f"   Routing source: learned")
+        else:
+            active_modalities = route_to_modalities(complexity, intent)
+            self._logger.info(f"   Routing source: rule-based")
         step_time = time.time() - step_start
         self._logger.info(f"✅ Active modalities: {active_modalities} (took {step_time:.3f}s)")
         
@@ -224,7 +236,7 @@ class QALFPipeline:
         step_start = time.time()
         self._logger.info("\n⚖️  STEP 6: Adaptive Weight Computation")
         self._logger.info("-" * 80)
-        if self.learned_alpha is not None:
+        if self.use_learned_weighting and self.learned_alpha is not None:
             alpha_intent = self.learned_alpha.predict_alpha(complexity, intent)
             self._logger.info(f"   Base weights (α_intent, learned): {alpha_intent}")
         else:

@@ -48,6 +48,11 @@ class SystemRegistry:
         learned_alpha_path = self.config.get(
             "learned_alpha_path", "data/results/learned_alpha_weights.joblib"
         )
+        # Optional learned-routing QALF variant: same trained model as
+        # qalf_learned, but driving modality activation (configs.
+        # routing_table.route_to_modalities) instead of fusion weighting, so
+        # the two mechanisms' effects can be measured in isolation.
+        self.qalf_learned_routing = None
         if os.path.exists(learned_alpha_path):
             from src.qalf.learned_alpha import LearnedAlphaWeights
 
@@ -58,6 +63,15 @@ class SystemRegistry:
                 embedding_dim=self.config.get("embedding_dim", 384),
                 enable_generator=True,
                 learned_alpha=learned_alpha,
+            )
+            self.qalf_learned_routing = QALFPipeline(
+                neo4j_manager=self.neo4j_manager,
+                embedding_model=self.config.get("embedding_model", "all-MiniLM-L6-v2"),
+                embedding_dim=self.config.get("embedding_dim", 384),
+                enable_generator=True,
+                learned_alpha=learned_alpha,
+                use_learned_routing=True,
+                use_learned_weighting=False,
             )
 
     def run_vector_only(self, query: str, top_k: int = 10) -> Dict[str, Any]:
@@ -180,6 +194,25 @@ class SystemRegistry:
         answer = result["generation"]["response"] if result.get("generation") else ""
         return {"results": formatted_retrieval, "answer": answer}
 
+    def run_qalf_learned_routing(self, query: str, top_k: int = 10) -> Dict[str, Any]:
+        """Run QALF with modality activation decided by the trained learned-alpha
+        model (P(modality finds gold doc | query features) >= threshold) instead
+        of the hand-written configs/routing_table.py lookup table, isolated from
+        learned weighting (fusion still uses the static alpha_intent table) so
+        the routing mechanism's effect can be measured on its own."""
+        if self.qalf_learned_routing is None:
+            raise RuntimeError(
+                "No trained learned-alpha model found. Run "
+                "scripts/train_learned_alpha.py first to produce "
+                "data/results/learned_alpha_weights.joblib."
+            )
+        result = self.qalf_learned_routing.qalf_retrieve_and_generate(
+            query, top_k=top_k, generate=True
+        )
+        formatted_retrieval = result["retrieval"]["results"]
+        answer = result["generation"]["response"] if result.get("generation") else ""
+        return {"results": formatted_retrieval, "answer": answer}
+
     def run_adaptive_fixed_weights(
         self, query: str, top_k: int = 10
     ) -> List[Dict[str, Any]]:
@@ -272,6 +305,7 @@ class SystemRegistry:
             "native_hybrid": self.run_native_hybrid,
             "qalf": self.run_qalf,
             "qalf_learned": self.run_qalf_learned,
+            "qalf_learned_routing": self.run_qalf_learned_routing,
             "adaptive_fixed": self.run_adaptive_fixed_weights,
         }
         if name not in systems:

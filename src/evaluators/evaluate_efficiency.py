@@ -65,7 +65,7 @@ def run_efficiency_evaluation(
                 print(f"\nProcessing query from {os.path.basename(subdir)}")
 
                 # Evaluate each system for latency
-                for sys_name in ["vector_only", "fixed_rrf", "qalf"]:
+                for sys_name in ["vector_only", "fixed_rrf", "qalf", "qalf_learned_routing"]:
                     start_time = time.time()
 
                     if sys_name == "vector_only":
@@ -75,12 +75,24 @@ def run_efficiency_evaluation(
                         results = registry.run_fixed_rrf(query, top_k=top_k)
                         modalities_used = 3
                     elif sys_name == "qalf":
-                        results = registry.run_qalf(query, top_k=top_k)
-                        if results:
-                            # QALF returns formatted results with 'modalities' key
-                            modalities_used = len(results[0].get("modalities", []))
-                        else:
-                            modalities_used = 0
+                        result = registry.run_qalf(query, top_k=top_k)
+                        # run_qalf returns {"results": [...], "answer": ...}, not
+                        # a bare list -- indexing the dict itself as results[0]
+                        # raised KeyError on every call, silently aborting this
+                        # iteration before latency_ms/efficiency_results.append
+                        # below were ever reached for "qalf".
+                        results = result["results"]
+                        modalities_used = (
+                            len(results[0].get("modalities", [])) if results else 0
+                        )
+                    elif sys_name == "qalf_learned_routing":
+                        if registry.qalf_learned_routing is None:
+                            continue
+                        result = registry.run_qalf_learned_routing(query, top_k=top_k)
+                        results = result["results"]
+                        modalities_used = (
+                            len(results[0].get("modalities", [])) if results else 0
+                        )
 
                     latency_ms = (time.time() - start_time) * 1000
 

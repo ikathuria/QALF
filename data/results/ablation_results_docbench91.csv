@@ -1,0 +1,336 @@
+System,Complexity,NDCG@10,Recall@10,Query,Answer
+vector_only,Complex,1.0,1.0,What is the primary challenge addressed by the int...,
+fixed_rrf,Complex,1.0,1.0,What is the primary challenge addressed by the int...,
+adaptive_fixed,Complex,1.0,1.0,What is the primary challenge addressed by the int...,
+qalf,Complex,1.0,1.0,What is the primary challenge addressed by the int...,"According to the context, the primary challenge addressed by the introduction of the Linked WikiText-2 dataset is the difference in text across articles due to edits between download dates, and the lack of useful annotation information in the original WikiText-2 dataset.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Specifically, it is mentioned that ""Although our dataset is designed to closely replicate WikiText-2, there are some differences that prevent direct comparison. Firstly, there are minor variations in text across articles due to edits between download dates."" [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Additionally, it is stated that WikiText-2 was collected by querying the Wikipedia Text API, which discards useful annotation information, whereas Linked WikiText-2 was created directly from the article HTML. [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Therefore, the primary challenge addressed by the introduction of the Linked WikiText-2 dataset is the need to address these differences and provide a more accurate and comprehensive dataset for research purposes."
+qalf_learned_routing,Complex,1.0,1.0,What is the primary challenge addressed by the int...,"According to the provided context, the primary challenge addressed by the introduction of the Linked WikiText-2 dataset is the difference in text across articles due to edits between download dates, and the lack of useful annotation information in the original WikiText-2 dataset.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Specifically, it is mentioned that WikiText-2 was collected by querying the Wikipedia Text API, which discards useful annotation information (e.g. article links). Linked WikiText-2, on the other hand, was created directly from the article HTML, addressing this issue.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Additionally, there are minor variations in text across articles due to edits between download dates, which prevents direct comparison with WikiText-2.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+
+Therefore, the primary challenge addressed by the introduction of the Linked WikiText-2 dataset is the need to address these differences and create a more accurate and comprehensive dataset."
+vector_only,Simple,1.0,1.0,What is the top-1 accuracy of the Oracle KGLM on b...,
+fixed_rrf,Simple,1.0,1.0,What is the top-1 accuracy of the Oracle KGLM on b...,
+adaptive_fixed,Simple,1.0,1.0,What is the top-1 accuracy of the Oracle KGLM on b...,
+qalf,Simple,1.0,1.0,What is the top-1 accuracy of the Oracle KGLM on b...,"Unfortunately, the provided context does not mention the top-1 accuracy of the Oracle KGLM on birthdate prediction. However, it does mention that the KGLM with automatic linking performs comparably to oracle linking [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 46, Page 1]. This implies that the Oracle KGLM has a high accuracy on birthdate prediction, but the exact value is not provided.
+
+It is worth noting that the context does provide an example of the KGLM's ability to change its prediction based on modifications to the knowledge graph, specifically for the birthdate of Barack Obama [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 48, Page 1]. However, this example is not directly related to the top-1 accuracy of the Oracle KGLM on birthdate prediction."
+qalf_learned_routing,Simple,1.0,1.0,What is the top-1 accuracy of the Oracle KGLM on b...,"Unfortunately, the context does not provide explicit information about the top-1 accuracy of the Oracle KGLM on birthdate prediction. However, it does mention that KGLMs are competitive with models trained on orders of magnitude more data, producing factual completions that require specific knowledge, such as birthplaces, dates, and authors. [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 46, Page 1]
+
+The context also provides an example of how changing the birth date in the knowledge graph directly leads to a corresponding change in the model's prediction, but it does not provide explicit accuracy metrics. [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 48, Page 1]
+
+Therefore, I cannot provide a specific answer to the question."
+vector_only,Complex,1.0,1.0,How many documents are there in the training set o...,
+fixed_rrf,Complex,1.0,1.0,How many documents are there in the training set o...,
+adaptive_fixed,Complex,1.0,1.0,How many documents are there in the training set o...,
+qalf,Complex,1.0,1.0,How many documents are there in the training set o...,"Unfortunately, the context does not mention the training set of the Linked WikiText-2 Corpus. However, it does mention that the Linked WikiText-2 dataset consists of approximately the same articles as WikiText-2, but linked to the Wikipedia knowledge graph. [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 26, Page 1]
+
+The context does not provide information about the number of documents in the training set of the Linked WikiText-2 Corpus."
+qalf_learned_routing,Complex,1.0,1.0,How many documents are there in the training set o...,"Unfortunately, the context does not provide information about the Linked WikiText-2 Corpus's training set. The context mentions the dataset's availability for download and its characteristics, but it does not specify the number of documents in the training set.
+
+However, the context does mention that the dataset is a subset of the WikiText-2 corpus, which has approximately the same articles as WikiText-2. Since the context does not provide the exact number of documents in the Linked WikiText-2 Corpus, I cannot provide a specific answer.
+
+If you need information about the WikiText-2 corpus, the context mentions that it has approximately the same articles as WikiText-2, but it does not provide the exact number of documents.
+
+Please note that the context does not provide enough information to answer the question accurately."
+vector_only,Complex,1.0,1.0,Which language model has the lowest Perplexity (PP...,
+fixed_rrf,Complex,0.6309297535714575,1.0,Which language model has the lowest Perplexity (PP...,
+adaptive_fixed,Complex,0.6309297535714575,1.0,Which language model has the lowest Perplexity (PP...,
+qalf,Complex,0.6309297535714575,1.0,Which language model has the lowest Perplexity (PP...,"According to Table 3, the KGLM (Knowledge Graph Language Model) has a perplexity of 44.1, which is substantially lower than the other entity-based language models, including ENTITYNLM (76.1) and EntityCopyNet (85.4).
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 44, Page 1]
+
+Therefore, the language model with the lowest perplexity according to Table 3 is the KGLM."
+qalf_learned_routing,Complex,1.0,1.0,Which language model has the lowest Perplexity (PP...,"According to Table 3, the KGLM (Knowledge Graph-based Language Model) has the lowest Perplexity (PPL) with a value of 44.1, compared to the other entity-based language models (ENTITYNLM and EntityCopyNet) with PPL values of 76.1 and 85.4, respectively.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 44, Page 1]
+
+This indicates that the KGLM outperforms the other models in terms of perplexity, providing strong evidence that leveraging knowledge graphs is crucial for accurate language modeling."
+vector_only,Simple,0.6309297535714575,1.0,Who is the last author of the paper?...,
+fixed_rrf,Simple,0.43067655807339306,1.0,Who is the last author of the paper?...,
+adaptive_fixed,Simple,0.6309297535714575,1.0,Who is the last author of the paper?...,
+qalf,Simple,0.6309297535714575,1.0,Who is the last author of the paper?...,"Unfortunately, the provided context does not contain any information about authors, including the last author of the papers. The context only includes section headers and page numbers from two different documents: P19-1598.pdf and W18-4401.pdf.
+
+However, I can try to help you find the answer by suggesting that you check the actual documents (P19-1598.pdf and W18-4401.pdf) for the author information."
+qalf_learned_routing,Simple,0.5,1.0,Who is the last author of the paper?...,"Unfortunately, the provided context does not contain author information. The chunks provided are mostly section headers (Introduction, Related Work, Conclusions, and Future Work) and do not include author lists. Therefore, I cannot determine the last author of the paper."
+vector_only,Simple,0.6309297535714575,1.0,On which page does the paper introduce the corpus ...,
+fixed_rrf,Simple,1.0,1.0,On which page does the paper introduce the corpus ...,
+adaptive_fixed,Simple,1.0,1.0,On which page does the paper introduce the corpus ...,
+qalf,Simple,1.0,1.0,On which page does the paper introduce the corpus ...,"According to the provided context, the paper introduces the corpus statistics on Page 1 of the document [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 40, Page 1]. However, the specific statistics are mentioned in Table 2, which is not provided in the context. But, we can infer that the corpus statistics are discussed in the document, and the table with the statistics is likely to be Table 2, which is mentioned in the context.
+
+To answer the question more precisely, the corpus statistics are introduced on Page 1 of the document, but the specific table (Table 2) is not provided in the context."
+qalf_learned_routing,Simple,1.0,1.0,On which page does the paper introduce the corpus ...,"The paper introduces the corpus statistics on Page 1, specifically in Chunk 31 [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 31, Page 1]."
+vector_only,Simple,1.0,1.0,How many time does the paper mention WikiText-2?...,
+fixed_rrf,Simple,1.0,1.0,How many time does the paper mention WikiText-2?...,
+adaptive_fixed,Simple,1.0,1.0,How many time does the paper mention WikiText-2?...,
+qalf,Simple,1.0,1.0,How many time does the paper mention WikiText-2?...,"According to the provided context, the paper mentions WikiText-2 a total of 3 times.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 24, Page 1] mentions WikiText-2 in the section ""3 Linked WikiText-2"".
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1] mentions WikiText-2 again in the section ""Differences from WikiText-2"".
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 57, Page 1] mentions WikiText-2 once more in the section ""Acknowledgements"", where it is mentioned that Stephen Merity shared the materials used to collect the WikiText-2 dataset.
+
+The count is based on the provided context only."
+qalf_learned_routing,Simple,1.0,1.0,How many time does the paper mention WikiText-2?...,"The paper mentions WikiText-2 3 times.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 24, Page 1]
+## 3 Linked WikiText-2
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 32, Page 1]
+Differences from WikiText-2 ...
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 57, Page 1]
+## Acknowledgements ... Stephen Merity for sharing the materials used to collect the WikiText-2 dataset, ..."
+vector_only,Simple,1.0,1.0,How many Facebook comments were provided in the da...,
+fixed_rrf,Simple,1.0,1.0,How many Facebook comments were provided in the da...,
+adaptive_fixed,Simple,1.0,1.0,How many Facebook comments were provided in the da...,
+qalf,Simple,1.0,1.0,How many Facebook comments were provided in the da...,"According to the provided context, the dataset for the shared task included 12,000 randomly sampled Facebook comments for training purposes. This information is mentioned in [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 19, Page 1] under the section ""4 Dataset"". 
+
+Note: The count of 12,000 is based on the provided context only, as the context does not mention any other count of Facebook comments for training purposes."
+qalf_learned_routing,Simple,1.0,1.0,How many Facebook comments were provided in the da...,"According to the context, the dataset for training purposes contained 12,000 Facebook comments. This information is mentioned in [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 19, Page 1] under the section ""4 Dataset""."
+vector_only,Simple,1.0,1.0,How many categories of aggression were participant...,
+fixed_rrf,Simple,1.0,1.0,How many categories of aggression were participant...,
+adaptive_fixed,Simple,1.0,1.0,How many categories of aggression were participant...,
+qalf,Simple,1.0,1.0,How many categories of aggression were participant...,"Based on the provided context, the answer to the question is:
+
+There were 3 categories of aggression that participants were asked to classify texts into: overt aggression, covert aggression, and nonaggression. [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 15, Page 1]
+
+This information is mentioned in the text as follows: ""The aim of this shared task was much simpler than the one discussed in the previous para. It only involved classification of the texts into 3 categories - overt aggression, covert aggression and nonaggression."""
+qalf_learned_routing,Simple,1.0,1.0,How many categories of aggression were participant...,"According to the context, participants were asked to classify texts into 3 categories: overt aggression, covert aggression, and nonaggression. This is mentioned in [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 15, Page 1].
+
+Source: [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 15, Page 1]"
+vector_only,Complex,1.0,1.0,Did multilingual pre-training benefit all language...,
+fixed_rrf,Complex,1.0,1.0,Did multilingual pre-training benefit all language...,
+adaptive_fixed,Complex,1.0,1.0,Did multilingual pre-training benefit all language...,
+qalf,Complex,1.0,1.0,Did multilingual pre-training benefit all language...,"The provided context does not mention the specific language pairs that benefited from multilingual pre-training. However, it does mention that the participants were given the option to register for either English or Hindi or both languages [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 17, Page 1]. Additionally, Table 2 is mentioned, but it only lists the participating teams and the language they took part in, without providing information on the benefits of multilingual pre-training [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 21, Page 1].
+
+Therefore, it is not possible to determine if multilingual pre-training benefited all language pairs in this research based on the provided context.
+
+However, it is mentioned that the KGLM achieves significantly better performance than a strong baseline language model, and it outperforms even very large language models in generating facts [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 2, Page 1]. This suggests that the KGLM may benefit from multilingual pre-training, but it does not provide information on the specific language pairs that benefited."
+qalf_learned_routing,Complex,1.0,1.0,Did multilingual pre-training benefit all language...,"Based on the provided context, there is no direct information about the benefits of multilingual pre-training for all language pairs. However, it is mentioned that the participants were given an option to register for either one of the two languages - English or Hindi - or both [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 21, Page 1]. This suggests that the research focused on English and Hindi language pairs.
+
+Furthermore, the context mentions that the KGLM (Knowledge Graph Language Model) achieved better performance than a strong baseline language model, but it does not specify whether this was true for all language pairs [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 2, Page 1].
+
+Therefore, based on the provided context, it is unclear whether multilingual pre-training benefited all language pairs in this research.
+
+However, it is worth noting that the context mentions that the participants were allowed to use additional data for training the system, with the condition that the additional dataset should be either publicly available or make available immediately after submission [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 17, Page 1]. This suggests that the participants had the flexibility to experiment with different language pairs and training data, which could potentially lead to better results for some language pairs.
+
+In summary, while the context does not provide a clear answer to the question, it suggests that the research focused on English and Hindi language pairs and that the participants had the flexibility to experiment with different language pairs and training data."
+vector_only,Complex,1.0,1.0,Why was English excluded from the linguistic simil...,
+fixed_rrf,Complex,0.6309297535714575,1.0,Why was English excluded from the linguistic simil...,
+adaptive_fixed,Complex,0.6309297535714575,1.0,Why was English excluded from the linguistic simil...,
+qalf,Complex,0.6309297535714575,1.0,Why was English excluded from the linguistic simil...,"The context does not mention a linguistic similarity and pre-training study that excludes English. In fact, the context mentions that participants were given the option to register for either English or Hindi or both languages [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 17, Page 1]. There is no mention of English being excluded from such a study."
+qalf_learned_routing,Complex,1.0,1.0,Why was English excluded from the linguistic simil...,"The question about English being excluded from the linguistic similarity and pre-training study is not present in the provided context. The context only mentions the shared task and the languages for which participants could register (English, Hindi, or both). There is no mention of a linguistic similarity and pre-training study.
+
+However, I can provide information about the languages involved in the shared task. According to the context [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 17, Page 1], participants were given the option to register for either English, Hindi, or both languages."
+vector_only,Complex,1.0,1.0,Which dataset experienced the largest decrease in ...,
+fixed_rrf,Complex,1.0,1.0,Which dataset experienced the largest decrease in ...,
+adaptive_fixed,Complex,1.0,1.0,Which dataset experienced the largest decrease in ...,
+qalf,Complex,1.0,1.0,Which dataset experienced the largest decrease in ...,"There is no mention of Table 4 in the provided context. Additionally, the context does not mention any datasets experiencing a decrease in BLEU score after alignment. The context only mentions the use of Linked WikiText-2 dataset in the KGLM model and the results of the shared task on English and Hindi datasets, but it does not provide information about BLEU scores or alignment."
+qalf_learned_routing,Complex,1.0,1.0,Which dataset experienced the largest decrease in ...,"Unfortunately, there is no mention of Table 4 in the provided context. However, I can tell you that there is no information about the BLEU score or any decrease in BLEU score after alignment in the provided context.
+
+Additionally, I did not find any information about a dataset experiencing a decrease in BLEU score after alignment in the provided context.
+
+If you could provide more context or clarify the question, I'll be happy to help."
+vector_only,Complex,1.0,1.0,What is the total number of sentences in the train...,
+fixed_rrf,Complex,1.0,1.0,What is the total number of sentences in the train...,
+adaptive_fixed,Complex,1.0,1.0,What is the total number of sentences in the train...,
+qalf,Complex,1.0,1.0,What is the total number of sentences in the train...,"The context does not mention Table 1, nor does it mention the total number of sentences in the training sets for Romance languages. In fact, the context only mentions documents related to language models and knowledge graphs, and it does not provide any information about Table 1 or Romance languages.
+
+However, I can provide information about the number of sentences generated by language models for fact completion, as mentioned in the context. According to [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 45, Page 1], the authors generate sentences for a number of (X, Y) pairs for which the relation holds, but they do not provide an exact number.
+
+If you would like to ask a different question or provide more context, I'll be happy to help."
+qalf_learned_routing,Complex,1.0,1.0,What is the total number of sentences in the train...,"There is no mention of Table 1 in the provided context, nor is there any information about the total number of sentences in the training sets for Romance languages. The context only mentions two documents, P19-1598.pdf and W18-4401.pdf, but neither of them contains information about Table 1 or the training sets for Romance languages.
+
+However, the context does mention that the authors are interested in language models that dynamically decide the facts to incorporate from the knowledge graph, guided by the discourse, which is similar to the data-to-text task. This task involves generating a short piece of text from a small table-sized KB, but it does not provide any information about the training sets for Romance languages.
+
+Therefore, I must say that the context does not contain enough information to answer the question."
+vector_only,Simple,0.5,1.0,How many pages does the document have?...,
+fixed_rrf,Simple,1.0,1.0,How many pages does the document have?...,
+adaptive_fixed,Simple,0.5,1.0,How many pages does the document have?...,
+qalf,Simple,0.5,1.0,How many pages does the document have?...,"Based on the provided context, it appears that there are two documents: DocBench\0\P19-1598.pdf and DocBench\1\W18-4401.pdf.
+
+For DocBench\0\P19-1598.pdf, the context mentions ""Page 1"" in multiple chunks (37, 49, 52). However, there is no explicit mention of the total number of pages in the document.
+
+For DocBench\1\W18-4401.pdf, the context mentions ""Page 1"" in chunks 3 and 7. Again, there is no explicit mention of the total number of pages in the document.
+
+Since the context does not provide enough information to determine the total number of pages in each document, I cannot provide a specific answer to the question.
+
+However, I can say that the provided context suggests that each document has at least one page, but the exact number of pages is unknown."
+qalf_learned_routing,Simple,1.0,1.0,How many pages does the document have?...,"Based on the provided context, I can answer the question as follows:
+
+The question is about the number of pages in the document. However, the context does not provide explicit information about the total number of pages in the document. It only mentions specific page numbers for certain chunks, such as Chunk 37 (Page 1) and Chunk 49 (Page 1) from the first document, and Chunk 3 (Page 1) and Chunk 7 (Page 1) from the second document.
+
+Since the context does not provide a clear indication of the total number of pages, I cannot provide a precise answer. However, I can mention that the context suggests the documents have multiple pages, but the exact number is not specified.
+
+If you would like to ask a question about a specific table or a specific aspect of the documents, I would be happy to try and assist you further."
+vector_only,Simple,0.5,1.0,What is the main content of page 10?...,
+fixed_rrf,Simple,0.43067655807339306,1.0,What is the main content of page 10?...,
+adaptive_fixed,Simple,0.5,1.0,What is the main content of page 10?...,
+qalf,Simple,0.5,1.0,What is the main content of page 10?...,"There is no mention of page 10 in the provided context. The context only includes snippets from two documents, [Source: data/raw/DocBench\0\P19-1598.pdf] and [Source: data/raw/DocBench\1\W18-4401.pdf], but there is no reference to page 10."
+qalf_learned_routing,Simple,0.43067655807339306,1.0,What is the main content of page 10?...,"I'm unable to answer the question as there is no context about page 10. The provided context only includes information about a document titled ""P19-1598.pdf"" and another document titled ""W18-4401.pdf"", but neither of them mentions page 10."
+vector_only,Complex,1.0,1.0,What is the purpose of applying data and analytics...,
+fixed_rrf,Complex,1.0,1.0,What is the purpose of applying data and analytics...,
+adaptive_fixed,Complex,1.0,1.0,What is the purpose of applying data and analytics...,
+qalf,Complex,1.0,1.0,What is the purpose of applying data and analytics...,"There is no mention of the Department's goals or the purpose of applying data and analytics as per the Department's goals in the provided context. The context appears to be related to research papers on natural language processing and knowledge graph language models, and does not mention the Department or its goals. 
+
+However, the context does mention the use of data and analytics in the following:
+
+[Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 17, Page 1]
+The participants were allowed to use additional data for training the system, with the condition that the additional dataset should be either publicly available or make available immediately after submission (and well before the submission of the system papers) and this must be mentioned in the submission.
+
+[Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 18, Page 1]
+We made use of CodaLab for the evaluation. Each team was allowed to submit up to 3 systems for evaluation.
+
+[Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 18, Page 1]
+We used the best of the 3 runs for the final ranking and evaluation of the systems.
+
+It seems that the use of data and analytics is related to the evaluation and training of systems in the context of a shared task, but the specific purpose of applying data and analytics as per the Department's goals is not mentioned."
+qalf_learned_routing,Complex,1.0,1.0,What is the purpose of applying data and analytics...,"Unfortunately, the provided context does not mention the Department's goals or the purpose of applying data and analytics as per the Department's goals. The context appears to be related to research papers on natural language processing and knowledge graph language models, but it does not provide information on the Department's goals or the application of data and analytics in that context.
+
+However, I can provide information on the context provided. The context includes two research papers: P19-1598 and W18-4401. The papers discuss the evaluation of knowledge graph language models and the development of a shared task for entity recognition. The papers also mention the use of datasets, such as WikiText-2, and the evaluation of systems using metrics such as precision and recall.
+
+If you would like to ask a question related to the context provided, I would be happy to try to answer it."
+vector_only,Simple,0.31546487678572877,1.0,On which page mentions the guiding principles?...,
+fixed_rrf,Simple,0.38685280723454163,1.0,On which page mentions the guiding principles?...,
+adaptive_fixed,Simple,0.31546487678572877,1.0,On which page mentions the guiding principles?...,
+qalf,Simple,0.31546487678572877,1.0,On which page mentions the guiding principles?...,"Unfortunately, the context does not mention the guiding principles. The documents provided are related to research papers, but the topic of guiding principles is not mentioned. 
+
+However, if you're looking for information on the pages where certain sections are mentioned, here's what I found:
+
+* The introduction is mentioned on Page 1, Chunk 3 [Source: data/raw/DocBench\0\P19-1598.pdf].
+* The conclusions and future work are mentioned on Page 1, Chunk 51 [Source: data/raw/DocBench\0\P19-1598.pdf].
+* The introduction of another paper is mentioned on Page 1, Chunk 3 [Source: data/raw/DocBench\1\W18-4401.pdf]."
+qalf_learned_routing,Simple,0.38685280723454163,1.0,On which page mentions the guiding principles?...,"Unfortunately, the context does not mention the guiding principles. The provided context includes introductions, conclusions, and related work sections, but does not mention guiding principles."
+vector_only,Simple,0.38685280723454163,1.0,How many pages does the report consist of?...,
+fixed_rrf,Simple,0.3562071871080222,1.0,How many pages does the report consist of?...,
+adaptive_fixed,Simple,0.38685280723454163,1.0,How many pages does the report consist of?...,
+qalf,Simple,0.38685280723454163,1.0,How many pages does the report consist of?...,"Based on the provided context, I can answer the question about the number of pages the report consists of.
+
+The context mentions page numbers for two documents:
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 54, Page 1]
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 40, Page 1]
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 37, Page 1]
+
+However, there is no explicit mention of the total number of pages in the report. The page numbers mentioned are for specific chunks within the document, but not for the entire report.
+
+Additionally, the second document [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 21, Page 1] does not provide any information about the number of pages in the report.
+
+Therefore, I cannot provide a definitive answer to the question about the number of pages the report consists of."
+qalf_learned_routing,Simple,0.3562071871080222,1.0,How many pages does the report consist of?...,"Based on the provided context, I can answer the question about the number of pages.
+
+The context mentions page numbers for two documents:
+
+* [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 40, Page 1] (Chunk 40 is on Page 1)
+* [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 54, Page 1] (Chunk 54 is on Page 1)
+* [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 21, Page 1] (Chunk 21 is on Page 1)
+* [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 2, Page 1] (Chunk 2 is on Page 1)
+
+However, there is no explicit mention of the total number of pages in the report. The context only mentions individual page numbers for specific chunks.
+
+Therefore, I cannot provide an exact answer to the question."
+vector_only,Complex,1.0,1.0,What will happen if the government fails to establ...,
+fixed_rrf,Complex,1.0,1.0,What will happen if the government fails to establ...,
+adaptive_fixed,Complex,1.0,1.0,What will happen if the government fails to establ...,
+qalf,Complex,1.0,1.0,What will happen if the government fails to establ...,"I'm unable to answer the question as it is not related to the provided context. The context appears to be about a research paper discussing a knowledge graph-based language model (KGLM) and its performance on Linked WikiText-2, as well as a shared task on text analysis. There is no mention of Exhibits 6F and 11C or any government involvement."
+qalf_learned_routing,Complex,1.0,1.0,What will happen if the government fails to establ...,There is no information in the provided context about the government failing to establish the relevance of Exhibits 6F and 11C. The context appears to be related to a research paper discussing a knowledge graph-based language model (KGLM) and its performance on a dataset called Linked WikiText-2. There is no mention of Exhibits 6F and 11C or any government-related context.
+vector_only,Complex,1.0,1.0,Did the Court allow the government to use proposed...,
+fixed_rrf,Complex,1.0,1.0,Did the Court allow the government to use proposed...,
+adaptive_fixed,Complex,1.0,1.0,Did the Court allow the government to use proposed...,
+qalf,Complex,1.0,1.0,Did the Court allow the government to use proposed...,"There is no information in the provided context about the Court allowing the government to use proposed exhibits during the opening statement. The context appears to be about a research paper discussing a language model and a shared task, and does not mention a court case or legal proceedings."
+qalf_learned_routing,Complex,1.0,1.0,Did the Court allow the government to use proposed...,"There is no information in the provided context about the Court allowing the government to use proposed exhibits during the opening statement. The context appears to be related to language models, knowledge graphs, and a shared task, but does not mention a Court or a trial."
+vector_only,Complex,1.0,1.0,Was the United States' Motion to use Photographs i...,
+fixed_rrf,Complex,1.0,1.0,Was the United States' Motion to use Photographs i...,
+adaptive_fixed,Complex,1.0,1.0,Was the United States' Motion to use Photographs i...,
+qalf,Complex,1.0,1.0,Was the United States' Motion to use Photographs i...,"I'm afraid I have to inform you that the context provided does not contain any information about the United States' Motion to use Photographs in Opening Statement. The context includes information about a document ""P19-1598.pdf"" and another document ""W18-4401.pdf"", but neither of them mentions the United States' Motion to use Photographs in Opening Statement.
+
+Therefore, I cannot provide a detailed answer to your question."
+qalf_learned_routing,Complex,1.0,1.0,Was the United States' Motion to use Photographs i...,"There is no mention of the United States' Motion to use Photographs in Opening Statement in the provided context. The context only mentions documents related to the ""DocBench"" dataset and a shared task, but does not contain any information about a court case or a motion related to the use of photographs in an opening statement."
+vector_only,Complex,1.0,1.0,What is the original figure number associated with...,
+fixed_rrf,Complex,1.0,1.0,What is the original figure number associated with...,
+adaptive_fixed,Complex,1.0,1.0,What is the original figure number associated with...,
+qalf,Complex,1.0,1.0,What is the original figure number associated with...,"The original figure number associated with the automatically generated knowledge graph is Figure 1.
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 7, Page 1]
+
+This figure is described in the context as illustrating how the KGLM works."
+qalf_learned_routing,Complex,1.0,1.0,What is the original figure number associated with...,"The original figure number associated with the automatically generated knowledge graph is Figure 1. 
+
+[Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 7, Page 1]"
+vector_only,Complex,1.0,1.0,What is the performance score for Entity Recogniti...,
+fixed_rrf,Complex,1.0,1.0,What is the performance score for Entity Recogniti...,
+adaptive_fixed,Complex,1.0,1.0,What is the performance score for Entity Recogniti...,
+qalf,Complex,1.0,1.0,What is the performance score for Entity Recogniti...,"Unfortunately, the provided context does not contain enough information to answer the question about the performance score for Entity Recognition when multitasked with Coreference Resolution.
+
+There is a mention of the performance of the KGLM model in Table 3, but it only shows perplexity scores for different models, not specifically for Entity Recognition with Coreference Resolution. Additionally, the context does not provide any information about the performance of models that multitask Entity Recognition and Coreference Resolution.
+
+However, it is mentioned that the KGLM model attains substantially lower perplexity than the other entity-based language models, and it significantly outperforms all models in unknown penalized perplexity. This suggests that the KGLM model has good performance in entity-based tasks, but it does not provide specific information about the performance of Entity Recognition when multitasked with Coreference Resolution.
+
+If you have any further questions or would like me to clarify anything, please let me know."
+qalf_learned_routing,Complex,1.0,1.0,What is the performance score for Entity Recogniti...,"Unfortunately, the context does not provide explicit performance scores for Entity Recognition when multitasked with Coreference Resolution. However, it does mention the use of the neural-el entity linker (Gupta et al., 2017) to identify additional links to Wikidata and the use of Stanford CoreNLP to cover pronouns, nominals, and other tokens missed by the linker.
+
+The context does provide some information on the performance of the KGLM model, which is a multitask model that performs well on both entity recognition and coreference resolution tasks. Specifically, it mentions that the KGLM model attains substantially lower perplexity than the other entity-based language models (44.1 vs. 76.1/85.4) [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 44, Page 1].
+
+However, it does not provide a direct performance score for the multitask setting of Entity Recognition and Coreference Resolution. The context mentions that the KGLM model outperforms other models in unknown penalized perplexity, but this is a measure of the model's ability to generate rare tokens, not a direct performance score for the multitask setting.
+
+Therefore, I must conclude that the context does not provide a clear answer to the question."
+vector_only,Complex,1.0,1.0,Which model has the highest F1 score for entity re...,
+fixed_rrf,Complex,1.0,1.0,Which model has the highest F1 score for entity re...,
+adaptive_fixed,Complex,0.6309297535714575,1.0,Which model has the highest F1 score for entity re...,
+qalf,Complex,0.6309297535714575,1.0,Which model has the highest F1 score for entity re...,"Based on the provided context, I found information about different models and their performances on various tasks, but I couldn't find any direct information about the F1 score for entity recognition on the Test set. However, I did find some information about the weighted F-score for both Hindi and English on the Facebook test sets in [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 2, Page 1].
+
+According to this source, the best system obtained a weighted F-score of 0.64 for both Hindi and English on the Facebook test sets. However, this information is not directly related to the F1 score for entity recognition on the Test set.
+
+Unfortunately, I couldn't find any information about the F1 score for entity recognition on the Test set in the provided context."
+qalf_learned_routing,Complex,1.0,1.0,Which model has the highest F1 score for entity re...,"The context does not provide information on the F1 score for entity recognition on the Test set for any of the models. However, it mentions the weighted F-score for the Facebook test sets, which is 0.64 for both Hindi and English.
+
+[Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 2, Page 1]
+
+The best system obtained a weighted F-score of 0.64 for both Hindi and English on the Facebook test sets.
+
+Note that the context does not provide information on the F1 score for entity recognition on the Test set, but it does provide the weighted F-score for the Facebook test sets."
+vector_only,Simple,1.0,1.0,Which model achieved the highest F1 score in span ...,
+fixed_rrf,Simple,1.0,1.0,Which model achieved the highest F1 score in span ...,
+adaptive_fixed,Simple,1.0,1.0,Which model achieved the highest F1 score in span ...,
+qalf,Simple,1.0,1.0,Which model achieved the highest F1 score in span ...,"Unfortunately, the context does not mention the F1 score of any model in span identification. The context mentions the F-score of the best system in the task of aggression identification, which achieved a weighted F-score of 0.64 for both Hindi and English on the Facebook test sets [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 2, Page 1]. However, it does not provide information about the F1 score in span identification.
+
+Therefore, I cannot provide a detailed answer to the question."
+qalf_learned_routing,Simple,1.0,1.0,Which model achieved the highest F1 score in span ...,"Unfortunately, the context does not provide information about the model that achieved the highest F1 score in span identification. The context mentions the performance of systems in the task of aggression identification, but it does not provide specific information about span identification.
+
+However, the context does mention that the best system in the task of aggression identification obtained a weighted F-score of 0.64 for both Hindi and English on the Facebook test sets, and 0.60 and 0.50 for English and Hindi respectively on the surprise set [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 2, Page 1]. But this is not directly related to span identification.
+
+Therefore, I must say that the context does not provide enough information to answer the question about the model that achieved the highest F1 score in span identification."
+vector_only,Simple,1.0,1.0,What is the document title?...,
+fixed_rrf,Simple,1.0,1.0,What is the document title?...,
+adaptive_fixed,Simple,1.0,1.0,What is the document title?...,
+qalf,Simple,1.0,1.0,What is the document title?...,"There is no document title mentioned in the provided context. The context includes two separate documents, but neither of them mentions a title."
+qalf_learned_routing,Simple,0.5,1.0,What is the document title?...,"Based on the provided context, I can answer the question about the document title.
+
+Unfortunately, the context does not explicitly mention the title of the document. However, it appears that there are two separate documents being referenced:
+
+1. [Source: data/raw/DocBench\0\P19-1598.pdf, Chunk 3, Page 1]
+2. [Source: data/raw/DocBench\1\W18-4401.pdf, Chunk 3, Page 1]
+
+Without more information, I cannot determine which document is being referred to or what its title might be."
+vector_only,Simple,0.6309297535714575,1.0,How many times does the document mention LSTM+CRF?...,
+fixed_rrf,Simple,1.0,1.0,How many times does the document mention LSTM+CRF?...,
+adaptive_fixed,Simple,0.6309297535714575,1.0,How many times does the document mention LSTM+CRF?...,
+qalf,Simple,0.6309297535714575,1.0,How many times does the document mention LSTM+CRF?...,The document does not mention LSTM+CRF at all.
+qalf_learned_routing,Simple,1.0,1.0,How many times does the document mention LSTM+CRF?...,The document does not mention LSTM+CRF at all.
